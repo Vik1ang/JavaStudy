@@ -1,0 +1,53 @@
+@startuml
+
+Duck <|-- WildDuck
+Duck <|-- BeijingDuck
+Duck <|-- ToyDuck
+
+NoFlyBehavior <|-- FlyBehavior
+GoodFlyBehavior <|-- FlyBehavior
+BadFlyBehavior <|-- FlyBehavior
+
+QuackBehavior <|-- GeGeQuackBehavior
+QuackBehavior <|-- NoQuackBehavior
+
+Duck o-- FlyBehavior
+Duck o-- QuackBehavior
+
+interface FlyBehavior {
+    void: {method} fly()
+}
+
+interface QuackBehavior {
+    void: {method} quack()
+}
+
+class NoFlyBehavior {
+}
+
+class GoodFlyBehavior {
+}
+
+class BadFlyBehavior {
+}
+
+class Duck {
+    FlyBehavior: {field} flyBehavior
+    QuackBehavior: {field} quackBehavior
+}
+
+class WildDuck {
+}
+
+class BeijingDuck {
+}
+
+class ToyDuck {
+}
+
+class GeGeQuackBehavior {
+}
+
+class NoQuackBehavior {
+}
+@enduml
