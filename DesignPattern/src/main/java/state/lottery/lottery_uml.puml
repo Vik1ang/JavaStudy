@@ -1,0 +1,45 @@
+@startuml
+
+State <|-- NoRaffleState
+State <|-- CanRaffleState
+State <|-- DispenseState
+State <|-- DispenseOutState
+
+Activity -- NoRaffleState
+Activity -- CanRaffleState
+Activity -- DispenseState
+Activity -- DispenseOutState
+
+State <.. Client
+Activity <.. Client
+
+abstract class State {
+    void: {method} deduceMoney()
+    boolean: {method} raffle()
+    void: {method} dispensePrize()
+}
+
+class NoRaffleState {
+
+}
+
+class CanRaffleState {
+
+}
+
+class DispenseState {
+
+}
+
+class DispenseOutState {
+}
+
+class Activity {
+
+}
+
+class Client {
+
+}
+
+@enduml

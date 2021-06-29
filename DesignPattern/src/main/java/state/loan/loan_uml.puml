@@ -1,0 +1,34 @@
+@startuml
+
+State <|.. AbstractState
+AbstractState <|-- FeedBackState
+AbstractState <|-- PublishState
+StateEnum o-- FeedBackState
+StateEnum o-- PublishState
+
+Context o-- State
+
+PublishState <.. Client
+FeedBackState <.. Client
+Context <.. Client
+
+interface State {
+    void: {method}operation1()
+    void: {method}operation2()
+    void: {method}operation3()
+    void: {method}operation4()
+    void: {method}operation5()
+}
+
+abstract class AbstractState{}
+
+class FeedBackState{}
+class PublishState{}
+
+enum StateEnum{}
+
+class Context{}
+
+class Client{}
+
+@enduml
