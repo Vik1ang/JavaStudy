@@ -1,0 +1,35 @@
+@startuml
+
+Subject <|.. WeatherData
+Observer <.. Subject
+WeatherData o-- Observer
+
+Observer <|.. CurrentConditions
+Observer <|.. WeatherApp1
+Observer <|.. WeatherApp2
+
+Subject <.. Client
+Observer <.. Client
+
+interface Subject {
+    {method} registerObserver(Observer o): void
+    {method} remove(Observer: o) : void
+    {method} notifyObservers() : void
+}
+
+class WeatherData {
+    {field} observers: ArrayList;
+}
+
+interface Observer {
+    {method} update: void
+}
+
+class CurrentConditions {}
+
+class WeatherApp1 {}
+class WeatherApp2 {}
+
+class Client {}
+
+@enduml
