@@ -1,0 +1,29 @@
+@startuml
+
+Pizza <|-- BeijingCheesePizza
+Pizza <|-- LondonCheesePizza
+Pizza <|-- BeijingPepperPizza
+Pizza <|-- LondonPepperPizza
+
+BeijingCheesePizza <.. BeijingOrderPizza
+BeijingPepperPizza <.. BeijingOrderPizza
+
+AbstractFactory <|.. BeijingFactory
+AbstractFactory <|.. LondonFactory
+
+BeijingCheesePizza <.. BeijingFactory
+BeijingPepperPizza <.. BeijingFactory
+
+LondonCheesePizza <.. LondonFactory
+LondonPepperPizza <..LondonFactory
+
+abstract class Pizza {
+    {method} prepare(): void
+    {method} bake(): void
+    {method} cut(): void
+    {method} box(): void
+}
+
+interface AbstractFactory {}
+
+@enduml
