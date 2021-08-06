@@ -1,0 +1,21 @@
+@startuml
+
+Interface1 <|.. AbsAdapter
+
+AbsAdapter <.. A
+
+interface Interface1 {
+    {method} operation1(): void
+    {method} operation2(): void
+    {method} operation3(): void
+    {method} operation4(): void
+}
+
+abstract class AbsAdapter {
+
+}
+
+class A {
+}
+
+@enduml
