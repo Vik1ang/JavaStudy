@@ -1,0 +1,36 @@
+@startuml
+
+ObjectStructure o.. Person
+
+class Action {
+    {method} operation1(): void
+    {method} operation2(): void
+}
+
+class Success extends Action {
+    {method} operation1(): void
+    {method} operation2(): void
+}
+
+class Failure extends Action {
+    {method} operation1(): void
+    {method} operation2(): void
+}
+
+class Person {
+    {method} accept(action: Action): void
+}
+
+class Man extends Person {
+    {method} accept(action: Action): void
+}
+
+class Woman extends Person {
+    {method} accept(action: Action): void
+}
+
+class ObjectStructure {
+    {field} elements: Person
+}
+
+@enduml

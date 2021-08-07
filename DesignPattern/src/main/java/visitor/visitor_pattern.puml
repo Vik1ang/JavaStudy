@@ -1,0 +1,28 @@
+@startuml
+
+Visitor <.. Element
+
+ObjectStructure o.. Element
+
+class Visitor {
+    {method} operation1(): void
+    {method} operation2(): void
+}
+
+class ConcreteVisitor extends Visitor {
+
+}
+
+class Element {
+    {method} accept(visitor: Visitor): void
+}
+
+class ConcreteElement extends Element {
+    {method} accept(visitor: Visitor): void
+}
+
+class ObjectStructure {
+    {field} element: Element
+}
+
+@enduml
