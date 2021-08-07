@@ -1,0 +1,18 @@
+@startuml
+
+Abstract class AbstractClass {
+    {method} template(): void
+    {method} operation1(): void
+    {method} operation2(): void
+    {method} operation3(): void
+    {method} operation4(): void
+}
+
+class ConcreteClass extends AbstractClass {
+    {method} operation2(): void
+    {method} operation3(): void
+    {method} operation4(): void
+}
+
+
+@enduml

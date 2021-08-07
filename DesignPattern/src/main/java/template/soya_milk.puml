@@ -1,0 +1,20 @@
+@startuml
+
+Abstract class SoyaMilk {
+    {method} make(): void
+    {method} select(): void
+    {method} add(): void
+    {method} soak(): void
+    {method} beat(): void
+}
+
+class peanutSoyaMilk extends SoyaMilk {
+
+}
+
+class BlackBeanSoyaMilk extends SoyaMilk {
+
+}
+
+
+@enduml
