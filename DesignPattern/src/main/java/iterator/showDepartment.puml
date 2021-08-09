@@ -1,0 +1,31 @@
+@startuml
+
+ComputerCollegeIterator o.. ComputerCollege
+InfoCollegeIterator o.. InfoCollege
+
+interface Iterator {
+    {method} hasNext(): boolean
+    {method} next(): E
+    {method} remove(): void
+}
+
+class ComputerCollegeIterator implements Iterator {
+
+}
+
+class InfoCollegeIterator implements Iterator {
+
+}
+
+interface College {
+    {method} createIterator(): Iterator
+}
+
+class ComputerCollege implements College{
+
+}
+
+class InfoCollege implements College{
+
+}
+@enduml
