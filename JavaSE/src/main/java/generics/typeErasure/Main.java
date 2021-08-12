@@ -1,0 +1,7 @@
+package generics.typeErasure;
+
+public class Main {
+    public static void main(String[] args) {
+
+    }
+}
