@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+Abstract class AbstractHouse {
+    {method} buildBasic(): void
+    {method} buildWalls(): void
+    {method} roofed(): void
+    {method} build(): void
+}
+
+class CommonHouse extends AbstractHouse{
+}
+
+class HighBuilding extends AbstractHouse{
+
+}
+@enduml

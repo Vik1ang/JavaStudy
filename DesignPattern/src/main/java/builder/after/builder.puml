@@ -1,0 +1,31 @@
+@startuml
+
+HouseBuilder *.. House
+HouseBuilder <|-- CommonHouse
+HouseBuilder <|-- HighHouse
+HouseBuilder --o HouseDirector
+
+class House {
+}
+
+abstract class HouseBuilder {
+    {field} house: House
+    {method} buildBasic(): void
+    {method} buildWalls(): void
+    {method} roofed(): void
+    {method} build(): House
+}
+
+class CommonHouse {
+
+}
+
+class HighHouse {
+
+}
+
+class HouseDirector {
+    {field} houseBuilder: HouseBuilder
+}
+
+@enduml
