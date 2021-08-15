@@ -1,4 +1,4 @@
-package finalExam.structural.singleton.demo1;
+package finalExam.creational.singletion.demo1;
 
 public class Main {
     public static void main(String[] args) {
