@@ -1,0 +1,38 @@
+@startuml
+
+ObjectStructure o-- Element
+
+Client ..> Visitor
+Client ..> ObjectStructure
+
+interface Visitor {
+    {method} visit(ElementA element): void
+    {method} visit(ElementB element): void
+}
+
+class ConcreteVisitors implements Visitor {
+    {method} visit(ElementA element): void
+    {method} visit(ElementB element): void
+}
+
+interface Element {
+    {method} accept(Visitor visitor): void
+}
+
+class ConcreteElementA implements Element {
+    {method} accept(Visitor visitor): void
+}
+
+class ConcreteElementB implements Element {
+    {method} accept(Visitor visitor): void
+}
+
+class ObjectStructure {
+    {field} list: List<Element>
+    {method} accept(Visitor visitor): void
+    {method} add(Element element): void
+    {method} remove(Element element): void
+}
+
+
+@enduml
