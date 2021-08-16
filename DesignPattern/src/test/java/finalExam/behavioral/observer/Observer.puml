@@ -1,0 +1,28 @@
+@startuml
+
+Subject o-- Observer
+
+abstract class Subject {
+    {field} observers: List<Observer>
+    {method} add(Observer observer): void
+    {method} remove(Observer observer): void
+    {method} notifyObservers(): void
+}
+
+class ConcreteSubject extends Subject {
+    {method} notifyObservers(): void
+}
+
+interface Observer {
+    {method} response(): void
+}
+
+class ConcreteObserver1 implements Observer {
+    {method} response(): void
+}
+
+class ConcreteObserver2 implements Observer {
+    {method} response(): void
+}
+
+@enduml
