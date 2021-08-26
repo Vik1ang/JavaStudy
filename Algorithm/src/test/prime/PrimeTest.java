@@ -1,4 +1,4 @@
-package test;
+package test.prime;
 
 import org.junit.Test;
 import prime.Prime;
