@@ -1,4 +1,4 @@
-package com.vik1ang.rabbitmq.one;
+package com.vik1ang.rabbitmq.helloRabbitMq;
 
 import com.rabbitmq.client.*;
 
