@@ -2,6 +2,7 @@ package sorting;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import sorting.mergeSort.MergeSort;
 
 import java.util.Arrays;
 import java.util.Random;
