@@ -1,6 +1,11 @@
 package sorting.quickSort;
 
 public class QuickSortThreeWay {
+    // 更好的解决重复元素多的问题
+    // 先从序列中选取一个数作为基数(key)
+    // 分区过程，将<key放到左边，>key的放在右边，=key放到中间
+    // 再对左右区间重复第二步，直到各区间只有一个数
+    // 返回的p数组中p[0]代表的是等于区域的左边界，p[1]代表的是等于区域的右边界
     public void quickSort(int[] arr) {
         if (arr == null || arr.length <= 1) {
             return;
