@@ -5,6 +5,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import sorting.heapSort.HeapSort;
 import sorting.heapSort.HeapSortImprove;
+import sorting.heapSort.HeapSortPriorityQueue;
 import sorting.heapSort.HeapSortRecursion;
 
 import java.util.Arrays;
@@ -42,5 +43,15 @@ public class HeapSortTest {
     @Test
     public void testHeapSortRecursion() {
         new HeapSortRecursion().heapSort(arr);
+    }
+
+    @Test
+    public void testHeapSortPriorityQueueAsc() {
+        new HeapSortPriorityQueue().heapSortAsc(arr);
+    }
+
+    @Test
+    public void testHeapSortPriorityQueueDesc() {
+        new HeapSortPriorityQueue().heapSortDesc(arr);
     }
 }
