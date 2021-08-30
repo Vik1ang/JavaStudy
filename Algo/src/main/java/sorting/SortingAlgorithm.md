@@ -1,6 +1,9 @@
 # 排序算法总结
 
-> 参考资料: https://github.com/ZXZxin/ZXBlog/tree/master/Algorithm/DataStructure/Algorithm/Sort
+> 参考资料: 
+> https://github.com/ZXZxin/ZXBlog/tree/master/Algorithm/DataStructure/Algorithm/Sort
+> https://visualgo.net/en/sorting
+> http://www.rmboot.com/ComparisonSort.html
 
 |        排序方法         | 平均情况 | 最好情况 | 最坏情况 |  空间复杂度  | 稳定性 |
 | :---------------------: | :------: | :------: | :------: | :----------: | :----: |
@@ -73,5 +76,37 @@ public class BubbleSortCocktail {
     }
 }
 
+
+```
+
+## 2. 选择排序 Selection Sort
+
++ 在序列中找到最小(大)元素, 放到序列的起始位置作为**已排序序列**
++ 在从剩余未排序元素中继续寻找最小(大)元素, 放到**已排序序列的末尾**
+
+```java
+
+public class SelectionSort {
+    public void selectionSort(int[] arr) {
+        if (arr == null || arr.length < 2) {
+            return;
+        }
+        // i ~ N - 1
+        for (int i = 0; i < arr.length - 1; i++) {
+            int minIndex = i; // 最小值下标
+            // i ~ N - 1
+            for (int j = i + 1; j < arr.length; j++) { // 注意从i+1开始
+                minIndex = arr[j] < arr[minIndex] ? j : minIndex;
+            }
+            swap(arr, i, minIndex);
+        }
+    }
+
+    private void swap(int[] arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+}
 
 ```
