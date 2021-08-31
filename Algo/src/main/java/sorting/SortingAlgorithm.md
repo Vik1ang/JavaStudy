@@ -447,3 +447,62 @@ public class QuickSortThreeWay {
 }
 
 ```
+
+
+## 5. 归并排序 Merge Sort
+
+### 5.1 普通归并排序
+
+归并排序是分治法一个很好的应用, 先递归到最底层, 然后从下往上每次两个序列进行归并合起来, 是一个由下往上分开, 再由下往上合并的过程
+
+每一次`merge`的过程:
+
++ 准备一个额外的数组`help`, 使其大小为两个已经排序序列之和, 该空间用来存放合并后的序列
++ 设定两个指针, 最初位置分别为两个已经排序序列的起始位置
++ 比较两个指针所指向的元素, 选择相对小的元素放入到合并空间, 并移动指针到下一个位置
++ 重复步骤3直到某一指针达到序尾
++ 将另一序列剩下的所有元素直接复制到合并序列尾
+
+```java
+
+public class MergeSort {
+    public void mergerSort(int[] arr) {
+        if (arr == null || arr.length <= 1) {
+            return;
+        }
+        mergeProcess(arr, 0, arr.length - 1);
+    }
+
+    private void mergeProcess(int[] arr, int L, int R) {
+        if (L >= R) {
+            return; // 递归条件判断
+        }
+        int mid = L + ((R - L) >> 1);
+        mergeProcess(arr, L, mid); // T(n/2)
+        mergeProcess(arr, mid + 1, R); // T(n/2)
+        // 这是一个优化，因为arr[L,mid]和arr[mid+1,R]已经有序，所以如果满足这个条件，就不要排序，防止一开始数组有序
+        if (arr[mid] > arr[mid + 1]) {
+            merge(arr, L, mid, R);
+        }
+    }
+
+    private void merge(int[] arr, int L, int mid, int R) {
+        int[] help = new int[R + 1];
+        int k = 0;
+        int p1 = L, p2 = mid + 1;
+        while (p1 <= mid && p2 <= R) {
+            help[k++] = arr[p1] <= arr[p2] ? arr[p1++] : arr[p2++]; // 左右边两边相等的话，就先拷贝左边的实现了稳定性
+        }
+        while (p1 <= mid) {
+            help[k++] = arr[p1++]; // 左边剩余部分
+        }
+        while (p2 <= R) {
+            help[k++] = arr[p2++]; // 右边剩余部分
+        }
+        for (int i = 0; i < k; i++) {
+            arr[i + L] = help[i]; // 拷贝回原数组
+        }
+    }
+}
+
+```
