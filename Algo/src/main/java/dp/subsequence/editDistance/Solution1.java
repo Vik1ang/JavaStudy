@@ -1,4 +1,4 @@
-package dp.editDistance;
+package dp.subsequence.editDistance;
 
 // https://leetcode-cn.com/problems/edit-distance/
 

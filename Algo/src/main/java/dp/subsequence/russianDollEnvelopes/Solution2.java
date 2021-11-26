@@ -1,4 +1,4 @@
-package dp.russianDollEnvelopes;
+package dp.subsequence.russianDollEnvelopes;
 
 // https://leetcode-cn.com/problems/russian-doll-envelopes/
 
