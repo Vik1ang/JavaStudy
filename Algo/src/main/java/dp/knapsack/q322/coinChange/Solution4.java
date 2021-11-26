@@ -1,30 +1,28 @@
-package dp.knapsack.coinChange;
+package dp.knapsack.q322.coinChange;
 
 // https://leetcode-cn.com/problems/coin-change/
 
 import java.util.Arrays;
 
-public class Solution3 {
+public class Solution4 {
     public int coinChange(int[] coins, int amount) {
+
         int[] dp = new int[amount + 1];
 
-        // 数组大小为 amount + 1, 初始值为 amount + 1
         Arrays.fill(dp, amount + 1);
 
         // base case
         dp[0] = 0;
 
-        // 外层for循环在遍历所有状态的所有取值
-        for (int i = 0; i < dp.length; i++) {
-            // 内层for循环在求所有选择的最小值
+        for (int i = 0; i < amount; i++) {
             for (int coin : coins) {
-                // 子问题无解则跳过
                 if (i - coin < 0) {
                     continue;
                 }
-                dp[i] = Math.min(dp[i], 1 + dp[i - coin]);
+                dp[i] = Math.min(dp[i], dp[i - coin] + 1);
             }
         }
+
         return (dp[amount] == amount + 1) ? -1 : dp[amount];
     }
 }
