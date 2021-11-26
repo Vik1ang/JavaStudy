@@ -1,4 +1,4 @@
-package dp.subsequence.lengthOfLIS;
+package dp.subsequence.q300.lengthOfLIS;
 
 // https://leetcode-cn.com/problems/longest-increasing-subsequence/
 
