@@ -1,4 +1,4 @@
-package dp.coinChange;
+package dp.knapsack.coinChange;
 
 // https://leetcode-cn.com/problems/coin-change/
 
