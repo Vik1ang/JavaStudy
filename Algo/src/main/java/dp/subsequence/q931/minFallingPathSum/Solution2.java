@@ -1,4 +1,4 @@
-package dp.minFallingPathSum;
+package dp.subsequence.q931.minFallingPathSum;
 
 // https://leetcode-cn.com/problems/minimum-falling-path-sum/
 
