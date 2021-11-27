@@ -1,4 +1,4 @@
-package dp.deleteForTwoStrings;
+package dp.subsequence.q583.deleteForTwoStrings;
 
 // https://leetcode-cn.com/problems/delete-operation-for-two-strings/
 
