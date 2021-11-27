@@ -1,4 +1,4 @@
-package dp.subsequence.longestCommonSubsequence;
+package dp.subsequence.q1143.longestCommonSubsequence;
 
 // https://leetcode-cn.com/problems/longest-common-subsequence/
 
