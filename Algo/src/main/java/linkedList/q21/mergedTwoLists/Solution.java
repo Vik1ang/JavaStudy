@@ -1,4 +1,4 @@
-package linkedList.mergedTwoSortList;
+package linkedList.q21.mergedTwoLists;
 
 // https://leetcode-cn.com/problems/merge-two-sorted-lists/
 
