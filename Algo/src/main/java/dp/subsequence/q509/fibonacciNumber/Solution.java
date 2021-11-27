@@ -1,4 +1,4 @@
-package dp.fibonacciNumber;
+package dp.subsequence.q509.fibonacciNumber;
 
 // https://leetcode-cn.com/problems/fibonacci-number/
 
