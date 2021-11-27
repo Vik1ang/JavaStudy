@@ -1,4 +1,4 @@
-package dp.minimumDeleteSum;
+package dp.subsequence.q712.minimumDeleteSum;
 
 // https://leetcode-cn.com/problems/minimum-ascii-delete-sum-for-two-strings/
 
