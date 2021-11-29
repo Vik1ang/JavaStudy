@@ -1,5 +1,7 @@
 package array.prefixSum.q304.sumRange;
 
+// https://leetcode-cn.com/problems/range-sum-query-2d-immutable/
+
 public class Solution1 {
 
     private int[][] preSum;
