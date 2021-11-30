@@ -2,7 +2,8 @@ package linkedList.q21.mergedTwoLists;
 
 // https://leetcode-cn.com/problems/merge-two-sorted-lists/
 
-import linkedList.ListNode;
+
+import dataStructure.ListNode;
 
 public class Solution1 {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
