@@ -54,8 +54,6 @@ public class Solution1 {
             }
         }
 
-        System.out.println(start);
-        System.out.println(len);
         return len == Integer.MAX_VALUE ? "" : s.substring(start, start + len);
     }
 }
