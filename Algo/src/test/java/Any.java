@@ -21,4 +21,10 @@ public class Any {
         }
         return rev;
     }
+
+    @Test
+    public void test2() {
+        char c = 'a';
+        System.out.println(Character.isAlphabetic(c));
+    }
 }
