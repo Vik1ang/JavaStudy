@@ -1,4 +1,4 @@
-package dp.q122.maxProfit;
+package dp.stock.q122.maxProfit;
 
 // https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/
 
