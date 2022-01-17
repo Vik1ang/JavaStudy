@@ -7,6 +7,7 @@ import java.util.concurrent.TimeoutException;
 
 public class Consumer {
     public static final String QUEUE_NAME = "mirror_hello";
+    public static final String FED_EXCHANGE_NAME = "fed_exchange";
 
     public static void main(String[] args) throws IOException, TimeoutException {
         ConnectionFactory connectionFactory = new ConnectionFactory();
@@ -17,6 +18,10 @@ public class Consumer {
 
         Connection connection = connectionFactory.newConnection();
         Channel channel = connection.createChannel();
+
+        channel.exchangeDeclare(FED_EXCHANGE_NAME, BuiltinExchangeType.DIRECT);
+        channel.queueDeclare("node2_queue", true, false, false, null);
+        channel.queueBind("node2_queue", FED_EXCHANGE_NAME, "routingKey");
 
         DeliverCallback deliverCallback = (consumerTag, message) -> {
             System.out.println(new String(message.getBody()));
