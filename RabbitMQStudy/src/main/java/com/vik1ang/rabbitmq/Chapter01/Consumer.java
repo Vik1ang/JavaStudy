@@ -6,11 +6,12 @@ import java.io.IOException;
 import java.util.concurrent.TimeoutException;
 
 public class Consumer {
-    public static final String QUEUE_NAME = "hello";
+    public static final String QUEUE_NAME = "mirror_hello";
 
     public static void main(String[] args) throws IOException, TimeoutException {
         ConnectionFactory connectionFactory = new ConnectionFactory();
         connectionFactory.setHost("localhost");
+        connectionFactory.setPort(5673);
         connectionFactory.setUsername("admin");
         connectionFactory.setPassword("admin");
 
