@@ -1,5 +1,6 @@
 package com.vik1ang.designPattern.wait;
 
+import com.vik1ang.designPattern.GuardedObject;
 import lombok.extern.slf4j.Slf4j;
 
 import java.io.IOException;

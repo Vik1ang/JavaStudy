@@ -1,8 +1,19 @@
-package com.vik1ang.designPattern.wait;
+package com.vik1ang.designPattern;
 
+
+import lombok.Getter;
 
 public class GuardedObject {
+    @Getter
+    private int id;
     private Object response;
+
+    public GuardedObject() {
+    }
+
+    public GuardedObject(int id) {
+        this.id = id;
+    }
 
     public Object get(long timeout) {
         synchronized (this) {

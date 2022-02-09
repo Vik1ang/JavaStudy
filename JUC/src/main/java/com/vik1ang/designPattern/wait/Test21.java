@@ -1,6 +1,7 @@
 package com.vik1ang.designPattern.wait;
 
 import cn.hutool.core.thread.ThreadUtil;
+import com.vik1ang.designPattern.GuardedObject;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j(topic = "c.Test21")
