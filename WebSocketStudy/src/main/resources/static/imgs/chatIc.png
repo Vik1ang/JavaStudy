@@ -1,0 +1,2272 @@
+<!DOCTYPE html>
+<html lang='zh-CN'>
+<head>
+<title>src/main/resources/static/imgs/chatIc.png · youngyajun/websocket-chatroom-demo - Gitee.com</title>
+<meta content='on' http-equiv='x-dns-prefetch-control'>
+<link href='//e.gitee.com' rel='dns-prefetch'>
+<link href='//files.gitee.com' rel='dns-prefetch'>
+<link href='//toscode.gitee.com' rel='dns-prefetch'>
+<link href='https://assets.gitee.com' rel='dns-prefetch'>
+<link href='https://portrait.gitee.com' rel='dns-prefetch'>
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="https://assets.gitee.com/assets/favicon-9007bd527d8a7851c8330e783151df58.ico" />
+<link rel="canonical" href="https://gitee.com/youngyajun/websocket-chatroom-demo" />
+<meta content='gitee.com/youngyajun/websocket-chatroom-demo git https://gitee.com/youngyajun/websocket-chatroom-demo.git' name='go-import'>
+<meta charset='utf-8'>
+<meta content='always' name='referrer'>
+<meta content='Gitee' property='og:site_name'>
+<meta content='Object' property='og:type'>
+<meta content='http://gitee.com/youngyajun/websocket-chatroom-demo/blob/master/src/main/resources/static/imgs/chatIc.png' property='og:url'>
+<meta content='https://gitee.com/static/images/logo_themecolor.png' itemprop='image' property='og:image'>
+<meta content='src/main/resources/static/imgs/chatIc.png · youngyajun/websocket-chatroom-demo - Gitee.com' itemprop='name' property='og:title'>
+<meta content='简单的websocket-chatroom参考视频副本项目' property='og:description'>
+<meta content='码云,Gitee,代码托管,Git,Git@OSC,Gitee.com,开源,内源,项目管理,版本控制,开源代码,代码分享,项目协作,开源项目托管,免费代码托管,Git代码托管,Git托管服务' name='Keywords'>
+<meta content='简单的websocket-chatroom参考视频副本项目' itemprop='description' name='Description'>
+<meta content='pc,mobile' name='applicable-device'>
+
+<meta content="IE=edge" http-equiv="X-UA-Compatible" />
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="WmKCbO8XWwoo6oAvcTWxgdfwmhA5S3MuXE8RASvWE91pqiBr8iSJWC5kje3z9j3HW9ljHm2+psO1QynJAwQ8Hg==" />
+
+<link rel="stylesheet" media="all" href="https://assets.gitee.com/assets/application-d2583d5e4478250d6452f3715f8d1424.css" />
+<script>
+//<![CDATA[
+window.gon = {};gon.locale="zh-CN";gon.sentry_dsn=null;gon.baidu_register_hm_push=null;gon.sensor={"server_url":"https://haveaniceday.gitee.com:3443/sa?project=production","page_type":"其他"};gon.info={"controller_path":"blob","action_name":"show","current_user":false};gon.tour_env={"current_user":null,"action_name":"show","original_url":"http://gitee.com/youngyajun/websocket-chatroom-demo/blob/master/src/main/resources/static/imgs/chatIc.png","controller_path":"blob"};gon.http_clone="https://gitee.com/youngyajun/websocket-chatroom-demo.git";gon.user_project="youngyajun/websocket-chatroom-demo";gon.manage_branch="管理分支";gon.manage_tag="管理标签";gon.enterprise_id=0;gon.create_reaction_path="/youngyajun/websocket-chatroom-demo/reactions";gon.ipipe_base_url="https://go-api.gitee.com";gon.gitee_go_active=false;gon.ref="master";
+//]]>
+</script>
+<script src="https://assets.gitee.com/assets/static/sensor-42ae731632c43f0efd3963709358d23f.js"></script>
+<script src="https://assets.gitee.com/assets/static/sentry-5.1.0-a823fb0be1b61c5d7ca4a89f0536cb0a.js"></script>
+<script src="https://assets.gitee.com/assets/application-996368cfc539c7d21c803aa4b69d51f5.js"></script>
+<script src="https://assets.gitee.com/assets/lib/jquery.timeago.zh-CN-4a4818e98c1978d2419ab19fabcba740.js"></script>
+
+<link rel="stylesheet" media="all" href="https://assets.gitee.com/assets/projects/application-4e0cf3ff22c9fd90a6c5bbdd99cb8053.css" />
+<script src="https://assets.gitee.com/assets/projects/app-ec4ead470184e0545203898d37232caa.js"></script>
+
+<script src="//res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+<script>
+  var title = document.title.replace(/( - Gitee| - 码云)$/, '')
+      imgUrl = '';
+  
+  document.addEventListener('DOMContentLoaded', function(event) {
+    var imgUrlEl = document.querySelector('.readme-box .markdown-body > img, .readme-box .markdown-body :not(a) > img');
+    imgUrl = imgUrlEl && imgUrlEl.getAttribute('src');
+  
+    if (!imgUrl) {
+      imgUrlEl = document.querySelector('meta[itemprop=image]');
+      imgUrl = imgUrlEl && imgUrlEl.getAttribute('content');
+      imgUrl = imgUrl || "https://gitee.com/static/images/logo_themecolor.png";
+    }
+  
+    wx.config({
+      debug: false,
+      appId: "wxff219d611a159737",
+      timestamp: "1644433035",
+      nonceStr: "449064a7f2fa787728b433e7af3075cb",
+      signature: "e467eeb466a8ac497a1f75854719a70fc088b245",
+      jsApiList: [
+        'onMenuShareTimeline',
+        'onMenuShareAppMessage'
+      ]
+    });
+  
+    wx.ready(function () {
+      wx.onMenuShareTimeline({
+        title: title, // 分享标题
+        link: "https://gitee.com/youngyajun/websocket-chatroom-demo/blob/master/src/main/resources/static/imgs/chatIc.png", // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+        imgUrl: imgUrl // 分享图标
+      });
+      wx.onMenuShareAppMessage({
+        title: title, // 分享标题
+        link: "https://gitee.com/youngyajun/websocket-chatroom-demo/blob/master/src/main/resources/static/imgs/chatIc.png", // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+        desc: document.querySelector('meta[name=Description]').getAttribute('content'),
+        imgUrl: imgUrl // 分享图标
+      });
+    });
+    wx.error(function(res){
+      console.error('err', res)
+    });
+  })
+</script>
+
+<script type='text/x-mathjax-config'>
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [["$$","$$"],["\\[","\\]"]],
+    processEscapes: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+    ignoreClass: "container|files",
+    processClass: "markdown-body"
+  }
+});
+</script>
+<script src="https://assets.gitee.com/uploads/resources/MathJax-2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<script>
+  (function () {
+    var messages = {
+      'zh-CN': {
+        addResult: '增加 <b>{term}</b>',
+        count: '已选择 {count}',
+        maxSelections: '最多 {maxCount} 个选择',
+        noResults: '未找到结果',
+        serverError: '连接服务器时发生错误'
+      },
+      'zh-TW': {
+        addResult: '增加 <b>{term}</b>',
+        count: '已選擇 {count}',
+        maxSelections: '最多 {maxCount} 個選擇',
+        noResults: '未找到結果',
+        serverError: '連接服務器時發生錯誤'
+      }
+    }
+  
+    if (messages[gon.locale]) {
+      $.fn.dropdown.settings.message = messages[gon.locale]
+    }
+  }());
+</script>
+
+<script>
+  var userAgent = navigator.userAgent;
+  var isLessIE11 = userAgent.indexOf('compatible') > -1 && userAgent.indexOf('MSIE') > -1;
+  if(isLessIE11){
+    var can_access = ""
+    if (can_access != "true"){
+      window.location.href = "/incompatible.html";
+    }
+  }
+  document.addEventListener("error", function (ev) {
+    var elem = ev.target;
+    if (elem.tagName.toLowerCase() === 'img') {
+      elem.src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAAAAACIM/FCAAACh0lEQVR4Ae3ch5W0OgyG4dt/mQJ2xgQPzJoM1m3AbALrxzrf28FzsoP0HykJEEAAAUQTBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEkKK0789+GK/I2ezfQB522PnS1qc8pGgXvr4tE4aY0XOUWlGImThWgyCk6DleixzE7qwBkg/MGiDPlVVAyp1VQGrPKiACDhFI6VkF5LmzCki+sg7IwDoglnVAil0IMkeG9CyUiwsxLFUVFzJJOQaKCjFCDN9RXMjIX7W6ztZXZDKKCyn8sWJvH+nca7WHDN9lROlAliPH9iRKCPI4cswFJQWxB46toLQgQ9jhn5QYZA9DOkoMUoQde5YapAxDWkoNYsOQR3KQd9CxUnIQF4S49CB9ENKlBxmDEKsFUgMCCCCAAHIrSF61f6153Ajy8nyiPr8L5MXnmm4CyT2fzN4DUvHZ+ntA2tOQBRBAAAEEEEAAAQQQ7ZBaC6TwSiDUaYHQ2yuB0MN+ft+43whyrs4rgVCjBUKTFshLC6TUAjGA3AxSaYFYLZBOC2RUAsk8h5qTg9QcbEoOsoQhQ2qQhsO5xCD5dgB5JQaZ+KBKGtKecvR81Ic0ZDjByKdDx0rSEDZ/djQbH+bkIdvfJFm98BfV8hD2zprfVdlu9PxVeyYAkciREohRAplJCaRSAplJCcQogTjSAdlyHRBvSAekJR0QRzogA+mADJkOiCPSAPEtqYBshlRAXC43hxix2QiOuEZkVERykGyNo9idIZKE0HO7XrG6OiMShlDWjstVzdPgXtUH9v0CEidAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQP4HgjZxTpdEii0AAAAASUVORK5CYII=";
+    }
+  }, true);
+</script>
+</head>
+
+<body class='git-project lang-zh-CN'>
+<header class='common-header fixed noborder' id='git-header-nav'>
+<div class='ui container'>
+<div class='ui menu header-menu header-container'>
+<div class='git-nav-expand-bar'>
+<i class='iconfont icon-mode-table'></i>
+</div>
+<div class='gitee-nav__sidebar'>
+<div class='gitee-nav__sidebar-container'>
+<div class='gitee-nav__sidebar-top'>
+<div class='gitee-nav__avatar-box'></div>
+<div class='gitee-nav__buttons-box'>
+<a class="ui button small fluid orange" href="/login">登录</a>
+<a class="ui button small fluid basic is-register" href="/signup">注册</a>
+</div>
+</div>
+<div class='gitee-nav__sidebar-middle'>
+<div class='gitee-nav__sidebar-list'>
+<ul>
+<li class='gitee-nav__sidebar-item'>
+<a href="/explore"><i class='iconfont icon-ic-discover'></i>
+<span class='gitee-nav__sidebar-name'>开源软件</span>
+</a></li>
+<li class='gitee-nav__sidebar-item'>
+<a href="/enterprises"><i class='iconfont icon-ic-enterprise'></i>
+<span class='gitee-nav__sidebar-name'>企业版</span>
+</a></li>
+<li class='gitee-nav__sidebar-item'>
+<a href="/education"><i class='iconfont icon-ic-education'></i>
+<span class='gitee-nav__sidebar-name'>高校版</span>
+</a></li>
+<li class='gitee-nav__sidebar-item split-line'></li>
+<li class='gitee-nav__sidebar-item'>
+<a href="/search"><i class='iconfont icon-ic-search'></i>
+<span class='gitee-nav__sidebar-name'>搜索</span>
+</a></li>
+<li class='gitee-nav__sidebar-item'>
+<a href="/help"><i class='iconfont icon-help-circle'></i>
+<span class='gitee-nav__sidebar-name'>帮助中心</span>
+</a></li>
+<li class='gitee-nav__sidebar-item'>
+<a href="/terms"><i class='iconfont icon-file'></i>
+<span class='gitee-nav__sidebar-name'>使用条款</span>
+</a></li>
+<li class='gitee-nav__sidebar-item'>
+<a href="/about_us"><i class='iconfont icon-issuepx'></i>
+<span class='gitee-nav__sidebar-name'>关于我们</span>
+</a></li>
+</ul>
+</div>
+</div>
+<div class='gitee-nav__sidebar-bottom'>
+<div class='gitee-nav__sidebar-close-button'>
+<i class='fa fa-angle-double-left'></i>
+</div>
+</div>
+</div>
+</div>
+
+<div class='item gitosc-logo'>
+<a href="https://gitee.com"><img alt='Gitee — 基于 Git 的代码托管和研发协作平台' class='ui inline image' height='28' src='/static/images/logo.svg?t=158106664' title='Gitee — 基于 Git 的代码托管和研发协作平台' width='95'>
+<img alt='Gitee — 基于 Git 的代码托管和研发协作平台' class='ui inline black image' height='28' src='/static/images/logo-black.svg?t=158106664' title='Gitee — 基于 Git 的代码托管和研发协作平台' width='95'>
+</a></div>
+<a title="开源软件" class="item " href="/explore">开源软件
+</a><a title="企业版" class="item " href="/enterprises">企业版
+<sup class='ui red label'>
+特惠
+</sup>
+</a><a title="高校版" class="item " href="/education">高校版
+</a><a title="私有云" class="item" target="_blank" href="https://gitee.cn?utm_source=giteecom">私有云
+</a><a title="博客" class="item" id="gitee-blog" target="_blank" href="https://blog.gitee.com/?utm_sources=site_nav">博客
+</a><div class='center responsive-logo'>
+<a href="https://gitee.com"><img alt='Gitee — 基于 Git 的代码托管和研发协作平台' class='ui inline image' height='24' src='/static/images/logo.svg?t=158106664' title='Gitee — 基于 Git 的代码托管和研发协作平台' width='85'>
+<img alt='Gitee — 基于 Git 的代码托管和研发协作平台' class='ui inline black image' height='24' src='/static/images/logo-black.svg?t=158106664' title='Gitee — 基于 Git 的代码托管和研发协作平台' width='85'>
+</a></div>
+<div class='right menu userbar right-header' id='git-nav-user-bar'>
+<form class="ui item" id="navbar-search-form" data-text-require="搜索关键字不能少于1个" data-text-filter="搜索格式不正确" action="/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+<input type="hidden" name="type" id="navbar-search-type" />
+<input type="hidden" name="fork_filter" id="fork_filter" value="on" />
+<div class='ui search header-search'>
+<input type="text" name="q" id="navbar-search-input" value="" class="prompt" placeholder="搜开源" />
+</div>
+</form>
+
+<script>
+  var can_search_in_repo = 1,
+      repo = "VFZSWmQwNXFVVEZPYW1Sb1RucFplbHBuUFQxaE56WXpaZz09YTc2M2Y=",
+      reponame = "youngyajun/websocket-chatroom-demo";
+  
+  $(function() {
+    var $search = $('#navbar-search-form .ui.search');
+    $search.search({
+      apiSettings: {
+        url: '/search/relative_project?q={query}',
+        onResponse: function (res) {
+          if (res && res.status === 200 && res.data) {
+            var query = htmlSafe($search.search('get value'));
+  
+            res.data.map(function (item) {
+              item.path_ns = '/' + item.path_ns;
+              item.icon = 'iconfont icon-project-public';
+            });
+            res.data.unshift({
+              name_ns: "在全站搜索 <b class='hl'>" + query +"</b> 相关项目",
+              path_ns: '/search?fork_filter=on&q=' + query,
+              icon: 'iconfont icon-search'
+            });
+            return res;
+          } else {
+            return { data: [] };
+          }
+        }
+      },
+      fields: {
+        results: 'data',
+        description: 'name_ns',
+        url: 'path_ns',
+        icon: 'icon'
+      },
+      minCharacters: 1,
+      maxResults: 10,
+      searchDelay: 250,
+      showNoResults: false,
+      transition: 'fade'
+    });
+  });
+</script>
+
+<div class='ui item' id='feature-update-notice'>
+<div class='notice-update-icon'>
+<a class="notice-update-popup click-knowed" title="" href="javascript:void(0)"><img alt="功能更新" title="" class="bubl_icon bubl-off-icon" src="https://assets.gitee.com/assets/bulb_off-24ee940be20998aace89a3f040cbc704.svg" />
+<img alt="功能更新" title="" class="bubl_icon bubl-on-icon" src="https://assets.gitee.com/assets/bulb_on-3986b1dc417285398e3d15671bd8f261.svg" />
+</a></div>
+<div class='feature-update-notice-panel menu'>
+<div class='notice-img'>
+<img alt="" title="" class="notice-img-show" src="" />
+</div>
+<div class='notice-update-title'></div>
+<div class='notice-update-des'></div>
+<div class='notice-btn-list d-flex-between'>
+<button name="button" type="button" class="ui basic orange button btn-notice btn-knowed click-knowed" style="margin-right: 0">我知道了</button>
+<a class="ui button orange btn-notice btn-details click-knowed" target="_blank" href="">查看详情</a>
+</div>
+</div>
+</div>
+
+<a class="item git-nav-user__login-item" sa_evt="login_show" sa_referrer_url="" sa_referrer_action="站导航右上角-登录按钮" sa_referrer_type="其他" href="/login">登录
+</a><a class="item git-nav-user__register-item" sa_evt="register_show" sa_referrer_url="" sa_referrer_action="站导航右上角-注册按钮" sa_referrer_type="其他" href="/signup">注册
+</a><script>
+  $('.destroy-user-session').on('click', function() {
+    $.cookie('access_token', null, { path: '/' });
+  })
+</script>
+
+</div>
+</div>
+</div>
+</header>
+<script>
+  Gitee.initNavbar()
+  Gitee.initRepoRemoteWay()
+  $.cookie('user_locale',null)
+</script>
+
+<script>
+  var userAgent = navigator.userAgent;
+  var isLessIE11 = userAgent.indexOf('compatible') > -1 && userAgent.indexOf('MSIE') > -1;
+  if(isLessIE11){
+    var can_access = ""
+    if (can_access != "true"){
+      window.location.href = "/incompatible.html";
+    }
+  }
+</script>
+
+<div class='fixed-notice-infos'>
+<div class='all-messages'>
+<div class='ui info message' id='git-bulletin'>
+<a href=https://mp.weixin.qq.com/s/EvBkXvGfY9-YeCkJB62MaA target='_blank'>🎉🎉 点击领取你的 Gitee 2021 个人年度数据报告 >>></a>
+<i class='icon remove' id='remove-bulletin'></i>
+</div>
+</div>
+<div class='ui container'>
+<div class='flash-messages' id='messages-container'></div>
+</div>
+<script>
+  (function() {
+    $(function() {
+      var $error_box, alertTip, notify_content, notify_options, template;
+      template = '<div data-notify="container" class="ui {0} message" role="alert">' + '<i data-notify="dismiss" class="close icon"></i>' + '<span data-notify="message">{2}</span>' + '</div>';
+      notify_content = null;
+      notify_options = {};
+      alertTip = '';
+      $error_box = $(".flash_error.flash_error_box");
+      if (notify_options.type === 'error' && $error_box.length > 0 && !$.isEmptyObject(notify_content.message)) {
+        if (notify_content.message === 'captcha_fail') {
+          alertTip = "验证码不正确";
+        } else if (notify_content.message === 'captcha_expired') {
+          alertTip = "验证码已过期，请点击刷新";
+        } else if (notify_content.message === 'not_found_in_database') {
+          alertTip = "帐号或者密码错误";
+        } else if (notify_content.message === 'not_found_and_show_captcha') {
+          alertTip = "帐号或者密码错误";
+        } else if (notify_content.message === 'phone_captcha_fail') {
+          alertTip = "手机验证码不通过";
+        } else {
+          alertTip = notify_content.message;
+        }
+        return $error_box.html(alertTip).show();
+      } else if (notify_content) {
+        if ("show" === 'third_party_binding') {
+          return $('#third_party_binding-message').html(notify_content.message).addClass('ui message red');
+        }
+        notify_options.delay = 3000;
+        notify_options.template = template;
+        notify_options.offset = {
+          x: 10,
+          y: 30
+        };
+        notify_options.element = '#messages-container';
+        return $.notify(notify_content, notify_options);
+      }
+    });
+  
+  }).call(this);
+</script>
+
+</div>
+<script>
+  (function() {
+    $(function() {
+      var setCookie;
+      setCookie = function(name, value) {
+        $.cookie(name, value, {
+          path: '/',
+          expires: 365
+        });
+      };
+      $('#remove-bulletin, #remove-bulletin-dashboard').on('click', function() {
+        setCookie('remove_bulletin', "gitee-maintain-1644377127");
+        $('#git-bulletin').hide();
+      });
+      $('#remove-member-bulletin').on('click', function() {
+        setCookie('remove_member_bulletin', "gitee_member_bulletin");
+        $(this).parent().hide();
+      });
+      return $('#remove-gift-bulletin').on('click', function() {
+        setCookie('remove_gift_bulletin', "gitee-gift-bulletin");
+        $(this).parent().hide();
+      });
+    });
+  
+  }).call(this);
+</script>
+<script>
+  function closeMessageBanner(pthis, type, val) {
+    var json = {}
+  
+    val = typeof val === 'undefined' ? null : val
+    $(pthis).parent().remove()
+    if (type === 'out_of_enterprise_member') {
+      json = {type: type, data: val}
+    } else if (type === 'enterprise_overdue') {
+      json = {type: type, data: val}
+    }
+    $.post('/profile/close_flash_tip', json)
+  }
+</script>
+
+<div class='site-content'>
+<div class='git-project-header'>
+<div class='fixed-notice-infos'>
+<div class='ui info icon floating message green' id='fetch-ok' style='display: none'>
+<div class='content'>
+<div class='header status-title'>
+<i class='info icon status-icon'></i>
+代码拉取完成，页面将自动刷新
+</div>
+</div>
+</div>
+<div class='ui info icon floating message error' id='fetch-error' style='display: none'>
+<div class='content'>
+<div class='header status-title'>
+<i class='info icon status-icon'></i>
+<span class='error_msg'></span>
+</div>
+</div>
+</div>
+</div>
+<div class='ui container'>
+
+<div class='git-project-header-details'>
+<div class='git-project-header-container'>
+<div class='git-project-header-actions'>
+<div class='ui tiny modal project-donate-modal' id='project-donate-modal'>
+<i class='iconfont icon-close close'></i>
+<div class='header'>捐赠</div>
+<div class='content'>
+捐赠前请先登录
+</div>
+<div class='actions'>
+<a class='ui blank button cancel'>取消</a>
+<a class='ui orange ok button' href='/login'>前往登录</a>
+</div>
+</div>
+<div class='ui small modal wepay-qrcode'>
+<i class='iconfont icon-close close'></i>
+<div class='header'>
+扫描微信二维码支付
+<span class='wepay-cash'></span>
+</div>
+<div class='content weqcode-center'>
+<img id='wepay-qrcode' src=''>
+</div>
+<div class='actions'>
+<div class='ui cancel blank button'>取消</div>
+<div class='ui ok orange button'>支付完成</div>
+</div>
+</div>
+<div class='ui mini modal' id='confirm-alipay-modal'>
+<div class='header'>支付提示</div>
+<div class='content'>
+将跳转至支付宝完成支付
+</div>
+<div class='actions'>
+<div class='ui approve orange button'>确定</div>
+<div class='ui blank cancel button'>取消</div>
+</div>
+</div>
+
+<span class='ui buttons basic watch-container'>
+<div class='ui dropdown button js-project-watch' data-watch-type='unwatch'>
+<input type='hidden' value=''>
+<i class='iconfont icon-watch'></i>
+<div class='text'>
+Watch
+</div>
+<i class='dropdown icon'></i>
+<div class='menu'>
+<a data-value="unwatch" class="item" sa_evt="loginInform_show" sa_referrer_url="" sa_referrer_action="Watch" sa_referrer_type="其他" rel="nofollow" data-method="post" href="/youngyajun/websocket-chatroom-demo/unwatch"><i class='iconfont icon-msg-read'></i>
+不关注
+</a><a data-value="watching" class="item" sa_evt="loginInform_show" sa_referrer_url="" sa_referrer_action="Watch" sa_referrer_type="其他" rel="nofollow" data-method="post" href="/youngyajun/websocket-chatroom-demo/watch"><i class='iconfont icon-msg-read'></i>
+关注所有动态
+</a><a data-value="releases_only" class="disabled item" sa_evt="loginInform_show" sa_referrer_url="" sa_referrer_action="Watch" sa_referrer_type="其他" rel="nofollow" data-method="post" href="/youngyajun/websocket-chatroom-demo/release_only_watch"><i class='iconfont icon-msg-read'></i>
+仅关注版本发行动态
+</a><a data-value="ignoring" class="item" sa_evt="loginInform_show" sa_referrer_url="" sa_referrer_action="Watch" sa_referrer_type="其他" rel="nofollow" data-method="post" href="/youngyajun/websocket-chatroom-demo/ignoring_watch"><i class='iconfont icon-msg-read'></i>
+关注但不提醒动态
+</a></div>
+</div>
+<style>
+  .js-project-watch .text .iconfont {
+    display: none; }
+  .js-project-watch a, .js-project-watch a:hover {
+    color: #000; }
+  .js-project-watch .item > .iconfont {
+    visibility: hidden;
+    margin-left: -10px; }
+  .js-project-watch .selected .iconfont {
+    visibility: visible; }
+  .js-project-watch .menu {
+    margin-top: 4px !important; }
+</style>
+<script>
+  $('.js-project-watch').dropdown({
+    action: 'select',
+    onChange: function(value, text, $selectedItem) {
+      var type = value === 'unwatch' ? 'Watch' : 'Watching';
+      $(this).children('.text').text(type);
+      $(this).dropdown('set selected', value)
+    }
+  });
+</script>
+
+<a class="ui button action-social-count" title="1" href="/youngyajun/websocket-chatroom-demo/watchers">1
+</a></span>
+<span class='basic buttons star-container ui'>
+<a class="ui button star" sa_evt="loginInform_show" sa_referrer_url="" sa_referrer_action="Star" sa_referrer_type="其他" href="/login"><i class='iconfont icon-star'></i>
+Star
+</a><a class="ui button action-social-count " title="20" href="/youngyajun/websocket-chatroom-demo/stargazers">20
+</a></span>
+<span class='ui basic buttons fork-container' title='无权 Fork 此仓库'>
+<a class="ui button fork" title="你必须登录后才可以fork一个仓库" sa_evt="loginInform_show" sa_referrer_url="" sa_referrer_action="Fork" sa_referrer_type="其他" href="/login"><i class='iconfont icon-fork'></i>
+Fork
+</a><a class="ui button action-social-count disabled-style" title="7" href="/youngyajun/websocket-chatroom-demo/members">7
+</a></span>
+</div>
+<h2 class='git-project-title mt-0 mb-0'>
+<span class="project-title"><i class="project-icon iconfont icon-project-public" title="这是一个公开仓库"></i> <a title="youngyajun" class="author" href="/youngyajun">youngyajun</a> / <a title="websocket-chatroom-demo" class="repository" target="" style="padding-bottom: 0px; margin-right: 4px" sa_evt="repoClick" sa_location="其他" sa_url="" sa_repo_id="16064567" href="/youngyajun/websocket-chatroom-demo">websocket-chatroom-demo</a></span><span class="project-badges"><style>
+  .gitee-modal {
+    width: 500px !important; }
+</style>
+</span>
+<input type="hidden" name="project_title" id="project_title" value="youngyajun/websocket-chatroom-demo" />
+</h2>
+</div>
+</div>
+</div>
+<script>
+  var title_import_url = "false";
+  var title_post_url = "/youngyajun/websocket-chatroom-demo/update_import";
+  var title_fork_url = "/youngyajun/websocket-chatroom-demo/sync_fork";
+  var title_project_path = "websocket-chatroom-demo";
+  var title_p_name = "websocket-chatroom-demo";
+  var title_p_id= "16064567";
+  var title_description = "简单的websocket-chatroom参考视频副本项目";
+  var title_form_authenticity_token = "QOhTlL2K1h6xbUStGm7COKjJwABOSezJ42xEFlSiOH9zIPGToLkETLfjSW+YrU5+JOA5Dhq8OSQKYHzefHAXvA==";
+  var watch_type = "unwatch";
+  var checkFirst = false;
+  
+  $('.js-project-watch').dropdown('set selected', watch_type);
+  $('.checkbox.sync-wiki').checkbox();
+  $('.checkbox.team-member-checkbox').checkbox();
+</script>
+<style>
+  i.loading, .icon-sync.loading {
+    -webkit-animation: icon-loading 1.2s linear infinite;
+    animation: icon-loading 1.2s linear infinite;
+  }
+  .qrcode_cs {
+    float: left;
+  }
+  .check-sync-wiki {
+    float: left;
+    height: 28px;
+    line-height: 28px;
+  }
+  .sync-wiki-warn {
+    color: #e28560;
+  }
+</style>
+
+<div class='git-project-nav'>
+<div class='ui container'>
+<div class='ui secondary pointing menu'>
+<a class="item active" href="/youngyajun/websocket-chatroom-demo"><i class='iconfont icon-code'></i>
+代码
+</a><a class="item " href="/youngyajun/websocket-chatroom-demo/issues"><i class='iconfont icon-task'></i>
+Issues
+<span class='ui mini circular label'>
+0
+</span>
+</a><a class="item " href="/youngyajun/websocket-chatroom-demo/pulls"><i class='iconfont icon-pull-request'></i>
+Pull Requests
+<span class='ui mini circular label'>
+0
+</span>
+</a><a class="item " href="/youngyajun/websocket-chatroom-demo/wikis"><i class='iconfont icon-wiki'></i>
+Wiki
+</a><a class="item  " href="/youngyajun/websocket-chatroom-demo/graph/master"><i class='iconfont icon-statistics'></i>
+统计
+</a><div class='item project-devops-item'>
+<div class='ui pointing top right dropdown project-devops-dropdown'>
+<div class='text'>
+<i class='iconfont icon-devops'></i>
+DevOps
+</div>
+<i class='dropdown icon'></i>
+<div class='menu' style='display:none'>
+<a class="item" href="/youngyajun/websocket-chatroom-demo/gitee_go"><img src="https://assets.gitee.com/assets/giteego-7ec42270742374f05850d0d3ad09e303.png" alt="Giteego" />
+<div class='item-title'>
+Gitee Go
+</div>
+</a><a class="item" href="/youngyajun/websocket-chatroom-demo/artifact_repositories"><img src="https://assets.gitee.com/assets/artifacts-eae00b503105733ce5f171de96fbb927.svg" alt="Artifacts" />
+<div class='item-title'>
+制品库管理
+</div>
+</a><a class="item" target="_blank" href="https://gitee.com/help/articles/4285"><img src="https://assets.gitee.com/assets/baidu_efficiency_cloud-81a98c2eb67fac83b1453ca3d2feb326.svg" alt="Baidu efficiency cloud" />
+<div class='item-title'>
+百度效率云
+</div>
+</a><a class="item" target="_blank" href="https://gitee.com/help/articles/4318"><img src="https://assets.gitee.com/assets/cloudbase-1197b95ea3398aff1df7fe17c65a6d42.png?20200925" alt="Cloudbase" />
+<div class='item-title'>
+腾讯云托管
+</div>
+</a><a class="item" target="_blank" href="https://gitee.com/help/articles/4330"><img src="https://assets.gitee.com/assets/cloud_serverless-686cf926ced5d6d2f1d6e606d270b81e.png" alt="Cloud serverless" />
+<div class='item-title'>
+腾讯云 Serverless
+</div>
+</a><a class="item" target="_blank" href="https://gitee.com/help/articles/4193"><img src="https://assets.gitee.com/assets/jenkins_for_gitee-554ec65c490d0f1f18de632c48acc4e7.png" alt="Jenkins for gitee" />
+<div class='item-title'>
+Jenkins for Gitee
+</div>
+</a></div>
+</div>
+</div>
+<div class='item'>
+<div class='ui pointing top right dropdown git-project-service'>
+<div>
+<i class='iconfont icon-service'></i>
+服务
+<i class='dropdown icon'></i>
+</div>
+<div class='menu' style='display:none'>
+<a class="item" href="/youngyajun/websocket-chatroom-demo/pages"><img src="/static/images/logo-en.svg" alt="Logo en" />
+<div class='item-title'>
+Gitee Pages
+</div>
+</a><a class="item" href="/youngyajun/websocket-chatroom-demo/javadoc"><img src="https://assets.gitee.com/assets/maven-bd58aee84f266d64d4b8ce5b006a9fcf.png" alt="Maven" />
+<div class='item-title'>
+JavaDoc
+</div>
+</a><a class="item" href="/youngyajun/websocket-chatroom-demo/phpdoc"><img src="https://assets.gitee.com/assets/phpdoc-a99f87c2feaa2fd99e5065377a39487e.png" alt="Phpdoc" />
+<div class='item-title'>
+PHPDoc
+</div>
+</a><a class="item" href="/youngyajun/websocket-chatroom-demo/quality_analyses?platform=sonar_qube"><img src="https://assets.gitee.com/assets/sonar_mini-5e1b54bb9f6c951d97fb778ef623afea.png" alt="Sonar mini" />
+<div class='item-title'>
+质量分析
+</div>
+</a><a class="item" href="/youngyajun/websocket-chatroom-demo/gitee_scans"><img src="https://assets.gitee.com/assets/giteescan-cd9ab4076bd751faf7e30888eb10f782.png" alt="Giteescan" />
+<div class='item-title'>Gitee Scan</div>
+</a><button class='ui orange basic button quit-button' id='quiting-button'>
+我知道了，不再自动展开
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+  $('.git-project-nav .ui.dropdown').dropdown({ action: 'nothing' });
+  var gitee_reward_config = JSON.parse(localStorage.getItem('gitee_reward_config') || null) || false
+  var $settingText = $('.setting-text')
+  // 如果没有访问过 
+  if(!gitee_reward_config) $settingText.addClass('red-dot')
+</script>
+<style>
+  .git-project-nav i.checkmark.icon {
+    color: green;
+  }
+  #quiting-button {
+    display: none;
+  }
+  
+  .git-project-nav .dropdown .menu.hidden:after {
+    visibility: hidden !important;
+  }
+</style>
+<script>
+  isSignIn = false
+  isClickGuide = false
+  $('#git-versions.dropdown').dropdown();
+  $.ajax({
+    url:"/youngyajun/websocket-chatroom-demo/access/add_access_log",
+    type:"GET"
+  });
+  $('#quiting-button').on('click',function() {
+    $('.git-project-service').click();
+    if (isSignIn) {
+      $.post("/projects/set_service_guide")
+    }
+    $.cookie("Serve_State", true, { expires: 3650, path: '/'})
+    $('#quiting-button').hide();
+  });
+  if (!(isClickGuide || $.cookie("Serve_State") == 'true')) {
+    $('.git-project-service').click()
+    $('#quiting-button').show()
+  }
+</script>
+
+</div>
+<div class='ui container'>
+<div class='register-guide'>
+<div class='register-container'>
+<div class='regist'>
+加入 Gitee
+</div>
+<div class='description'>
+与超过 800 万 开发者一起发现、参与优秀开源项目，私有仓库也完全免费 ：）
+</div>
+<a class="ui orange button free-registion" sa_evt="register_show" sa_referrer_url="" sa_referrer_action="免费加入" sa_referrer_type="其他" href="/signup?from=project-guide">免费加入</a>
+<div class='login'>
+已有帐号？
+<a href="/login?from=project-guide">立即登录</a>
+</div>
+</div>
+</div>
+
+<div class='git-project-content-wrapper'>
+<div class='ui grid' id='project-wrapper'>
+<div class='sixteen wide column'>
+<div class='git-project-content' id='git-project-content'>
+<div class='row'>
+<div class='git-project-desc-wrapper'>
+<div class='ui yellow message no-license' id='user-no-license-message'>
+<div class='float-left' style='width: 95%;'>
+该仓库未声明开源许可证文件（LICENSE），使用请关注具体项目描述及其代码上游依赖。
+<i class='help circle icon'></i>
+<div class='ui popup dark'>
+项目仓库所选许可证以仓库主分支所使用许可证为准
+</div>
+</div>
+<i class='remove icon' id='remove-no-license-message'></i>
+<div class='clearfix'></div>
+</div>
+<script>
+  if (false) {
+    gon.project_new_blob_path = "/youngyajun/websocket-chatroom-demo/new/master/src/main/resources/static/imgs/chatIc.png"
+    bindShowModal({
+      el: $('.no-license .project-license__create'),
+      complete: function(data, modal) {
+        if (!data.haveNoChoice && !data.data) {
+          Flash.show('请选择一项开源许可证')
+        } else {
+          location.href = gon.project_new_blob_path + '?license=' + data.data
+        }
+      },
+      skip: function () {
+        location.href = gon.project_new_blob_path + '?license'
+      }
+    });
+  }
+  
+  $('i.help.circle.icon').popup({
+    popup: '.no-license .ui.popup',
+    position: 'right center'
+  });
+  
+  $('#remove-no-license-message').on('click', function() {
+    $.cookie("skip_repo_no_license_message_16064567", 'hide', { expires: 365 });
+    $('#user-no-license-message').hide();
+    return;
+  });
+</script>
+</div>
+
+</div>
+<div class='git-project-bread' id='git-project-bread'>
+<div class='ui horizontal list mr-1'>
+<div class='item git-project-branch-item'>
+<input type="hidden" name="path" id="path" value="src/main/resources/static/imgs/chatIc.png" />
+<div class='ui top left pointing dropdown gradient button dropdown-has-tabs' id='git-project-branch'>
+<input type="hidden" name="ref" id="ref" value="master" />
+<div class='default text'>
+master
+</div>
+<i class='dropdown icon'></i>
+<div class='menu'>
+<div class='ui left icon search input'>
+<i class='iconfont icon-search'></i>
+<input class='search-branch' placeholder='搜索分支' type='text'>
+</div>
+<div class='tab-menu'>
+<div class='tab-menu-action' data-tab='branches'>
+<a class="ui link button" href="/youngyajun/websocket-chatroom-demo/branches">管理</a>
+</div>
+<div class='tab-menu-action' data-tab='tags'>
+<a class="ui link button" href="/youngyajun/websocket-chatroom-demo/tags">管理</a>
+</div>
+<div class='tab-menu-item' data-placeholder='搜索分支' data-tab='branches'>
+分支 (1)
+</div>
+</div>
+<div class='tab scrolling menu' data-tab='branches' id='branches_panel'>
+<div data-value="master" class="item"><span>master</span></div>
+</div>
+</div>
+</div>
+<style>
+  .iconfont.icon-shieldlock {
+    color: #8c92a4;
+  }
+</style>
+<script>
+  var $branchesDropdown = $('#branches_panel');
+  var $searchNameInput = $('.search-branch');
+  var concurrentRequestLock = false;
+  var filterXSS = window.filterXSS;
+  $branchesDropdown.scroll(function() {
+    var branchesPanel = document.getElementById('branches_panel');
+    var numOfBranches = $branchesDropdown.children().length;
+    var pageToken = $branchesDropdown.children().last().text().trim();
+    if (branchesPanel.clientHeight + branchesPanel.scrollTop + 37 > branchesPanel.scrollHeight && numOfBranches < 1) {
+      loadData({ page_token: pageToken });
+    }
+  });
+  
+  $searchNameInput.on('input', window.globalUtils.debouce(function (e) {
+    var $currentTab = $('.tab-menu-action.active');
+    var numOfBranches = $branchesDropdown.children().length;
+    if($currentTab.data('tab') === 'branches' && numOfBranches < 1) {
+    var searchWord = $searchNameInput.val().trim();
+      if (searchWord !== "") {
+        loadData({ search: searchWord });
+      } else {
+        loadData({});
+      }
+    }
+  }, 500));
+  
+  function loadData(data) {
+    if (concurrentRequestLock) { return; }
+      concurrentRequestLock = true;
+      $.ajax({
+        url: "/youngyajun/websocket-chatroom-demo/branches/load_more",
+        type: 'GET',
+        data: data,
+        dataType: 'json',
+        success: function (branches) {
+          var html = '';
+          var protectRule = '';
+          if (data.search || !data.page_token) {
+            $branchesDropdown.empty();
+          }
+          branches.forEach(function (branch) {
+            var branchName = filterXSS(branch.name);
+            if(branch.branch_type.value === 1) {
+              var rule = filterXSS(branch.protection_rule.wildcard);
+              protectRule = `<i
+                 class="iconfont icon-shieldlock protected-branch-popup"
+                 data-title="受保护分支"
+                 data-content='保护规则： ${rule}'
+                >
+                </i>`
+            }
+            html += `<div data-value='${branchName}' class="item">
+                      <span>${branchName}</span> ${protectRule}
+                     </div>`
+          });
+          $branchesDropdown.append(html);
+          $('.protected-branch-popup').popup()
+        },
+        complete: function () {
+          concurrentRequestLock = false;
+        }
+    });
+  }
+</script>
+
+<script>
+  $(function () {
+    Gitee.initTabsInDropdown($('#git-project-branch').dropdown({
+      fullTextSearch: true,
+      selectOnKeydown: true,
+      action: function (text,value,el) {
+        var oItemOrInitObject = el[0] || el
+        var isNotSelect = oItemOrInitObject.dataset.tab && oItemOrInitObject.dataset.tab === 'branches'
+        if(isNotSelect){
+          console.warn("You didn't choose a branch")
+          return
+        } 
+        var path = $('#path').val();
+        var href = ['/youngyajun/websocket-chatroom-demo/tree', encodeURIComponent(value), path].join('/');
+        window.location.href = href;
+        return true
+      },
+      onNoResults: function (searchTerm) {
+        //未找到结果
+        return true
+      },
+    }));
+    $('.protected-branch-popup').popup()
+  })
+</script>
+
+</div>
+</div>
+<div class='git-project-right-actions pull-right'>
+<div class='ui orange button' id='btn-dl-or-clone'>
+克隆/下载
+<i class='dropdown icon'></i>
+</div>
+<div class='git-project-download-panel for-project ui bottom right popup'>
+<div class='ui small secondary pointing menu'>
+<a class='item active' data-text='' data-type='http' data-url='https://gitee.com/youngyajun/websocket-chatroom-demo.git'>HTTPS</a>
+<a class='item' data-text='' data-type='ssh' data-url='git@gitee.com:youngyajun/websocket-chatroom-demo.git'>SSH</a>
+<a class='item' data-text="该仓库未启用SVN访问，请仓库管理员前往【&lt;a target='_blank' href=/youngyajun/websocket-chatroom-demo/settings&gt;仓库设置&lt;/a&gt;】开启。" data-type='svn' data-url=''>SVN</a>
+<a class='item' data-text="该仓库未启用SVN访问，请仓库管理员前往【&lt;a target='_blank' href=/youngyajun/websocket-chatroom-demo/settings&gt;仓库设置&lt;/a&gt;】开启。" data-type='svn_ssh' data-url=''>SVN+SSH</a>
+</div>
+<div class='ui fluid right labeled small input download-url-panel'>
+<input type="text" name="project_clone_url" id="project_clone_url" value="https://gitee.com/youngyajun/websocket-chatroom-demo.git" onclick="focus();select()" readonly="readonly" />
+<div class='ui basic label'>
+<div class='ui small basic orange button' data-clipboard-target='#project_clone_url' id='btn-copy-clone-url'>
+复制
+</div>
+</div>
+</div>
+<div class='ui fluid right labeled warning-text forbid-warning-text'>
+
+</div>
+<hr>
+<a class="ui fluid download link button" sa_evt="loginInform_show" sa_referrer_url="" sa_referrer_action="克隆/下载" sa_referrer_type="其他" href="javascript:void(0);"><i class='icon download'></i>
+下载ZIP
+</a><div class='download_repository_zip form modal tiny ui' id='unlanding-complaint-modal'>
+<i class='iconfont icon-close close'></i>
+<div class='header'>
+登录提示
+</div>
+<div class='container actions'>
+<div class='content'>
+该操作需登录 Gitee 帐号，请先登录后再操作。
+</div>
+<div class='ui orange icon large button ok'>
+立即登录
+</div>
+<div class='ui button blank cancel'>
+没有帐号，去注册
+</div>
+</div>
+</div>
+<script>
+  var $elm = $('.download');
+  
+  $elm.on('click', function() {
+    var modals = $("#unlanding-complaint-modal.download_repository_zip");
+    if (modals.length > 1) {
+      modals.eq(0).modal('show');
+    } else {
+      modals.modal('show');
+    }
+  })
+  $("#unlanding-complaint-modal.download_repository_zip").modal({
+    onDeny: function() {
+      window.location.href = "/signup?from=download_repository_zip";
+    },
+    onApprove: function() {
+      window.location.href = "/login?from=download_repository_zip";
+    }
+  })
+</script>
+
+</div>
+<script>
+  (function() {
+    var $btnClone, $btnCopy, $input, $panel;
+  
+    $btnClone = $('#btn-dl-or-clone');
+  
+    $panel = $('.git-project-download-panel');
+  
+    $input = $('#project_clone_url');
+  
+    $btnCopy = $('#btn-copy-clone-url');
+  
+    $btnClone.popup({
+      on: 'click',
+      hoverable: true,
+      position: 'bottom center'
+    });
+  
+    $panel.find('.menu > .item').on('click', function(e) {
+      var $item, dataUrl;
+      $item = $(this).addClass('active');
+      $item.siblings().removeClass('active');
+      dataUrl = $item.attr('data-url');
+      if (dataUrl) {
+        $panel.find('.download-url-panel').show();
+        $input.val(dataUrl);
+        $panel.find('.forbid-warning-text').html('');
+      } else {
+        $panel.find('.download-url-panel').hide();
+        $panel.find('.forbid-warning-text').html($item.attr('data-text') || '');
+      }
+      return $.cookie('remote_way', $item.attr('data-type'), {
+        expires: 365,
+        path: '/'
+      });
+    }).filter('[data-type="' + ($.cookie('remote_way') || 'http') + '"]').trigger('click');
+  
+    new Clipboard($btnCopy[0]).on('success', function() {
+      $btnCopy.popup({
+        content: '已复制',
+        position: 'right center',
+        onHidden: function() {
+          return $btnCopy.popup('destroy');
+        }
+      });
+      return $btnCopy.popup('show');
+    });
+  
+  }).call(this);
+</script>
+
+</div>
+<div class='d-inline pull-right' id='git-project-root-actions'>
+<script>
+  $('.disabled-upload-readonly').popup({
+    content: "只读目录不允许上传文件",
+    className: {
+      popup: 'ui popup',
+    },
+    position: 'bottom center',
+  })
+  $('.disabled-create-folder').popup({
+    content: "只读目录不允许创建目录",
+    className: {
+      popup: 'ui popup',
+    },
+    position: 'bottom center',
+  })
+  $('.disabled-create-file').popup({
+    content: "只读目录不允许创建文件",
+    className: {
+      popup: 'ui popup',
+    },
+    position: 'bottom center',
+  })
+  $('.disabled-create-submodule').popup({
+    content: "只读目录不允许创建子模块",
+    className: {
+      popup: 'ui popup',
+    },
+    position: 'bottom center',
+  })
+  $('.disabled-upload-readonly, .disabled-create-folder, .disabled-create-file, .disabled-create-submodule').click(function() {
+    return false
+  })
+</script>
+<style>
+  .disabled-upload-readonly, .disabled-create-file, .disabled-create-folder, .disabled-create-submodule {
+    background-color: #dcddde !important;
+    color: rgba(0, 0, 0, 0.4) !important;
+    opacity: 0.3 !important;
+    background-image: none !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important; }
+</style>
+
+
+</div>
+<div class='breadcrumb_path path-breadcrumb-contrainer' id='git-project-breadcrumb'>
+<div class='ui breadcrumb path project-path-breadcrumb' id='path-breadcrumb'>
+<a data-direction="back" class="section repo-name" style="font-weight: bold" href="/youngyajun/websocket-chatroom-demo/tree/master">websocket-chatroom-demo
+</a><div class='divider'>
+/
+</div>
+<strong>
+<a data-direction="back" class="section" href="/youngyajun/websocket-chatroom-demo/tree/master/src"><span class='cblue'>
+src
+</span>
+</a></strong>
+<div class='divider'>
+/
+</div>
+<strong>
+<a data-direction="back" class="section" href="/youngyajun/websocket-chatroom-demo/tree/master/src/main"><span class='cblue'>
+main
+</span>
+</a></strong>
+<div class='divider'>
+/
+</div>
+<strong>
+<a data-direction="back" class="section" href="/youngyajun/websocket-chatroom-demo/tree/master/src/main/resources"><span class='cblue'>
+resources
+</span>
+</a></strong>
+<div class='divider'>
+/
+</div>
+<strong>
+<a data-direction="back" class="section" href="/youngyajun/websocket-chatroom-demo/tree/master/src/main/resources/static"><span class='cblue'>
+static
+</span>
+</a></strong>
+<div class='divider'>
+/
+</div>
+<strong>
+<a data-direction="back" class="section" href="/youngyajun/websocket-chatroom-demo/tree/master/src/main/resources/static/imgs"><span class='cblue'>
+imgs
+</span>
+</a></strong>
+<div class='divider'>
+/
+</div>
+<strong>
+chatIc.png
+</strong>
+<i class='iconfont icon-clone' data-clipboard-text='src/main/resources/static/imgs/chatIc.png' id='btn-copy-file-path'></i>
+</div>
+<style>
+  #btn-copy-file-path {
+    vertical-align: middle;
+    cursor: pointer;
+  }
+</style>
+<script>
+  $btnCopy = $('#btn-copy-file-path')
+  $btnCopy.popup({
+    content: '复制路径'
+  })
+  
+  if ($btnCopy[0]) {
+    new Clipboard($btnCopy[0]).on('success', function() {
+      $btnCopy.popup('destroy').popup({
+        content: '已复制',
+        on: 'manual'
+      }).popup('show');
+      setTimeout(function () {
+        $btnCopy.popup('destroy').popup({
+          content: '复制路径'
+        });
+      }, 2000)
+    });
+  }
+</script>
+
+
+</div>
+<div class='ui horizontal list repo-action-list branches-tags' style='display: none;'>
+<div class='item'>
+<a class="ui blank button" href="/youngyajun/websocket-chatroom-demo/branches"><i class='iconfont icon-branches'></i>
+分支 1
+</a></div>
+<div class='item mr-3'>
+<a class="ui blank button" href="/youngyajun/websocket-chatroom-demo/tags"><i class='iconfont icon-tag'></i>
+标签 0
+</a></div>
+</div>
+</div>
+<script>
+  if(window.gon.locale == 'en')
+    $('.branches-tags').css('margin-top', '12px')
+</script>
+
+<style>
+  .ui.dropdown .menu > .header {
+    text-transform: none; }
+</style>
+<script>
+  $(function () {
+    var $tip = $('#apk-download-tip');
+    if (!$tip.length) {
+      return;
+    }
+    $tip.find('.btn-close').on('click', function () {
+      $tip.hide();
+    });
+  });
+  (function(){
+    function pathAutoRender() {
+      var $parent = $('#git-project-bread'),
+          $child = $('#git-project-bread').children('.ui.horizontal.list'),
+          mainWidth = 0;
+      $child.each(function (i,item) {
+        mainWidth += $(item).width()
+      });
+      $('.breadcrumb.path.fork-path').remove();
+      if (mainWidth > 995) {
+        $('#path-breadcrumb').hide();
+        $parent.append('<div class="ui breadcrumb path fork-path">' + $('#path-breadcrumb').html() + '<div/>')
+      } else {
+        $('#path-breadcrumb').show();
+      }
+    }
+    window.pathAutoRender = pathAutoRender;
+    pathAutoRender();
+  })();
+</script>
+
+<div class='row column tree-holder' id='tree-holder'>
+<div class='tree-content-holder' id='tree-content-holder'>
+<div class='file_holder'>
+<div class='file_title'>
+<div class='blob-header-title'>
+<div class='blob-description'>
+<i class="iconfont icon-file"></i>
+<span class='file_name' title='chatIc.png'>
+chatIc.png
+</span>
+<small>55.61 KB</small>
+</div>
+<div class='options'><div class='ui mini buttons basic'>
+
+<a class="ui button edit-raw" target="_blank" href="/youngyajun/websocket-chatroom-demo/raw/master/src/main/resources/static/imgs/chatIc.png">原始数据</a>
+<a class="ui button edit-history" href="/youngyajun/websocket-chatroom-demo/commits/master/src/main/resources/static/imgs/chatIc.png">历史</a>
+</div>
+<script>
+  "use strict";
+  try {
+    if((gon.wait_fork!=undefined && gon.wait_fork==true) || (gon.wait_fetch!=undefined && gon.wait_fetch==true)){
+      $('.edit-blob').popup({content:"当前仓库正在后台处理中,暂时无法编辑", on: 'hover', delay: { show: 200, hide: 200 }});
+      $('.edit-blob').click(function(e){
+        e.preventDefault();
+      })
+    }
+  
+    var setUrl = function() {
+      var params = window.location.search
+      if (params==undefined || $.trim(params).length==0) return;
+      $('span.options').children('.basic').find('a').each(function(index,ele){
+        var origin_href = $(ele).attr('href');
+        if (origin_href!="#" && origin_href.indexOf('?') == -1){
+          $(ele).attr('href',origin_href+params);
+        }
+      });
+    }
+  
+    setUrl();
+  
+    var clipboard = null,
+        $btncopy  = $("#copy-text");
+  
+    clipboard = new Clipboard("#copy-text", {
+      text: function(trigger) {
+        return $("#blob_raw").val();
+      }
+    })
+  
+    clipboard.on('success', function(e) {
+      $btncopy.popup('hide');
+      $btncopy.popup('destroy');
+      $btncopy.popup({content: '已复制', position: 'bottom center'});
+      $btncopy.popup('show');
+    })
+  
+    clipboard.on('error', function(e) {
+      var giteeModal = new GiteeModalHelper({okText: '确定'});
+      giteeModal.alert("一键复制", '复制失败，请手动复制');
+    })
+  
+    $(function() {
+      $btncopy.popup({
+        content: '点击复制',
+        position: 'bottom center'
+      })
+    })
+  
+  } catch (error) {
+    console.log('blob/action error:' + error);
+  }
+  
+  $('.disabled-edit-readonly').popup({
+    content: "只读文件不可编辑",
+    className: {
+      popup: 'ui popup',
+    },
+    position: 'bottom center',
+  })
+  $('.disabled-edit-readonly, .disabled-edit-status').click(function() {
+    return false
+  })
+  $('.has_tooltip').popup({
+    position: 'top center'
+  });
+</script>
+<style>
+  .disabled-edit-readonly, .disabled-edit-status {
+    background-color: #dcddde !important;
+    color: rgba(0, 0, 0, 0.4) !important;
+    opacity: 0.3 !important;
+    background-image: none !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+    cursor: default !important; }
+</style>
+</div>
+</div>
+<div class='contributor-description'><span class='recent-commit' style='margin-top: 0.7rem'>
+<a class="commit-author-link  js-popover-card " data-username="youngyajun" href="/youngyajun">youngyajun</a>
+<span>提交于</span>
+<span class='timeago commit-date' title='2021-05-26 05:06:15 +0800'>
+2021-05-26 05:06
+</span>
+.
+<a href="/youngyajun/websocket-chatroom-demo/commit/0573d6683df3ab9547899c5f7fa4c3d41c160707">最基本功能版提交</a>
+</span>
+</div>
+</div>
+<div class='clearfix'></div>
+<div class='file_content image_file'>
+<img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAYAAABccqhmAAAABGdBTUEAALGP&#x000A;C/xhBQAAACBjSFJNAAB6JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+S&#x000A;X8VGAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAACA&#x000A;AElEQVR42uz9eZhl2XnWif7WsOczxxw5VtaoqlJJKsklS5YsCcmWBBbQDG3M&#x000A;qIbLYDUtuJhu6KZv99M2Q09wsS/IGAw2BgwY+unGbtt4wKNkSZYtlapKVZmV&#x000A;WZVzxhxnPvvsaa37x9onMpUuY1klOlV2vM8TyqxUZOSJOHt96xve732FtZZj&#x000A;HOMYvz0h7/ULOMYxjnHvoO/1C/jtgP8xSI5+/ye/4zsQ//r7eN9nn+PiM/Uf&#x000A;fvSfwc+N6Xz/m/lf3rPCI3/kJ7nyTffx49/7NA9++9fxvq99BG/+ad72cMTB&#x000A;YIlInSDTHu24gUSAEHf8a3VGZ40qy8oXSgorUEIILZEaIzwhrbWWqS3MBDCL&#x000A;v3nt1qdpx10OX2yg9MGv+T5OPf4wthG94vd4/CC9NnH8vt2Fhx988Mv+u6I+&#x000A;iOKOAymE4A9+hV6bUL9DAY1Wq/WQkvL1CPGAVmpZKdUSUralEJtCiKTb7fbW&#x000A;19banW7XBL6PMUYZYw7zokjzPEcqtTsZj3YuX77ywng8vmCtfaky5sLnPvej&#x000A;N+7hj/4rBq3Ur/mzsqru9cv6qsRxAPgqx3f84XfI74ClTrv9jpXl5a/XWt8P&#x000A;rEspN4QQJ6WUeJ5HEAS0Wi02NzY4c/YsjUaD0Xgsx8MR09mM4WC4NBwMGU9G&#x000A;pPn8ZDbNmKbTD9Y9oCvG2pfe+IYPXgI+KaT8ic/9+M9u3+vv/Rj/6XEcAL4K&#x000A;8a6P/znBx+lFYfjgxsbG79VKvaky5oyU8qyAQEpJHMf0ej1WV1bYPHmS5aUl&#x000A;gjBkZXmZIArpHw7I85z9Mufg8ICDgwMmozFZlpEVOUVeIKRAIrCIs1TVWQvv&#x000A;tdb+UVNVn3r9+97xy9aYn3ruZ37pZ+/1z+MY/+lwHAC+ijD48FuDPwsb7Vbr&#x000A;Xc1m8xs9rZ+wcF9ZVYmSEt/3SJIGKyvLrK2uEyUxwlqWlpY4d/8DhIGP53n0&#x000A;+wN2d3fY399nns6RUhDHMUpKsjxnns7Jy4yqrLDWUuQFhbVYY8DaBGvfixDv&#x000A;Rcpvfvx973jaWvsTwPeNdvaLe/0zOsZXFscB4BXw3/2lj35Fvs6f+Nb/Cvji&#x000A;JuAr4uf+WASca7dab+2229+itX60NGatLCuFcrd9s9Gg3W7R6y0RRRFpOmO0&#x000A;M0JKBdYSRRGe1uzt7YEQNJKE+++/n7KqGI9GTCYT8jxnMOiztbPLdDyiKCuk&#x000A;FFhjKcuKoszJ84Isy8jzHGPMOaw9hxDvw9rf115f+VeDyeT77/X7c4yvHI4D&#x000A;wF34f5QX8QQauD+J43cvLS19s6e9Rytr1rKiRAhB0mzQabVotpokSYMgCJhn&#x000A;GdP9faSUNJtNoijCWHjhhRfodDqcOHGCdD5nb3+f6WTCPMuwVUWr1WJ5ZYWl&#x000A;5SW63R79fp/ReESe51hjmKUp81mKqQxza9Fao6SkKEusta2iKN5vrf2adpJ8&#x000A;CPjfhtPpp+71e3WMV4/jAHAX/p8IAGc++5wCzgBv39zY+JYkit9cWbuSZXNp&#x000A;hSCOIlqNBu1Oh6TZxPc8KmMYDAdgod1u4Xs+RVnSHwwoioJms4E1hmefeYZr&#x000A;V6+SZhlJkrC5sUGj1WIwGnH95k183yeOYrq9Hiurq2xtbzOdTDDGUhUlSil8&#x000A;38MYQ1EUlGUJ1qKUQmndq8ry9xV5/mQrin5ISPnDQoiLg8lk916/b8f48nAc&#x000A;AO7Cf8oA8O35TH/7X/m2DeCdjSR5/8rKyjuVVhtlXoRFVaE9j2azSZIk7iOO&#x000A;0UoyGo0pipylXg8EzNKUwWBAlhdopYjimNFwxK2bN5lMJvR6Szz08MNUVcXh&#x000A;4SHT2YxGknDm9GksMBoOOTw4oCxLsjwnSRKiKCSIQ6IkZp6mzLPcNQznc8qy&#x000A;RCqFlBIJVNaeLfL8L87S9A8bY2btJJkaYy5beEYK8bzveS8OhsPP3+v38hi/&#x000A;MY4DwF0wxrz6L3IXvj2fKWANeLsQ4i0ba2u/o9lsPlIURTObZ1hrieKYJE5o&#x000A;NhpEYYj2fYqiZDAa4WuPTqvFZDIlK3Py+RxrLFK5t29wcEBZVTQaDd705JMI&#x000A;BOPxuM4MmoRBQJbnXL1yhZ3dXUbjMXEUsXniBCc2T6A9zXg8JstyPO2RiQyM&#x000A;BWuJ45h5liFxwdEAwlqqqvK11ielEK5fAG/C2g9aa9OyLNNepzMRSj2NtR9X&#x000A;Sn18d2/vaRzzVACLofyCMHHMR79HOA4Ad+ErGQCEEBJoA08B39BqNs+tray8&#x000A;VWm9YqrKM5VBSEUjimgkDZIoIohChJRMZ1OKPKfZbGAsDMcj0jQlyzKk0mil&#x000A;sFVJns2x1nLi5Ek8z2fr1hZBENBud+i0fSyWqiqpqore8jLnHniA06dOsba+&#x000A;TpIkjIZDLl26xOH+AXEUEQYBYRiS5zllVTGbTPB9j7KsyPIcaS1BPYI0xjDP&#x000A;MkbDIfP5nLwoImttVBlDUVV4Uj6kpPymKIrSJ598Mj118uT5M2fOPP22t7/9&#x000A;mW/5lm95CbgG3LzX7/lvZxwHgLvwlQoAH/7IR0PgEeBDUsr7NtbXH2g1Gl8j&#x000A;hAirsqQoS6SnaYUhjUYTPwzwfJ8sz0izOVII4rhBnhfkecZsljKfz13KrzRF&#x000A;nmOBleVlWq02WZYxzSdorbHGUBUFIgqxVYUxlkbdU+h2OsyzjE998pPcvHGD&#x000A;oqxoNBKMNWAtWZYyGU/I8pyyLCmrispYyqJgNpsxT1NXCkiJ1powDFlbW2M+&#x000A;n7O3t+eaji5DQEkpwiBIVlZXk+XlZTytTxpj3vXLn/pU+Yu/8Au3yrL8d3Ec&#x000A;/+O/+53feZ7jLOCe4DgA3AXzKnsAH/7IRzWwCnw98PVRGJqNjY23hr7/MKBK&#x000A;YyiM67LHSUIcxUglMfW4Lk1nxFGE54ek0ylFUZDO5xRFgRd4aO2RlwVxHLO+&#x000A;vkFVVezt7yGFwPM8fN+n1WphgRs3bjCdTKiqCs/zkEqSzzPywo3zO50OJ0+e&#x000A;pN1uMRqNGY2GpPM5VVWR5zlFWVKVFaaqyLKcqixBCMqqwhYFRVG4DGA0QmtN&#x000A;q91GjEbM0hRrrfs8a5FSoqQkbjREmqY+YehLKR+oquovbG1t/bnf86EPffrE&#x000A;5ub//rHv+Z6fBo65Bv8P4jgA3IVX0wT88Ec+2gBeB3wDsN7tdNTK8vJ/rrTu&#x000A;WRCmMhR5gVSSOIkJfR+EZZ5lzGYzkIJWo4FAkE4n7vBnGbYyBEHgDpJSbKxv&#x000A;0mw02d7ZYTKd4mlNo9Wk2WwhgP2DA4bDIVnubmNrLaHv4wUBYRxxaukUS8vL&#x000A;FEVB//CQwWBAo9mkMpbZbEaWF+7WLyuqsiSbZxRF4QKAtW7XQUqXLRmDkZLK&#x000A;GPL6c4QQR1nAdDple2sLrRSe1mxsbhKEIVmWAehup6PzKHrP3t7eOz/4Dd/w&#x000A;idF4/O1PvOENn/ju7/me/F4/C78dcBwA7saXEQA+/JGPCmAJeCvwbiGEt7K8&#x000A;nHQ7nT8uQFtjMMbUXXtJEoVopTCmYjZOmaUpvu/RSlpURUElJPN5RprO8TyN&#x000A;H0UoKegtL7O8vMxoNOKly1ewxhB4mna3gx+EjEcjpmnKfDYlz3KElERRRNxI&#x000A;iMOQOI6JooiiKLl+/TphFNFdWqIqS15++WVubW1hrUVJiQUWr9sKQWUqKgvW&#x000A;WKx1ZdLiJ2WrCotbfBL1r4vAUxnDaDTi0qVLTKdTjLVs3bpFUZb0ej2SJKHT&#x000A;aolms+kZa99dwbufee65X3zkkUf+6vb29mcGg8FxRvCfEMcB4C78ZjOAD3/k&#x000A;owo4iUv536yV2llZXn6q2Wz+XnCHpCwK8qJEa0kYhUitMGXFNM/I8pxmo0mj&#x000A;0aAoCqyFdDZ1wcL3CMOAKAjoLa+gtWJ7Z4fxaIQQglarRZQkpNmc0XjMfD5n&#x000A;MpkC1PP+iDhJCMOQwPcoioLRaIIxFQjBYDjk/PnzzGYzwjCk1+sRJwlFljMa&#x000A;j6jKiiIvMFWJUprKGMzixyPkUQtf1N+nMcaVUHWWYK3FGENVVVRVxdbWFjs7&#x000A;O4RhyIkTJ9Ba43senue5KUizyf7+PlmavlML8Yu+5/3NIAy/K5vP9+71c/Fb&#x000A;FccB4FXgwx/5qMQ1+t4LrGqt91aWl98VR9H7rTFHaXJeFCil3HhPKsqiIp07&#x000A;1l2n28XzPIosc1332QxjLWEQon3N6soK7VaT3f0DsnTOcDym1WzSbDYoreXw&#x000A;sI8QMJtOyfMcKQS+5+MHrqlogTzPGY5GVEXhGH6edp/je6yvr5M0Gjz80ENs&#x000A;bGyQzeecP3+eCy++yGwyJQgCtOdRWYPONFVZYmzlDnZpsFYABlNVSOn0ZYwQ&#x000A;VHes31bGOC6BlC44AOPRiCzL6LTbmKri/Pnz9A8P6Xa7NJKEvb09OUvT/94Y&#x000A;817P8/5CVVW/av5TzGh/m+M4ANyFL/X+r2/++4BvBJTWerLU670/DIJ3W2ux&#x000A;QmCqinmeI4Soa3hFVVXMs4zKWDqdDr7WmLIkKwqmaerGbGFIo5GwvrrCcDpl&#x000A;e3eP4WiIKSt6y0sEYcBkOiOdTtFak85TLKDqOlvWgWeezbHzFGsMnufTaDSJ&#x000A;4ghjLfP5nEaUsLqyQqPRZNDvc+H8Bba2bjFPU4y1BGFAohKElOTzOUUcUxbF&#x000A;UYOvLEukwBGKsoyqMu7/w2UDizIA6iBQB4WqqhgOBiyvrjKbzdjf38day5Nv&#x000A;fjONRoMXnn+e4WhEEscopd6WpulPAH9GKfV/VVVV3utn5LcSjgPA3fgSSoD6&#x000A;5n8d8B4g0VrPO53O+wPff7e11nXK6xEa1hJHEUpK110vCoQQLPV6SCEwxpDO&#x000A;58zmc5SUJI0GveUlwiBgNBqT5zmHwwEK6C2vYID+/gFZ4foJs+kUoRRaOqZe&#x000A;URqQBl9VKOGhlSJuNGi0WvT7Aw5v9vGDgCSJKYuS69dvMBoNmU6mVFXpphNx&#x000A;TNJo0G63kVKSpinj8ZjpZEKazSnKEhCOiwB42kNrN8Isy7IOopaqEkeBoKr7&#x000A;BNZadJ6jPO+IXbi2vs79584RxzFXr10jiiKeeOIJ0jRl/+CAnZ2dbpqm/ybL&#x000A;8z/ned73FUVx3CD8CuE4AHx5uB94JyCVUnm71fo9vue9Y3Hj2apyh8RawihC&#x000A;KeW65HmO1pooDJHWUpUl49mMsijQnkej0WB1eQmA6WiERTAaj9Fa0213mU8m&#x000A;TNI5SgmqosCWbh5vrHW8AqXQWhEGPkEQEEUxURSyu7vHles38LVHFEVYa8jm&#x000A;GfPpDIAkSdhY36DZbNLpdljq9ej2ekRRSFEabt68waWLFzk42KdlLKYqSedz&#x000A;FxDSlHlRsDiTSqujJiGUR1mAXfQGgNIYTFEwm0wIzp4lSRKuXLnCdDp1Tcsk&#x000A;od3pcPLECW7evMmFCxfY2d3lsN//B+l8rrVSHyur6pg38BXAcQC4C7/RU/Xh&#x000A;j3x0A3f4A6WUbDeb3+R53juw1jXA6lTXGje601JSVBVF3QcIggBZZwjT2Yy8&#x000A;LAmDgEaS0Ot2mdfU4Nk8YzKdkgQBXhAyS1NGozFCCSor3BowUBiDVprQ99Ce&#x000A;JvB94iQhimOGgwHnz19ACOFqf6Xqjp3BWEOj2aDdatFqt2m32kRRhFSSoizY&#x000A;3t5BakkjadDpdHjkkUc47B8yHI6YjMfsH+yTFyWlsUitqUofhMBaKOqAkM0z&#x000A;jElZVO6m/tksiERZlvH8c8/hac2p06c5eeoUvnbNxtXlZcIoQgJxFPHCCy9Q&#x000A;ujHj38uMGQD/4td7j6rjVsGXjOMA8JvAhz/y0S7wPqAhhEiajcYHFoff4s5W&#x000A;XhSY+vArrTHWkmUZ2vPwPe+oFJjMZpRVRRxF9DodwiAgTVOUUqRZxnQ6Pfoa&#x000A;k/GIyWRKEEcYY5DWgrRIzyPyfHzfR2tFHMdopUjznEvPPMssTR1bz3cNP6Vq&#x000A;Qk69c7BYOlJKM8/mzLMMIzjqQwRhyM3BTbCW1z36KE+++UkuXXqJly5dojIV&#x000A;CEkchYBAWEthKvK6nMnmEox1/IHKjQ6ttZiqoqxJS2VZYqqKx596itc9+ih7&#x000A;u7vEScLp06fdRGM8xgsCWu02QRShPQ+lNaKq/qGUcmyM+eF7/Uy81nEcAO7G&#x000A;r9MD+PBHPuoDXwOsAHmj0Xin73nvWBx8JSUGS2UqtHK79NYY8no0pqQk8Dys&#x000A;tUxmM/I8J4ljOp0OUimyui4ejEaksxlxkiCAw8ND8qJA+z7GVAgh8LVj/AVR&#x000A;jJbCpfxR7Ob7N26yt79HUZaEvuP1e1rheZooCEiaTeIoIghDrJRkWY7SBlEK&#x000A;sJayKrEG5GSK1opTp07x0EMPkaYpn/j4J/j85z9PnmW0O21ObGyQFwWjoWMQ&#x000A;aimoPB+Zu3FmcUQcAqzA4paJTD0VyKWk1+sR+D43b95kNB4jhODZZ58FY5BC&#x000A;0B8OuXnrFts7O0zT1PUSjImBfyiEuGKtfeZLe2OP8Uo4DgB34T9SArwFOAf0&#x000A;kzj+xjAI3rv4P7SnqSrjDpOom2PWMfwWab+n9dGYLy8KwlrE0xhDYQxSKSaD&#x000A;AWk2J/A8jKkYj8bkRYHveY7qqzRBEBBGEZ7y8DxFGIaUZcne3h5bt7aOJgKR&#x000A;7xOEIZ6n3YJPEBDHCWEQgBBUZYmSCiMk1pQU84J5NqcqKpCCdrvN6tIqUkqe&#x000A;eeYZLl68yGAwYPPEJqdPnaLT7bG3v8/FCxeYpSlCCrTUVKpCCByF2BgQAoHA&#x000A;CgsWBK5UyosCz/cpy5JPfupTCCk5sblJ6HmEYYgUgivXr3Pl6lVGoxGz2YzU&#x000A;LRwtGoprwN8VQvxea+3oXj83r1UcB4AvAR/+yEfXgCcAEwTBu6Mw/F2AFlKg&#x000A;tbvVs3oJRgUBFlcHIyVBEOB7ut7wm5Hled2gi9zCjLUorRnXD3kYhlhrGQ6G&#x000A;VMa4skG727sRxwRhiJKKIAwQwHw+dw2yw8MjmrFf3/xhGBIFAUEYoLVHUVXI&#x000A;LK8bk5rKVBRpTl6WTKf1zoD2SBpN4ijEGMPO9jazNOXBBx7gwYceYnllhel0&#x000A;ysWLF3np0iXG0wmrKyt4nk9RFUwnE7JsXpcbikpWKCmwViAsgDhiDGKM226s&#x000A;pyFSKfwg4ODggOeee479w0MsoLVG+z6J1vh5TlW5zcSqqt5jjPnvgL96r5+R&#x000A;1yqOA8DduKsEqEd+7wSM73lPJFH0foRoCiy+HzgJrSxzc3Pf1fhlWVKWJWEY&#x000A;omr+/nyekZduzBYGgePT14sy48mE2WzmiDvGMJzNqKrKpflBQBxFThykZs1J&#x000A;ITDWMh6P2d3fZzwaHU0SgjAk9AOiJCYKQxTClSJlQRSGeL6PpyR5kbvtviyj&#x000A;LN1sPwwikiRhZXmJbreLkopGErOyukqvt8TNmzf5iZ/8SZ579lks8NRTT/Gu&#x000A;d70LYww3rl/n4GCfLMsQwjX5hBCO/ONplLVYIcGCMRWVMWS5mxx4vk+n3UZr&#x000A;zYsXL3Lt2jUQgre85S2cPHUKLR3rsKwqxuMx5y9c4NatW0wc+em/llL+gjHm&#x000A;x+71o/NaxHEAuAuvQAW+D1gWQpyJ4/h9Qso1AQRBSFW50V5VVU5Ky/PIi/Ko&#x000A;46+VwvN9ZrMZs/ncbesphTUGpdRRVjCbTrE1dXZSK/AkcUxQb/Z5i4NflxZF&#x000A;VdHv9+kPh0ynU6q66RiGIVEUE8cRnudjcQdfCEHkR2jfByzTdE46nzGdOtZh&#x000A;4HnESUJvaYnlpSV8z2M6maCU4wRcOH+B8xcu8OKLL9JqOtGRr/mar+Hcffex&#x000A;vb3N5StXsFikUkzHLpgVNd9BKbc2vBhXWmOYz92UpKwXh5SUKK05ODzkxvXr&#x000A;nDl9mqeeeorVtTV8rWm32/T399ne3WU6mRwF2MpxDCTwvwshPn5cCvzmcRwA&#x000A;7sKd68D1au8bgG4Sx++UUj6ItfhhiMVS1IffAkEQUJSlo/1KSVin+WmaMp5M&#x000A;3G3o+1BnBIAT+KwXZDQwm80oy5IgCEiiiEaziax7CKbm10/GY2azGYeDAels&#x000A;hpCSOAyJYicqEgUhQgq3vluV+FGIr32UUKSTKaWpKHOX9i8ak61Wi95yj2bD&#x000A;9ST2D/aZz+ek8+yo/tZK8+Sb3sQb3vhG3vjGNzIcDvmVX/kMxsLa6iqj0Zhr&#x000A;V68zHo9dOi8l2lN4aLSnj0qObD4nzwSVEG5cV2dFo+EQay2rq6s88vDDtBoN&#x000A;8iwj0Jrr16/zuaefZjgacXB4yM7ODnmeH2VQxpjXWWv/CvDX4IudmY7xH8dx&#x000A;ALgLd9HNzwCnAt9/m+d5r8da6QeBu8WKwunog9PcV4p5mgJuEafdbjOdzRhP&#x000A;JmAtnu8jhMCr2W95ljFLU0cO8jzmtQBHs9E4kvESdbCoKre8M51OGI3HDEcj&#x000A;0vkcKaUrD5KERqOBp13zsJgXCCkd28/APEuZlCXGuBvYCoHveSRxTLvdprvU&#x000A;w5OK0XDIpCb35DW919OatdVV2p0Ojz32KKdOneZXf+VXmKUpZ8+cYfPECa5f&#x000A;u8YL519g69ZNKmOI4hhjLbGM8YPgSF14NpuRC4n2PIy17havtQdSpei029x3&#x000A;3334vs9oPMbzPC5fvsytrS2MMWjPIwoCum0ngDKvf4Z1tvFnpJQ/aIz5wr1+&#x000A;hl5LOA4Ad+GuEuD1UojHgyB4BGtb1OYc6TzD1recq801w+GIylp3sJKEylRM&#x000A;plOsMa6JpRRaa4RSGGtJM7cJKOqeQVGWtNttWkniZt3K6f1boMhz8swRgwZj&#x000A;Rw/WSpEkbp7faDQAMPXX8erG4TRNmUycroCnPXzfw9MeSim6Hcf483yPbDbj&#x000A;MJ27TnsdlJCSMAxpN5vEcczG+jq+5/Pyyy+Tzuc8+MADIAQ/+qM/ygvPP4+1&#x000A;lkajyfLaGlEUMZ1OGY/GSOnGlmk2d94Fvg/DgRMlqW9qUzMFpVJIQPs+k9mM&#x000A;4cB9nutLLHPi5EkCrUnnc4ajEYf9Pp/61KfY298nm8+XK2O+Hfj99/oZei3h&#x000A;OADcjToAfPgjH10HHg/D8FEhxFkLxGFAnjupbGMMy0tLWGuZ1so9WmvarRZJ&#x000A;HLG9s0tZluj6Fld3pv6pk/ey1mLKEmMtnXabOAwdp0ApyqLAjyLm0ynGGMbT&#x000A;CePRmKwenzWShG6r5ai9QlDUBCTP98HCweHhUQDyfR8/8N0oMIrpLffwPQ8h&#x000A;YDKZMp3OmMymziGoKp0cWRDQiBOnGdBbAiF4/vnnscBb3vIWtra3+fSnPkVR&#x000A;FCyvrBBFEb1ej/W1NdL5nMPDPu1mk7Iq3feKW4vGutcTxzFZnlFkGQIXBFQ9&#x000A;BTg8PGQ4HLK6vOwylF4P7XlkaUp/MgGcAegiixkHAVVZUhXFe6WUXwN85l4/&#x000A;Rq8VHAeAXx9Pelo/4Gl9Bmu9RSo7n6cYY2gksZO3tcZt8SlF4PskcUS/P3Bj&#x000A;QSEQUiKFQNVZQJqmR7Jb4OrVZqOB7/sAyJpApLSuN+wqhqMR4+mUqqoIfN9x&#x000A;9lstAt+nspayXgOOAp/hdMZgOCSbZ0fswEYc17ZiTZqtFo0oZDqdMcozsix3&#x000A;ASkvsFWF0oooimg1G67RWVZs3bqFlJJur8vDDz7I3t4eVy5fxg8CyqpibXWV&#x000A;02fOuH6ItURhyPraKqPxmL3d3VrWLD0qXVyPwC1EjcdjisyZkyy2KPO69MiK&#x000A;gv0Dt/jUaDTI05TdvT329/ac/kGWHfUchJMdaxn4K8aYP3CvH57XCo4DwF2w&#x000A;wIc/8tEW8EgURWc9z1un7pQ7qSzjtvmWlsiynOFg4Ob/StHutJlMZ7fHW3Xa&#x000A;79dU3Cx3WvumPihCCBqNBlHoVoW157ndAKWcFFeWMZlMmNRjwTiKaDWbdDod&#x000A;dC3DVdX9BVMU7GzvMJhMHBEoCGm22yRxROj7R+n+PMsZDkdkec4sc2l/nhcI&#x000A;cNOAOCEIQ4Rwm4bGWjzPJ2kktNttyqrixo0bXLx0CSUlb37zm1mqVYWiKGI6&#x000A;m6GVYjwc0h8MQAqkUI7NqDSPPvoYrXaL/mGfvd0dirw8ogyPRiNevHCBtdVV&#x000A;PM/jwvnzrvzY2KC/v8+VK1c4HAyOdAWKsmSWpkfmJThS5jtwykyfvtfP0msB&#x000A;xwHgLgxHIwWc8jxvXQhxxlqrgsDdznlRYKyl224dkX/yLENrTRLHxEHIcOgI&#x000A;PIs5uLAWPwgAnNGG89xzJiBJgudpFuSYonBGHwsdgdFwSJplGGOIo4hOu027&#x000A;3Xa0Y2vdrVdVjMcjDg4OmdSHr91q0+l0iKLQWYs1W2R5wWQ8oXAa/vSHQ7Ki&#x000A;cK4/1uL5HmEUuZGdcIs6xlQopTE1x7/fP+TFFy+wdWuLVrPJk295C2tra8Rx&#x000A;zM7ODmktBnpwcMC5++/nzJkzXL58mdFwxKkTJ8iyjNF4xGg0ZDKa0O8fUhT5&#x000A;UUNzPp8zrJ2OkiTh5KlT9LpdZmlKOpuRtFokrZYrb0ajhRT50Viw7t+sAN9q&#x000A;rT0OAF8CjgPAr0UEnPA875SU8pQ7EMId3KoiDN2ITiIYTcZHirdLSz0ODg7B&#x000A;ulpXa40QgjCOsaYinRfuYa0qd0gbDdcEM5YSR4xRSjm1nOmUyWTiDqG1Tjev&#x000A;06HZaDiDDmOwOGGN/uEhh4MBRVni+z69TodOt0vo+/SWltBKM5vOSPM50hjS&#x000A;smQyGjLLMrTno6Qi9BTK89G1cnBZZM5PwEJZOjpznCTs7exy2B/w8EMP8+jj&#x000A;j5IkDfb39ugfHlJVFTdu3mBlZZV3vPMd5HnB5z//eZRSfP073+m4AWVJv3/I&#x000A;9Ws3GAyGTNMp08nMaQRo7bQDAKwlCQLuP3eObq9HlmW0mk3COEYKwec+9zk+&#x000A;99nPsre/f7RnobWmcL0ZCbwNp8x8bFn2G+A4ANwFIURXwIaS8vTi9rdAkbpG&#x000A;VrfTwfM8RpMxVenq+DCKKIsCKQRpliFqaSzf99FKUdbU1ay+6RpJgpQCY90h&#x000A;xhiXJRjDZDphPHHyXtZakkaDpW6XJI7d6zOGSkpnALq7y2Q2QwBJHLPc67mu&#x000A;faNBq9VCCsF4PCUvC4ypGE7GDMcTqrLED0ICpdC+BmPxtIdYjAmtYV6UYCGO&#x000A;QpaXlx0PP8+5//77WFtb5+qVawyHg6NdBGMtjzz8CGfvO8vFFy9y9do1Hn30&#x000A;UTrtNr2lJTY2NvA8j2tXrvGzxX9gZ3cbiQueC/nwxRblw488wtraGpPxmMoY&#x000A;kjjm8PAQNRqxvb3NoN/n5KlTWGu5evUqeVm6qYwQGEeo2gD+APCxe/08fbXj&#x000A;OADcBSFE5nneCSHEGXcrWYrCEX605zlqbhyztbOLtRZPa5aWekzHEyfhbS2y&#x000A;psDGNd9/4dIrpGBleRkhYJ7lqJoV6Mw8nAHHdJaSF/nRg99tt4kjJ+MlpSSr&#x000A;KibDIXuHh0dz+k6nw3K3S3CHsOdoNCTLC4SFssg5HAyYzqYIY0kaTTwlEVof&#x000A;7RVU2JqPkDGfpYRRTNJI6LTbTOsUvNluM5/Nef7555lNp07SzPfo9rpsrK9T&#x000A;lhW/+IsfZ3mpx9d93deR5zmnT59mc3MTISW7O9tMJ0N67TYPnD2DJ6VT/Nnd&#x000A;W7gQE8cxeZbxwvPP02y1ePsDD7C2scFkNGI4GtGIY65eucKlS5c4ceIE586d&#x000A;4+q1a8wzJ10OIKBp3TjwOAD8BjgOAHehTidPA5u+7yGEoKxcatrrdFyNe9hf&#x000A;6NrTbrUc0cfTRw0wIQRRHON5mnmWMc/dgV7pLgGWWZq5r1uv+SJcJjCZTI8m&#x000A;BHEcO50A36esqcV5VTEYDjnY26OyljAIWF5aYqk+/J1OB4DRcEBWFFhjSdOU&#x000A;wXDANE3xvYCoEaI9D2EMXq1ORFkiPM0snQOWpV6PpNEgDAPmWc54MCRpNsjS&#x000A;OVmWIpRi8+RJlpeWCMOAvCh56eXLeJ7HIw8/xPLyMkmjwcmTJ2k2GozHI7Zu&#x000A;3aJ/cMjB4SFBGJGXhv5wyCydI5VElK60Oez3kULwwIMP8o6v+zq63a7jA+Q5&#x000A;rWaTtZUVHnjwQX7+F36BZ597jvXlZVZXVri5tQU4AdRaovyctfZJ4LP3+pn6&#x000A;asZxALgLWutzQogTgNBSQr2p5mS4m3has7O7W6/5+rQ7bayp2Np17jzgUv/Q&#x000A;98mynMl4TFmWdNotwihk0B8AoLT70bua3mkELGjBcRzTbjZRWlMaQ+hpxjX9&#x000A;dzwaHZURK70erVaLZk3WyeZzypoPUFUVkzSl3z+kKop6FTgErBP8iEI8qSit&#x000A;AQEmy/E8TRKHrPSWabSa3Li1xc7uLu1WC2Et0ho85dFZWmJ1eRmlPQ77Q6bT&#x000A;CZ1Om8cffZxWq01nqUszSZinKaPhgFs3bnDt+nW09hhNJuxsb5E0GqytrbG1&#x000A;vcNsOkUqBbU1+v11A/HZZ5/lxRdfdJmStWilWF9fp9fpcPb0aTzP4/Of/zzL&#x000A;3S6z2Yy9gwPXC3DCpSs4zcbjAPAfwXEAuAtSqTcIIXpKKWfDVbiufRyGbvRU&#x000A;FJSFs8hqNZtUVck8zdwtrTVaa5oNV+NPJo5SG4YhzWaT8Wh8xNRbNL6stczS&#x000A;1JGJ6lFau9l0vICqQirFQX/AYDhkWiv8tJKElZUVd/gbDZIkZjAYOm3+qsJY&#x000A;y2g4ZPfwAO15tFrtoxVcPwjclqDWZPOUsjB42iNqRviex3Kng9Kamzdust/v&#x000A;02k28X0PgaAw0G4lLC85QdN+/5DxeMzS8jIPPPAgCEte5YyHQ+azKYHv0z/s&#x000A;88L5CzSaTQ77fSdo4vu88PwLR+KoeS0mKoRgOBzy9Oc/z9NPP42onYcn0+nR&#x000A;tmP75Zc5d/bs0dLS4489xnPPP0+v1yPLcw77/UVfIcF5Nfzte/1MfTXjOADc&#x000A;BSnl/UBTCoFUEps5Ou7y8hJJHHPj1haVMTQbCY0kASHYPbjpln2AKIoI/OCI&#x000A;+IIQdFstZwSSpni1eaeT8ZZMJpOjWXYYhnRbLfwgcEq6SjLq9xnWI6/FjsHK&#x000A;0hKNRoNWp4OpKg4O+2itqYqCeZ6zf3jIfDw+cgISwnXJG/WKcFEUzGZTJJDE&#x000A;DTwtkVqxtrxCGIZcvnqNwcEBzXaLKAhACmbzlEbSotNpoZRiPJ3R7w9oNBus&#x000A;rq5ijXEUaQuNOEZYuHb1Kr/yq7/KmfvOUdbB7eXLL/GFZ55jNpuSl04rIAgC&#x000A;qqpy05YsO5JR92oORdfzKPKc0WTC7v4+szTlsUcfZXlpiWaSsLG+zpXLl+l2&#x000A;OqRpymQ6XSwEnbbW9oDDe/1cfbXiOADcBSFEjLVRUZYuTZdugcevb+15bcfd&#x000A;brnm3N7BAWVRIqTE8zyWul2sNRwc9uu+QRvP02zt7B4txix2A9JZSlqz/TzP&#x000A;I45j/FoToCgKRtMp0+mUsizxPY9er0e33XbkoSginU4oy8oxFLPMOfQeHJBn&#x000A;GVEU4YchSgiCMKDZbNZMxjlFmuLFEXEQ4iuJikLazRa2qrh8+TKD8YRGq+U4&#x000A;AcqReJIoptlM8PyAeTbn8GAfgOXeEhLBbDolqV8XxnBj+xaf//wzrG+eIAgC&#x000A;0tmUL3zhOS5euFCLf2goSybTlKrmG8iaOKWVIgo86taLUErheR7a9xkPh4wn&#x000A;E168dIm4nkCsra6yt7fHcDSi1WyS5fmiIbiMs2b/SeBYKfQVcBwA7oKUMqyq&#x000A;qitwSzhlURLXN/1kOqPIC5SS9LquIbh/cAhCIAU0W02CMGBvb+9I9iuJE4Zj&#x000A;554b1GIeAOk8JU3nVHVJEIYhzUZypCbU7/ed0EjN5V/q9ejV4phhGDKdThf0&#x000A;V7dNl6YcDgaUNWko8H3HlY8iGq0WwhjG0ylFVREljh4sPZ/I0yTNFkJKLl69&#x000A;SlWULhiYCt/zQElkJQn8sNZAqNjd3WU2n9PtdFBakuUZSaNBt+6H3Lq1xcc/&#x000A;8XF6y8usra1iyorPvfACl168yGTq9BCVdMYpVZGTV47Kq4HVXovXP3iS1z9w&#x000A;gp3DsfilZ64MJ2neBGTg+8huF4PTSrx0+TKPPPQQwhhWV1aYjMfYuj/SHwwA&#x000A;esBjwE9zHABeEccB4C5IIaggXJhWOK5+QuB57I0PqaqSIAiJk5jt7V3mtaRV&#x000A;EAS0mg0n0bW3j6w5/kWRM5ulNBsNlJJHktXzuat7ldYkSUKr0XC+gOmM0Wjk&#x000A;+AQ4jkG33SaJ3WqtpxX9wcBJhQHpbMZoMmE2TxHGEvl+vfwT0G21aDcbzIuC&#x000A;wWTidhjihFbTNTOFlrSbLebpjJvbO0cbfRbjdAd9z4mNhCF+GJCXJf2DA/b3&#x000A;D4ijmDiMyPMC5Xks93pEYci1a9f45V/+DKW13H/uftI05dOf+hRfeO45ZrMU&#x000A;qpLNZsTZVkQjUJRKspMW7E0zVpY6/KU//gGeevws4ERFb+z09Uf+lx/6fJqZ&#x000A;NwDSMR1blGXJtRs36HW7nNjYoFkbmezs7h7ZpGdZFuOs244FAn4dHAeAuyCl&#x000A;HAohKlGLWQZhiFKKrCjIshwhFUu9Lnmes7O3iwA8T7PU62EtHBwcYoyhWXP8&#x000A;t3b3iKIQrTVZNkdqzbQm+kjlFm8ajQZSKyaTiaPo3lEHd9ttkihymv1SMh5P&#x000A;XL1f8+Ansxnz+dwp62iN5/uul9DpEIUhw+mM+WyGENBKGjSbLSLfR3uKqNlk&#x000A;PJ5w4+ZNsIJG4AhNSRIRJjF5XmCMxdNuk3E0GnFrZ4eqLGk0GpSmAgtL3R5x&#x000A;GHLjxg1+8eOf4NbWFh/84AfxfZ9PffpTfPazn2U6ndEJPV6/2eKdZ1ZpJBGt&#x000A;XpvltS5L6yuIJMGPA9aX2/U74TgW951YTv7vv/vnXn7Xn/7OQ6299wDSq0VM&#x000A;+v0+F196iW6n43oczSYHh4eu3xAECzLVCSABBvf62fpqhLzXL+CrDVLKbSFE&#x000A;IXGz+TDwicKQNE0pi8xtsS31mM8zTOXGg91OhygInWbdZOLq+ShkOJ6gpCSq&#x000A;a1WtPcqipChr/T7fp9looKXk8LDPwcEh2XwOcKQa7Ps+nu8jpWQwGoFxzbLJ&#x000A;dEq/33elQC00EtQGI8tLS4SBz3A8Zjqb4XsejTCqTUUTvMBH+j7j0YgbN67j&#x000A;SUUcRQitafe6xElCVZnauksglGIyGXNr6xaTyYQojJzysXHmIkvdNju72/zM&#x000A;z/4cFy9d4pFHHmF9fY0XL1zgVz7zGaazGb3Y56mTXd56do3uUofVzXU2Tp1g&#x000A;9dQpeuurrG2ssrrcAykRUhxpBQAoKX//3/rzH/rHRVlepnYYCnyfRqPBZDLh&#x000A;+s2bGJx4qLcYr9Z8DNzhP32vn6uvVhwHgLsghLiJtSXC6dg3kgTf05RlhTHg&#x000A;ez5xFDMYjQjCgDAMWFrqUZrqaO89jkKn+pNndDptJ+ntOZ++6XSKtaClpNft&#x000A;EgYB48mY8WTifANrJeFGkrg6vp4IjIZDZ+ojJMNaFWixWCSsxfd9Oo0G3W6X&#x000A;yhj2D/sUee5efxzT7HZotxf6ATA8PGRrexuEa17GYUCv2yGJI4qqQiDIZqkj&#x000A;LJUlO/sHHPT79Y4DjiacJKwuLzEcDPnEJz/FlatX6XY7PPDAAwyHI37pl37p&#x000A;6OZ/34ObrHWarKwss7S5zvLJdbobq7SWugTNFl4YIrUHQoOoD6+ARfb+zjc9&#x000A;8M2hFt9ZGZMtJFviMMT3fW7cuOGWnOpRIrhSrg4GEW5B6BivgOMAcBeEEC9Y&#x000A;a+fUhzaJY4wFUfcDlrodJ9AxciYWrhlIraV36MQ06rXYZrOJp7QTCq0qhuOR&#x000A;2xQUgk6nQ6OZMBwO6fcHRyKavu8T18o5Qgi3X1C79UohmM3n9OstQQv4tcpw&#x000A;I0loNpvM53MGrgFGEkUoKZwBSbtNEISMRmMGgwH90RiMdao/nQ7L3Q5SwGQ6&#x000A;QyEoq4JSWMqyYtDvu66/cbv+ntZ4gc/K0hJFnvPJT3+ay1eugoBz5+5nMp3w&#x000A;Mz/zs/T7h2AM73n4JJ6nObm2xOrGMr3VFdqryzSWegTtFl4YobwAqT2EUgip&#x000A;QEjEF5fuv+effccfvzrPshestVbUWgtxFJHljnAl60mMqAVWtQsAAW4acIxX&#x000A;wHEAuAtSyhettTMJ9S6/57rWShIEToyjKAqCICDwPDqdDmVZks7cjD9JYuew&#x000A;G0XEUUQ6n4OArBbZFMKZbnRaLQ4P+hwOatpuLScWBcHR2FHWAiLGWpSnmc7n&#x000A;bvOvthzXymkIeL6P53lMU8c90FqThCFSSRpRTLfdQgjB4XBAv99nOBy5/f/A&#x000A;Z2N1lZVu10mHZwWh9qiEYDybOinuomB/f5/RaIJAHBGNet0unqe59PJLXL16&#x000A;jdlkzObaOgDPPvscL710iXSe8fhmj/uXu0jfY3WlR3dliWavQ9JuE7eb+GGM&#x000A;CgKk1kjlIZVXB1vHwrwzC1hbbv9pT5h/YowpFu+X7/sorbm1teWyrDsCgHAK&#x000A;TAqXBRzjFXAcAO6Cqap5ZcwQURtY1GO2qqqIkxipJIPh0LHjpCSOYiejPZu5&#x000A;GjtJ3PpsHGMqA9aQ5wXTmVt7jaOQbrvNdDblsO/SdACvXjSSWkNtnmmMIc8y&#x000A;pFLMpjMODg4oax1BT0q8+vYP6obXZDp10uBh6CzA44SkEVOVJfsHh+xubTGe&#x000A;OSnw0PO478wZ2o2Y8WzCKJ2jpCBsNpilKVVRIRH0+30O+wOkkoSBsyeLo4hW&#x000A;I+Hg4IALFy4ynUxotdpEScze3h4XL1wgTVOSwOcDT9zPuDL0Oh1W15Zpdnsk&#x000A;7TZh0sAPY7wgRHk+0vMQWrrbX2qoA4BAHPXwlZQf+Mt//H3X5lm2Za01TnZc&#x000A;4WlNvxZmkbX0mhACagr3MX59HAeAu1BWFVVVHRhrMZVx3fZavy+OYqyxbstO&#x000A;iNrdx3XjLc4DTyvtRDaUcn9PCCaTCaaW8zp54gQGy87uHlm9uKK1dnZYtRxY&#x000A;FIXM5ynZfE4QBEynU/qDAcYYlJR4SqGUck46tZTYPMvQ9ew/9H3CJCEIfCaT&#x000A;KTe3tzk4PCSvpbeiMOT0qZNEUcTBYMB0MqWsDGEYkefOMCQInDLvVi3B7dda&#x000A;g77n0WwmFHnBtWvX6Pf7pFnmVIFqTQCX9Qje/chp4jgkR7CxtsTS6jJJu0nY&#x000A;auBFEcrzUL6H8jyk0EjpuTJAqi/OAlh8oL/hbY+/P51Nf8ZaW4GTVPM9j6qm&#x000A;VAe1C7KoA7iU0goh8nv9XH214jgA3AWllKmqakfKBWHH6eYdLfjU5YBWmlaz&#x000A;SVm6zn8cR4Cgso7UYqzj5Y/GE8qqQkjJ+toqFtje3mFWa+MtPARknbYGvkdV&#x000A;VhRlha6VfQeDAaaqnKT4QmC0dv0t85zZdOo2+4KAuB45Ftmcw+GQ3YNDDvp9&#x000A;xuMxVimaccSZUycI4ojt7W3SyQxTVmitSOcpe9vbTrV4Pmd7Z4fBcITSGt/z&#x000A;Ka0hCiP8IOTg8JBb2zvO7izL2NvbY3dnj/5hH4D1doO3P3KS7XFKo5lw5swJ&#x000A;Wr0OUSNxTr9hgFrU/Ki69tfu8At5lAEcoQ4EceT/5yud6LmyqobujwWe76Ok&#x000A;ZDgcomvGpqw1GerDP77Xz9VXK44DwF0QQlgpRErtbjuZTCirkjgMCcPgSO9P&#x000A;a0UchrVPXUESx0Rx5EQ84thtARpDkedordlYW2Opt8T+3r7b+qsPvx8E7uav&#x000A;O/lK6TrIKLLcSWgt0loWLjq1BVhRlqRZhq81URQRhz5SCKazKf3BkOFwyGA0&#x000A;wtQBrNVqsbm5ia80V2/cZDgeYxYLTnnu0v3h0Bl1DIbsHRw4oVDp7MWiIKDd&#x000A;6aCsY+KNhkPG4wlZnnNr6xZb21uO2ag173/iPpQOmZQlqys91taWiRsNwjjB&#x000A;DwK05yOUBiTIOtWvD60rvxY9gEUr8EiufekPfuNT59LZ7BZQAUeS66Ph0Emq&#x000A;48aANWbAzXv9XH214jgAvAK01kWx0JqrHNklimJEnaIvDC2Mtc71B4jCyDUB&#x000A;o+jIIWiepni+z3Kvx9rKCvv7+/SHQ5cRCOEkuO7oWGutKSs3yprP50ynMwTi&#x000A;iJG4+BytlLPXLgrCOKbRahFFIdbA4cBNFdLZjMl0BkAcRax0O5xYXwVruHTl&#x000A;CqPRGGNhVouYzMuC3YMDwjAkS2dcu3mDPM/r3oQjQ7VbLbQSTGauJBmNRuR5&#x000A;5gQ5LVRViVKKsytt3nh2g/1ZiheEnD61QbPbJohjtO+jvMCl/bq++YWCOsA5&#x000A;HsCi/pfAF3MCpBB83Zse/NB4Mr5urS2Bo59NVpaY2qZtsXOhlJoIIS7f62fq&#x000A;qxXHAeAuOFNOL82LAlNVlJUBa9HKsfAWu+l56Qg909kUrSR57jr5zUaD2XTG&#x000A;PJtjrLs1V1eWmc1Tdg8OnOkGru5X9Y2ntXYrwsZgravn8yJ3wQeOduF1Xfsv&#x000A;RDDjKCIOArSSZFlOfzBgOBoxSWdOqlxKmklCb6lH0mwynsy4cvU6s6mTEcvL&#x000A;0t2rnsfOzi468Ak8zeXLV5lMpmDB8z03/YgTfN+nLCv2Dw7Z2dtlMBrV6bao&#x000A;3YA1Wkl+95MPonyfw9mcdrPBic11wjhGhyEy8F3HX8o63Vf1ze+yAHfzL0aB&#x000A;dx7+20Fgfal9eq3XqKqqOrrZF4c+nc8JfN95DLgJwTVr7XEJ8OvgOAC8AoIg&#x000A;mC2ku4siR3saz9P1TeNSS9fhByEknucj6nl7VZt45FlOM2lw6uQJfM9jf/+A&#x000A;WT0JUPVBXjD4fK2PpMLn8zllkVOWVT0BE0ebcEIIp+QrBM04qs09BKPxhL2D&#x000A;fUa1QUlVL9e0koS1tVXiJGE8m3H91i3S2QwjBLPxGIlTOt7Z20MA7TjmxtY2&#x000A;+4cHdVYiSaKIJHLuR4GnyfOc/f199g8Oj6TNpZT4gY/Wivc9fh8PnVhldzpn&#x000A;Vla87qEzdJfa+GHobn/lmnyLm13Utb2ob3+EPPqz2+n/bQghSKKANzx8+lSe&#x000A;Zy8A1eI1aCmPLNZrs9ZpI47PL/V69/qR+qrFcQC4C1EUEQbBTEhZzbOMPC8I&#x000A;wwilnMnlojsdhYFzpzWWTrvl1m6P6LcpSRLTajWJoojhcHR7TFXP7yUgpagd&#x000A;e50cVmUMRVmQ527Mvaj9tdZgnHJPGAT4WlMZS1kWDAd9Dvp9pmOnO1hZi681&#x000A;q70uqysr2Mqwu7fP3v4BszQ9WonTQUBpDIPRiKos6LSbHAwGXLtxA6xBKYmv&#x000A;PaccrCVSucZm/7DPzq6bDIRhQBTHhGGI73mcXmry7tefw2rF9mhCr9PivvtO&#x000A;OHm0wEdKz6X4gvrXRRDANf3uSvfvxNEwAIGnFY+c3Xg0z+eXqZsDi6lIlmWo&#x000A;ehKgtR5EYXg+SZLjTcBfB8cB4BUQBMFICjEpK6c269dy2a4UcJJTjUbDNfKU&#x000A;q1ebrSYCGAyGmKqi1+mwubHOtJaqyouinh64LUOpJI2kUe/GK5qtBkWeu4Wj&#x000A;mgG4kBy3teagVvqoL5EVOf3+gHGt8svChMTzWF1ZptFIOBz02drZYTSZMJlO&#x000A;nPJuvTQ0m8857PcJpWR5aYnReMqLly453oFUBJ7v9vvDkDLPiXyfyWTM3uEB&#x000A;o9G4tkHr0IgjojDEWvjg6+9judNgZ5LSn8x5/OFzTkXZ9xHKQ3h1fb9o9vFr&#x000A;0/uFNdttuKBw5x8rKWk1ouCBE0srxpg+cJRRLWTX6+A50Fpf0EpZjvGKOA4A&#x000A;dyHPc+IoOtBa96WQlFVJWRbs7u0xrw+nM+oImWcZrVoUVAjJaDxhPJ3SaDQI&#x000A;w5CqMozHY0bjsSP5SNf0UlISho7CmsQR7XaL0XjKZDo9al6JmgwEEPg+eVGS&#x000A;19LizigjpTTGHeg6U/C0YqXbRWvPcfcPD5nOZozGY7RUbmHI9+kfHpJOpyRh&#x000A;QHepx3Q2ZXtnh9ksJahtzZvNJu1GgyrPiJMEpRWT2YzB0KkcuQabRNY9kbff&#x000A;t8ZjZ9cpjOTi1gFrKz0ePHfKOSd7Hko7eq+U0k3177jpLbY++PboT+7o+n/R&#x000A;bxdIooCT672Hy6o8D1glhPMfXPQ13L/RF0JcfeWvcAw4DgC/BkIIXrjw4kvj&#x000A;yWTfmU4oyspwsH/oml3SBQVwTj7tVssp+Xiafn+AkpJ2s0G71WI0HjMYuNGU&#x000A;rbfYZE0gUlKysrzE8tISN27eYjgauT9Xysng4Eg3vu+Tzue1v54TELHWHjUI&#x000A;vVq1J0lieu0OeVWxvb/PdDJ11mWjEX4QuDFgu83W1hZVVbG8vMRKt8toNGJv&#x000A;74Ct7W23eVjLcDWShLIs8cKAQCvG4zE3bt468itoNRt42pUyq7HHOx44gReE&#x000A;PHNjh7So+Lo3P8bqag8d+CjtOdEUKb74aFt7+8ZfxANbewTaO4PCnefXYrEE&#x000A;vqbXbpwui+KFxfu28BYoy3IRPF+gHhUe45VxrAdwF2oTjx3gANwDpZWkqB/M&#x000A;yXSCVoqiLPA8DynACsiLkuFkTKfd4r6zZ9jfd+68szSlqB9IrZSzEIsiNtbX&#x000A;SLOMrZ2dow52WTqxUa0kgeeTlyWiqijrXQGl9ZFK8WJyEIahMw2xlv5oiDUW&#x000A;rRWz2Yx5ltFpOV0/pTU3btwgCAJWV1dpNxJ29vc47A/Z3durmY4uALVaLYpa&#x000A;o68dhiAV129dJasp0Y0kZm1tjaoosUXO+x89yeZql+3RlJe3DnjHU6/n7NlT&#x000A;tTS670Z9SrqmqVyca3vHzQ9YA6aqD76pA0FdugvxRaWBqDf9osDrRp64vsgm&#x000A;qlpr0biFq4ER4jPHVOD/OI4zgFfGLrAn6910gaCRNCjLisk0JYoiyqqi1Ww6&#x000A;667aucbTThjkcDDA1tbbRVkCrkZN4phWq8XqyjLzPGdnd89ZZM3cvH5Ba8VS&#x000A;3/YFWc0YDMPQCXTCkRNxI0mIo5B0PneEpcLxE/YP+4ynU+I4Jmm1KMqSvb09&#x000A;tOcISd12k73DPts7zpBjPB4TR25fptvpLKbvtDttGs0mF19+md3dvfr2Nywt&#x000A;LSOAosh528k2j2wuM85LPnPxBhtrS7zp8QfpdJrI+vC7tF+AkLVm/xen/dZU&#x000A;2Kqqf3Uuxdaau4LE7QAgpWsESinFY/dvNBZ9AIyBWhJdSDm01n7+KJs4xivi&#x000A;OAC8Ar7/Y99lgVuD4Yjx2PnRe8qJZtjaUCPPC2eqUZvSDkdjTp88Qa/bJZvn&#x000A;TCYT9vb368ahopUkbG6u8+C5syAEV65eZf/ggMoYdN0Rtzj2YV6LWpaVwfN9&#x000A;4jDEGIMxhiRJaCYxURAwzzKGk6nr/gOzNOWw3yfPc3q9HpsbG5RFQZo6SbIz&#x000A;J0/Raibs7x9w89YtjLXcvHmTIHAyYp1m000iioJms8HG+jpbt25x4+atI+++&#x000A;laVlGknCPJ3zYMvnqVOrICSfvbJFYQ3vfuoJTqyv1tMDD7FY7JHS9fMWuX59&#x000A;pq2pb35TYauyzgKqOguwYO7MEupfLDXvQHByrXe2KIqLFjC1vbipKpSUfeCX&#x000A;7/Wz9NWO4xLgLtyRMt6qqsoWZSlmaYofBPSiyNFYa2nvBQNtNpvR6bTptNuM&#x000A;JxOarQYvP3MFcAYg3W6HB8/dRxIn3Nze4vLV68znc3RNVzUA9QFfzL493yeO&#x000A;wqOZflDLgAFUlSHLZggpavdew3gycT0GpVhaWnL6eHt7lEVBr9PhxOYGQkpu&#x000A;bm2zf3BIu9PhpZdeAqDT6aKlxEpJVZY0k4SHHnyQFy9e5IULL9Z24U7jsNvr&#x000A;ugBBwdtOrdJoxDy3dcD2cMzves9TvO6hs26/3/fdyFQtZvvUNzpHtb+1zhfR&#x000A;2gprytsfVXU7C8DecfdbpmnG4WBC4DkyUTMOVvM8Px8EwVurui9irLWelE8v&#x000A;/BSP8evjOAD8+rgC7JRVtb5o0FVVRZrO8H2PKAzJsgwpJZPZjFajQRzFDEfj&#x000A;emKQoaRkbXWZRx96iDAMeOnlK9zY3kHgSoLFgbDWYmoTENeAi11GYJwgR5pl&#x000A;BLVxZl4U2LJEKIWnPMajEUVNf/U8zfrqGkpr9nZ2sMDq8jIba6uURcGtWjr7&#x000A;5OYJzr/4IkWR0+103ZJR7YDcaTV54P77efnlyzzz7HPIWpLb05pTJ09SlAVm&#x000A;nvKO+zqsd2OuDMdcuHXAW9/4CE+87gGiJEb7Gqk0Quma0Xf7hyps7QDMos6v&#x000A;D3tV1h9VnQUY7hTyfe7SDf7G9/wwP/PLzwOw1G6wvtLhHW968HRe5D9R1QFU&#x000A;Ouv0UWXMJ+71A/RawHEA+PVxFdixxqyXVUVZlszSOVo7yi5Amjll39nUaQE4&#x000A;IxC4eWur7vIv88bXv54kirj40svsHhySpilVWbplFVu78QqBHwROrVdJirJy&#x000A;O/n158VRhBLCeQxWJVJIbFkwnUyOTEiTRoNmo4G1hsl4jJKSXq/Lxtoq6XzO&#x000A;9Zu3mM1mnDp9mus3bzIYDOh2u3haU1lLnucsLS/zhtc/zs7ODr/69NNOJTiK&#x000A;CDyP5dUVyrLkcHeP95/s8NBKl/15wScubfH4g/fxnq99A51uC+X7SF3X/qqe&#x000A;+yPqe9y4jimuwWeNuePWvyMDMAaMxQCD4YT/+Xt/hO//d7/4RW/OwXDCwXDC&#x000A;+ZdvnZNKviVpNGdVVcW18Uo/y7L/cK8foNcCjgPAr49LwA3gDVVV1Uo4Bs/T&#x000A;zOYZ3U6H0XjMNE1ZXVqi025xcHDI7t4+Fjh14gRveuL1+J7mufMXuHHzJtOp&#x000A;E+MQ1LWvEHhBQCOJSeKE6XTKeD5H1rP9pNVyVt15ToE4Gm+l9ed4nkfSaNQa&#x000A;/x7TmuwjpWR1dZWV5SUODvts7e5SFiWr6+tMplO2trZoNptHRqZ5UXByY4Nz&#x000A;D5zj/IsX+fwzz2CNIU4SOq0mSdIgjiJuXr/OO9cinliNmBQ5n90ZcXJ1ifd9&#x000A;7evp9py0l/S0ExI9qvvrtdy6V3LU1LMWbAWL29+6PoDzNSzJs5zv+z9/jr/z&#x000A;A/+e0TR9xTeolUSMpqkw1v6BLMsGxtpYKWWttdeOF4C+NBwHgLuwsJj+/o99&#x000A;1+TDH/noDYCqZt8JwNdOIkzXjjlKOmlvawxZXrC3f8Dm+hpvfP1j+J7m6Wef&#x000A;49bODmk6P0pRBdBsNul2nFBnmReMJmME1CNGZxYymc2ObMSEtWS1GlAYBsRB&#x000A;SBCFtBpNLNaJgBYF7WaDzY112s0WN27cZO/gkDiJ2VjfYDAccunixVq6LEHU&#x000A;q8D3nznD2XPnuPTSSzzzzDOweH3dDo1GAyxcu3KFNy3HvHk1JkPy9NYA7fu8&#x000A;/2tfz+lTa3hh4Oi44o613i9C3dF3nT+sMZj61sfcLgGKLOenP/Es/8N3/x9c&#x000A;vbX/a75KK4n4S3/iA3zD2x7jmQvXMdbaH/zRT37bxZuD32WNea9Sai6E+Ol7&#x000A;/Ry9VnAcAO7GF4+MLgBlVVU6Lwqn3lMvxEwWll2+k8na29tnd3eHExvrPP66&#x000A;RzDG8pmnP8/29g6Lv+t7Hr1ul+XlHic2NkiShJ2dXV64foPxxEmIS6UwxjCf&#x000A;z4922vM8d2KjSVw7CDVoN1vkZcHurus3aK1Y6vVYW1tFKcWFl15mOBrRbrU4&#x000A;e/Y++v0+Vy5fJgxDGs0mWIOQivvOnuHM2bM894UvcOHFF0EIkjBkc3OdwAuw&#x000A;AnZ393iwE/G2tYRSar6wP2JqJL/nqYe5/74NvMCt91Lf/GIhG2zB1fH1KM5U&#x000A;ddpfHR16U5RUeYowJcPhlP/+7/0Q//onX7l5/zu//gn+zrf9YTrNiKI0zLOC&#x000A;3cMR3/I7v/ba3/y+n/7XwHuFlBPgR+/1Y/RawXEAuAt3TYyfBW4aa88URcFs&#x000A;OiOKIoyxjEZj16EXAlMZdvcPiOOEx173MOks5fylSwyGIyfoKSWdTpsTm5us&#x000A;r6zQ7bS5tb3NL//q5xiNRvi+TxJFGCBLUydqIYRj/QFxHBPHMa1GA6UVo/GE&#x000A;4WhMlqaOExD4LPeW6HY7pLOUW9s7FGXJ8vIyp0+dYuvWLa5evUpQk4aMMYRB&#x000A;wEMPPUgYRTz9zDNcvnL16N9aX12l1WiSzjNu3rzFmVbIu9cjQt/jxdGcUVbx&#x000A;3icf4PFHThHEETrQCCXrbN+ArbCGWslL1LFgcfO7Bp+pCvJ0TjoekU0mYA3/&#x000A;xbf/Yz757Muv+L78F7/7nfz3f+ZDKKUpigrtKR4+s0FelLbTjGPg+Zo+fYNj&#x000A;S/AvGccB4D+Oz+KagWeKojjy+8NapmnKysoy49GYQ9tHacW5s6cZDIY8d+EC&#x000A;eZbjeZqW32BtdZWzp07RbDa4tbXN5555xjn8eNqx5WpDC60UvqcxZXVkcBHH&#x000A;MUkjBgSj4YhR3fgzVYXSmkaS0O10iOOIfn/A3sEBSinOnD7FxsYmV69e5erV&#x000A;q85irNtlOpvRbjY4deIEjVaLX/3sZ7l18xaqJhedO3uWTqfNdDpjOBpxohXy&#x000A;3hNNmqHk4mjK9rTgXY/fz5OPniVMIvzAd1x/IY7Ye6YqEdK6wn+RDCxGf5Wb&#x000A;YhRZTjGZMe0PmQ/HfO7StVc8/FIK/vIf+QB/7INvY54WCF0SKI0tBSjL+lKH&#x000A;KPSUVuolIUQuhPjxvCh+M+/xb2scB4C7cCd19Ps/9l2HH/7IRy8BX18UBUVZ&#x000A;Olqv1szz3Ml8S0FhDO1Wi4N+n4svXT5alul2Opzc3GRzfY3xdMonf/kzHB72&#x000A;nfZ/I6lXgp3AhzEGqxZCmIZWu00cO5WfvHCc/tnsjslAGNDtdIkTJ1R649YW&#x000A;eeYWd1ZWV+l2O5w/f55bt27R6XZpJTHpPGW112N1fY3pZMpn/sPPUOS5MztJ&#x000A;YjbW1+h02hRFyf7BPh1P8I0bLVYiydVpwc604I1n13jykdMk7QZhI8YLtbv5&#x000A;rcFWBkEJuHTfmLocWGQAxoIpKbI5VTZnns0o85xinvPZL/zaw6+V4q//6d/N&#x000A;O9/0MLNphvIkQgmM8jChIYx81pZbSCnJsmwuhbiEtf/6Xj9DryUcB4DfGJ8F&#x000A;vqWsqqiqXJcaa8myDFOWtFotDg8OmGDY3e87Eo9SrK2vc+7MabRWvHT5Ci9d&#x000A;vnJE6Q3DACkkWeG2C4MwoChKqjqQSOUIOXlWMBj0mWf5kRahXxOEmo0GYRgw&#x000A;rheO/CCgt9Sj2+1hqopnn32OyWTC8vIScZxQ5BknNjZpt1rs7u1z7fp1xz2Q&#x000A;kjiOOXffWdrtNoeHh+zvH9D1Je/dTOgIw49d2mU/zXjT2TXe9OAZ/DjCTwL8&#x000A;0EcqicJiTVFf9vVsX0issEj0UfPPGjf7N2VGmaeU8xxRGubTCTe3f23D7y/8&#x000A;Z1/PG+5bZz5NUVoi5gKUIPc9itLHYomlL6z2krwqSynlv/nP/4cPPftD3/4j&#x000A;9/qZec3gOAD8xvgF4Iq19nWy9gloNBqO4y9gns4ZjUa898kn+MQzGbPcsrqy&#x000A;zMkTJ5jOpty4tcV0NiNJYgLfByGoKtcY84xiljrp7zAKkQjHtxeW0XBMWZZk&#x000A;WXbkJtRoJARhiJaSyXTGYb/vxoG+R7PRoNFsMZlO2N7eoSgKNtbXUVpT5Bnr&#x000A;6+uEQcCt7W12dnepKrc3EIYB5+47S6vVZDwec3jYZzXx+doVza9c2eLnX94l&#x000A;LRwD8bPX9vmBT7zAN7zlYf7Eh97GW94QYlSd4wuNlAZpJKbW9LMWrMiPthuN&#x000A;MQhTURWFYzWWJXk2ZzKaOOfgO/AH3/Yob9joMdg+QAUaTzmjFOkrlKfwtE8+&#x000A;z5G0CBtC/tE/+zXZD/6Dz/x9wHkoHuNLwnEA+I3xAnDVGPO6oHbgWZBYJpMp&#x000A;QRBQWctoNOVPvvMR/uWnXkJIycFgwGTi3HQ6rRZVdZupNs9y5mlKI0k4dXIJ&#x000A;Yy3GGmzltg3L0tF/F+y2RhwT1BTk0lRM0jnGVCjtHQlhZHnO7s4Oo9GIMIpY&#x000A;7nWpKkNZ5GxubOL5HpevXGU0GTsPQ2NoNJrcf999bG5usLu3y+7uLm0PinGf&#x000A;v/30TUrza5doisrwY59+gR/79Av83nc9wV//1v+MuNHA830C36cSEqkE1rpg&#x000A;aVyswwrrOBBVQVlZyiwjn2eUWc50NMbcUbe/65FTvPehk8xqNyKwKK3QnmMY&#x000A;IgVWe+xGAZO0tMsrbTO+kojK2r1/+Jf/xb1+Xl5TOA4AvwG+/2PfVf6pP/8X&#x000A;f8kPgneXxoRlnpNmuesF1DJUUio+d/Emf/rrH2EyK/mJy2PSeoZfVZWT81aS&#x000A;LHd/b3mpRxxtHi3HjCcTxqPJkdjndDajKAo83ycKgiMRkjTL3AitFs80ZYEE&#x000A;VBAwm81AQJIkRHF0JI555vQZyqripZcvMx6PSdPUWYc1mrzpjW/k1MlNXnjh&#x000A;PDdv3aLK5vzK1s6RcOlvhP/r55/h3EqHP/qBtxMnIVUc4gcR1lcsdP6MqQsD&#x000A;YbGVRZgSrK3HfwVZmrJ3cEjPdyPPRzeX+JO/401OBk0IKuuEWiVAZZlP5hxM&#x000A;Z4zyklIrTk3mdIYj7wvPXJKDwUB0Op3j1b/fBI4DwG8Mtb629jMH/cM/edjv&#x000A;n/V8H11r2RV5fkTeGUzmXJ1JHrrvJE/vvsgLN/s04phmI3HUAiFYW11zxh1K&#x000A;AZbBYMiN7W0GgyHpbEZl3S5/FEYs9brkWU61OPi1MrHnBwjhRElLY4jjmKJ0&#x000A;egECwFrSWcpSr8v6+hplabhy9RrD0dCx+6KIU6dOct+ZMyAFTz/9DFeuXWU8&#x000A;njCdzZwmwW8CP/GZ83zTkw9TNEJEp41ogWe9WtlXUBkn5e24AK6HYiqLyQus&#x000A;LcnTOYP+mHPdhI9+w5t402P3kwQho9GE8TClP56wN56xO04ZzDKGWc7ueMa8&#x000A;dPTsMysd8chDJ9c+84VnjzdbvwwcB4C7ENY793fAPnj/fZ+7+fGty8bYs3Bb&#x000A;0rus7ajbnTZFlvGZS9t86NF1HukovnDdUhkLVUUUBDSbTVqtBlIIrt+8xfbO&#x000A;DnleIKQg8H3CwJlcSqkwVcU8z5nP5wiBMx1ZGIhgEQiqqqrtxF1PIQgDPFVr&#x000A;Aq6u0Gm3ORgM2N3ZcXLlSUIjSVhZXmZpeZnxeMz5F19kMBxxthvz+PIKt/pj&#x000A;0rzkVn/MNPvSRmlZVjKfzJBlgTWGjhRYkaBl5WS/LRgpXNlU260Z4yzXbGWZ&#x000A;zwtm8wwZBJxdXWH3YMLz+zfZ6U+5OZyyP5uR5iUf+NDvJr94AQ53qKxjXXbD&#x000A;iNetJawvN38ZyI5v/988jgPAbwzz4T/8h2Y/9/Ff+uk8z9/qKRVLIdwoLghq&#x000A;c06f68MRv/j0eX7fG05x/4kV9OevU1Ul7WaDlZVlEIKXXr7MYDRCK7fK6vke&#x000A;StR78rXZ53DkNAQ9rWm3W44j4HlHtXBeFIynU8fjl4Isy4+ciuM4Iopjyqpi&#x000A;Z3eP4XCI73m0Wk2UVGjfI4oTnj//Ars7uzQCzV983xM89eAGvvZBSfLSdemv&#x000A;7Y24sHXI+VuHvHBjl8s7/Vf84Wy0Y/IiA6ra51ChtQQ/RGuLQUAJRhq3D2As&#x000A;1lisNVS2Ypa6rEPHTb6wN+XSrX2M9imEYns0xwsbPPW2t/Cd3/O9fO6ZF/hb&#x000A;/+DfcDYJ+OPvOEHx3M+T3rzCmafe9Ct/94c/cyz99WXgOADcBXXbUupu/HPg&#x000A;T1nsuWazxXg6ZZbO8IKANE0RUjIv4LPX9jgV+XzjU09weeQ0+m/t7B4JYTqL&#x000A;L/BrL4Esy5jNUteYA5I4Yn11Ba00QjrpKyEEo8mENJ2hlHMEdmKlzj8w9Dya&#x000A;rSZlWTKZTlBCUhYlURigfY/BYES316HfH3Dt2g2msylvOrnE73vLA9y33kMo&#x000A;QWklRWHIywoMrLTbLLc7vO11D4AVTGZznru2xScuXOG5aztM5q5P8Lb7NsnS&#x000A;DIxAkCNHUzw/oNmWGOlhkAhroXJbj+YoAFjKomQ2mSKFZIrk4mHK177nfXzN&#x000A;O9/DKC2YVZKPfdd38vMf/0W+9Vu/lZ15iFx5iJcnc86+7Xdx4nf/Ya5//N8V&#x000A;6Y3P7n9p7+4x7sZxAPgS8f0f+65r/+Pf+l+fGw9H93U7XWGNwZRujr5w6dnd&#x000A;2+EnP3eJ/9c7n+ANGyH3LxUcjmaUnRYCg1Ca3WmbF2/usTucsjucHunY9bpd&#x000A;wjBwqrbWEkYhRVGwf3iIqbX+k9CReQ4mh3jaw/c8giik0+24tV5PM52mFEVB&#x000A;GDlzjKqqaDSb9PsDDg77bDR9/tDbH+HJM6u0kwiDoColc1OR5wVlUVFVFqoS&#x000A;W7leg6gsGMNjvTaPvvUJyqcMn7+1y+Ek5fETy1RFRWFzJJZMStLJjCjwUFoe&#x000A;rQBJITC1xp8xFbay5EVJOs8phGRQWr7+Pe/hv/yLf4nzN/pElcSPGqy0v5vh&#x000A;ruGHf/iHaZ94hEfe+QBKCsbTOWKlg6eLwyoKf3ONi2Mc4TgA/CYwHI3+6WQ6&#x000A;e/vJU6eWgzBkVjvjbmxucvnll8mzghev77A7GtOJYjZbCedWYtLRlDLPeflg&#x000A;QDrqk83n9MdTPM9jud1ybr55jqkqmo0Gk9mM6zduIoAgDGn5kra27E+nVBU0&#x000A;G01832NjbRWv1icIw4DJbIbAOQ9NJpP64Ln14VhZ3v3wBm+/f52HV3rgaSop&#x000A;qYygqAyzNKOYZZTzkiwryLM5g/GU8bygLCsCrWmHPioMEHHE5voqT8SKIFSU&#x000A;mbMxk6VEVSVpmpJOApSv0b6PNRZjQWg3GpT1SrDJC4osJzMCIxQf+KYPsbax&#x000A;waXdGQEBOogpuN2TaSyfxhqDFBZtcvae+wSTlz936Vj488vHcQD4TWAwHP3f&#x000A;wOW9g4PlleVlhoMBs9mMzc1NlNZ4QUAlNJ+5NeL9D8Sk05RG0iFoVvzq56+z&#x000A;PRiz1unw9PaMtfUNfN9zwqG1CWd/MGT/8BCEoJHEeFjeuNpgPJ9zZZyToQgj&#x000A;j9WVFVaWeoynzmqs02kznkwZjcZM0xmmchwFU+astCJet9zivtUOT57ZYLMb&#x000A;Y4XGCphNcmbjlOlszt7hiKv7Q7aGUw7TlKw2MA20Jg59wtCHqWJaWSqhMFLy&#x000A;+lM93nFuCakVVBbKyk0n8oI0nRNWEdKAXCwFHUkDGRBO7ai0hhRQnubcAw9i&#x000A;rZP9yoTkcK45/e4/yzD/XpLl06zd9zrybMyZBKYv/BK7v/JjbDxyZlseG398&#x000A;2TgOAL8JfP/Hviv/8Ec++k9vXL/+yOseeaR59epVZtOpo/dGzh14MBrz4s0D&#x000A;vnazRaPMGIiSrXmJiBv8ziefQIcx16sv8PyVW0ymBQZI5xmD0RjP82g0Gkwm&#x000A;U27e2uIDD58gTWeMK8ED66v4UcjpXsLq8hKXtg7QuSEOA4p0gJwNSUROXqQ0&#x000A;A83DpzokvkZJ2Oi2ePzMBsuthH6ac2PvgBev7XE4nLE/mbI/mzPKcmStPeh7&#x000A;Gh0EZFYwNgYzy1GZQUgBKMIgoNmKuXqYsqoPeGi1ja8ECLBlRZmXTsRklqGD&#x000A;ACkU0hqsdVReISVC+1TWjQSRkmbo02jEWOMEUD72b36Kb/jmP8mb3/d+ltc2&#x000A;GF9/FjXbY6+/xfsfO8fos/+ezvoyfqebCnk8AfxycRwAfvP4R0VZ/rnt7e3H&#x000A;l5aW2N7ePpLVDnyf8XjM8y9d4T80PX7/Yye4fGuPsrXEE0+8gRNrHUIFH3zz&#x000A;A4SB5tLVW+wPRk4gVGum0ymj0Yii7gNIKbh/fZVC+xRVxZnlNpX2efbl60wm&#x000A;E6Sw7BzuMpzMCD3FA6sdHnl0k93BhK3+hMCTrHUSHjuxShIFfPrFG/z7z13k&#x000A;8m6feVHSCANWWwmtVsKy30V7mtLCaJZTIpEIAgRSwMryCm99x7u4/PINZpXi&#x000A;4fvW2b1xnvPXLrHWillqeIjKYoqKUhtMUZDNc8LSYAOFsNJZoQuBVO5rU4FV&#x000A;kk4j5sT6EtJCWWS8/dHT/PzJLhd+/t/RlRnV3g5dT2FVxXsejjgxfJbk5AbR&#x000A;Uhcd+PN7/UC8lnEcAO7CjZs3/6P///d/7LvyP/MXvu37tre2vuP++++P9/f2&#x000A;ODg8ZHN9nZ3dXaRSFEXJF27s8/jJJTwVstlu0RM5sspJrc+Dp1Z4eC0hHZ7k&#x000A;f/rBn+HqrRFl4TYNHScg4PRqj4c3V9g+HLKyusJDm2vsD4b86guX2BlM6CRO&#x000A;qVcYy6Mnlvm6h07Qi0OefvkW24djPCXZbCY8sLGEF3j8yGde5Ec+e4HRbE4z&#x000A;DnnLQ2d54wNnCBtN0goyK1B+QClCBqXGDyIOJxlXP/8L5PMp/83/56/xje//&#x000A;AB/71/+B//ArFxh0El63ucy/P/8FtodTVpOe2wC0FlWVVGVFUeSY0iACjZQV&#x000A;RuIcgpTCSjcKbMQRveWQ+x86STYZMhwOGNy6zrtaA37xc+fZHaec2+jx8HKL&#x000A;R1Yg1AleYxWjnOLyQmN0NBox+MLP8lP/7Af4A3/rn9zrx+g1g+MA8OXhu8eT&#x000A;yUeqqro/SRIG/T6nT56k2WhwcHDAPMvYPhzx8YtbfPPXPEBQpkyHkkAJwiTE&#x000A;GkMxTykzd9PPUzcCbDYaxHHEZDLhbMNnMM84udzmgV6AmI85SCckWvLwRo+D&#x000A;6Zx2HPCG+9Z5/YkVhDF8+uJNrh+OacU+J7oNzix1QGg+dfEWP/XcS6RFwcZy&#x000A;l/d87VOcPn2W1lKPjRMnWT1xipOnT7O+scnPPf0y56/ssLGxzs6Na/zL859k&#x000A;MC75xC99kkde9yiXLl9HCMlOf8of+cb3cf1n/g+y0jAvSkLt7LlsVVEVhjwr&#x000A;yYzBF2CFdL0A6UoFUxnKytDqNGh22iRJwv7TP8Vk75C8KDkRK/7Yu+8nDDRR&#x000A;HNay4garDMaCEhVCWISmcaeK0yNv+sC9fjZeUzgOAF8G/uF3/u30o3/lr333&#x000A;Yb//13tLS+HVq1dJGg163S63trbIa+2AawcTro0LngwDysmYQVWQZImjxpqS&#x000A;veEEaQ3GWuKavz9LU6Iw5InNLo+tNAm0wNiK/TTnRK/J5nKLW+OU+4XgDWfX&#x000A;aUU+VVlxYavP9mDCuZU2G50GSeCBkgxmOcNJxlMPnOLMA69j+ezjbD72BJun&#x000A;z7FxYoON1QbLcVTTdUHp6wipaPbWKa3ka77mKX78x3+M7/3e7+X7/9m/5LHf&#x000A;+a3EiXMRamjJmXaTPJu7vp5wzD+LpDIlRVlRFhVWKqRygiEot9dgK3eAoygi&#x000A;ajZpr28SN5uYdETDC/F8Z7piTEGWp2ArtJJYJJ52fgNKCjBixTUXjvHl4DgA&#x000A;fJkw1v6d4XD4Rzudzhu1Uhzs7bGytoZ38eLR/H0wnvJLL97iic3HUUXOfDqj&#x000A;KnL8IEAquL7Tx9fqyGlowQEoioKzDZ9QCiwSXypO95qkxlIIeN1mj147cYSf&#x000A;sqIqKjbaMd3XnSTyfRRQIagktJF86N1fy8Nf/wHmySZP786xUlEGEVUlmGYe&#x000A;fgQt4Wyi1pZaPP/yFkEY0Vk6wfLj7yf5zBewQnDyjd9Ie2mFqixYa/ugNScb&#x000A;IbknSFoNpKgQVem2/ypDlbtb3iJAapAVSIuwjtXotvsEQlkmBzvOmyCbMz8Y&#x000A;YWyF53lo7aE8jed7GKXxkWjtIbSktho9K8Rt/4CN4d69fjReUzhun36Z+Hv/&#x000A;69+0VVX9jatXr6aNZpPzFy7UKXzsxD2F2+2/sjfkJ1+4QRDHSCGYzzLyacps&#x000A;OGHncEgz8CmriqI2AAVYbYQ0A40QFmmdtJaxBgF044ClRoyyYMrKEYmEIQo8&#x000A;Og3nUqy0hx9oAk+ThJIzjzxOFIVsNAX3dX3S2ZSdW9tOG2B7h1s7I7ZmOXNr&#x000A;Ob2+RLsRkc4zMq9N8th7+d3/7Q/yO/7Md/LwW9/H+ukHuLm1w4OnlwmiiMBX&#x000A;eNpj9cxp4k4HpHJq4MZS5nOKvMBIhdAeQmmkkE48VEunUZgkRGHIbLTP3rXz&#x000A;TMf7IEoCX+MFHjr08aMQL3KTFj8KkYGP1BrleUgpzwkhk8X7Yq36Mt/R3544&#x000A;zgDugrWWZrP5JX1uu9X6t0VZ/smk0fhgv99nMplw6uRJ9g8O8DzPCWAIwWde&#x000A;2uZkJ+atp1fJplOqouD64ZDD8QxfWJS40wMHTncaWOFuf6UVwgp8pUgCH8/X&#x000A;YC1V5ZyLBa6rjnT7BVinvW+kBSkoJiUv/F8/wHQ4ZPnhJ1h/8h2ca2ywNYW9&#x000A;fMY0HdDpx/RbbQbtDs1E04wUP/CDP8Qbvv6DrJ1aJ/Y7eOWESX+P5375k7z9&#x000A;gTVe3ylJL30KFfpEIgCr3L6BpzE17VcKQZkVGCsgiJFmDlWOkAYV+oSBR1lW&#x000A;+IGHtZ7zUQx9tB+gtY/2ncGI53ko38PzPUckEo7ghDBgERjz2OALP3vsBPRl&#x000A;4DgAvAK67faX/LlSiP/m8ODg65aXl1s3bt7k8ccf59nnnsNa6/b5o4jJbMZP&#x000A;PP0S5zoxS6HPdDpndzAhy52MVi8J2RnNjr7myXZcm3bg3ImFQFjr1oCtu12d&#x000A;z45FKIVWEuU7xRxrBRaDqb24dUezEtxHcthnvHOdz/+r70FHPt1T91Mtn6KK&#x000A;WvTDmIkOOQhCuqvLPJH48HjCJ37mn3A1nRNUKUkg2GiHvO2hiM32Nvqly1S+&#x000A;ZOnUGlq3kMKSTQza9yjyArmgEWc5trIoP8JWgC2xRuH5Cq0VpnRqR8pXWCPw&#x000A;/AAdxuj60Eup0Z6H1rXTkLC16YjzZRcYYYV4EjgOAF8GjgPAq8QP/K9//rk/&#x000A;8F/9bx87efLkX93e3qbRaNDr9djf38f3PErj1mC3RnN+8JPP82ff+Xhx43Do&#x000A;9adzjHE7/Etx8EUB4EQnPnrIhQC9cNmp9QidnRi1GIkkCANUEDhpbiEoTUVl&#x000A;LNaCpwL8OKKz0iMvKvLphDIrsFlJvneRcp5jhRM2nRtL31o87dNcWecDjTnB&#x000A;eoO40SRqNIjbTYI4RnsaEJR5jq1KvDAmHY3IRoeYfIYylsoaJGDyjCKdu4zA&#x000A;CzHlDFlZZFEhyhJrCjAG5YVIqVCeu+m1F6A8XfcJlPNTrE1HnJOyQAiDlRJR&#x000A;mYfu9XPwWsVxAHgFfKmKOOB8BLRS/9PW1tY3dTqdxy9dvMgb3vAG/v2P/ziN&#x000A;RoOqLNGeh6kqfvXKLv82eKFYi/1ymhWRu85htRHxPLfXbdcazhxUKomUEq1V&#x000A;zaQVVMagavVg5Wn8wHeuPL6P8jXWgjSmtspekG+F488HAe1ez7kTCePWkEso&#x000A;y8qZdlnrPAmUxm+0UX7gPjwPgXSS39YtBuVVTpXPEEBVaqQw6MBDz30qbVCV&#x000A;cAIg1mLmORiBjBIoJ2AqpHDfmzQCrSR+4CGk5zIA3zX+lPYdzVgK5OLGr38O&#x000A;YqE06BjG6/f6mXmt4jgAvErsvXSN/99H/+D8W/+//+q/Wl5e/tHd3d34rV/7&#x000A;tXi+T1U5fX/f9xkNh0RRxI8+czn+4CMnLmnBAwsbktVmjJLCCYgArSgAKTAI&#x000A;jmiudZ/AWW8JpFZ4tU6e9jS61ucX0lJWjmtva+mw2xbdEs+PXABQixRa1M1H&#x000A;iVL6iKgD9d9TGiGgqnKqbE6Vl0hVW5mbOdmsIN/dweS5syf3NLr0saKi9lDF&#x000A;lhllnqFD340KpcCLAvwkoqiDjtIu1ZeeRh6l/+51K7UIYxytE4gjw1GEFRzv&#x000A;AnyZOJ4CvEosHs3v+bY/8nPb29t/W3se12/c4PHHHz/S34vj2Onv+z5IxfY4&#x000A;7S6eWGtBKcFqw83WXSCo6W31aA5Vq+wat0UnkGipUMrDC3y0r/EWH2FAEIcE&#x000A;YUwQxwRRiO8H+EGAH4ZIbRHSIKVAeRLlK1Too+MAFfmoKHA3eSSRnkDYgqqY&#x000A;Y6o5lhLpuQacxEmhCU8iPeWUe6OIIIzwwgjleyjtVJBNUVDkc7ClMwQVClk3&#x000A;+bzAQ3jKZTK+h/Y0ylMo5T60din/0eE/uv0XPwtrsTy/eD/++cWte/1IvKZw&#x000A;nAG8AuZZ9iV/7mwyc51ppTk8PPybURi+WQrxO++//36uXL5MnmXYJKkfXIjC&#x000A;EAtLFuFOv3AGOhvtmK3RDF8ptiZzTiy3UHLBoFto7ONu2box6GboblIgtUJo&#x000A;J5mtpKoXdwArMNa5ckvXPgcLWmkMrgFXGVevY8q6vnbn1FJ7+VlXg3taUlmL&#x000A;qCyBkFRoQiGQxlKVGmtAJhKDdJFLKJQ0GFNR1YInSI1QIAPwAg+VewgDWrqx&#x000A;nlUKrXXd8IOaWcSC6iOsK12cx8AiBlQ/9X3f97P3+rF5TeI4A3iVqFWvAcvf&#x000A;/4vfMr+xtfXR+Xz+7N7eHq979FEGgwHZfE4YRZRVRRRFVBbXzMM16ixwuttC&#x000A;CPCUJLcWoYSTwBbC1fMGrBsLuH/Y6ZIiEXU9LVBaoXR9i/oa7Xto38MP3e3q&#x000A;+T7a8/H9wK0va1ff+4HrHyjfpeJSO5adOurAS5QnkVqglaj/W6NrEpMXePiB&#x000A;hxf6Tqrcq2t5z0Mp77YlmKV2DjZIL8RPYgLPc4daurReS1UHukX94DwFsQZx&#x000A;RxPUiYyWYMyOxf7qvX4OXqs4DgCvEgtba1M5f/t/8P/+lpfKqvpLo+HwwNOa&#x000A;1bU1xpMJ7VaLbD53isCLG/oOF92Gr1lOIoSAdhSglYeSymUBAPUQwODm/9a6&#x000A;4LHgwd+u9V3fQEvPHcY6O/B81yPQWiO1drW654KF9n13WOu0XHk+Klg043zX&#x000A;kJMKISVKS2QgwXMZh/YUXuAjvNvBJggjVBChogipNWAdQ7By5QvGrRbrMMGL&#x000A;fPdztLgRHwYwdZrvvAZrTjBgwJgjXwbnRVj9CNZ+6V3bY3wRjgPAq8VC486Y&#x000A;o9//1d/3jp8ej8f/w2Aw4OzZs6RpWiv6uozBCI01bpS1qGmtsNy/3KKsLHHo&#x000A;4WmFUgKhFMj6nIv636uVdW1tHOL6Ba4sUJ7j3Qsp6mafusO/QDo2Xt3pF55G&#x000A;eJ4LCNpDerX7Ts3aE8oZcchFk06rmmzkmpFCOhVjKQRaaRQK7fnIwEP62nXw&#x000A;PR+EdKpApsSi3KE2JSqI8GtzVFMWdUZUjzm/6JDXlmKVPfo9tv5ca7/PjSaO&#x000A;8eXguAfwClhZXv6SP9fWHgF28YH7dTab/SOp1Lksz7/t9JkzHOzvs7q6Sv/w&#x000A;kCqMKYVA1x14CwgjuG+pxWdv7CMQCGlRUoNyrjpU1A+9wVjp1m3LEq8yR7wA&#x000A;6oUeUd/WLr4IhHCjNEFdQkgBVta8gXqubq0z85WOm2CtBSOOZMittNgKxzoU&#x000A;7lZWlXtZUkqULxEGTCnRqqLwNKKsXM9C4FSAjUFp54lgTYHwQqQfoeQcWxkX&#x000A;SMVC3LfugC5Gma7Yd39wO/u5hjWf+xc/snMcAL5MHGcArxJSultRSoWoa3Eh&#x000A;4G/+qQ8V0+n022/duPEPNzc32djcJGk0ACiRVNSklkUxL0BpycNrHQ6nTmVY&#x000A;SIkS0jXIlCPEIBXG1Pr6RUVVllSVywpulwPijsPvPpAClPuaUtZNQyXrcsR9&#x000A;oFRt6FH/qha/l0hc4DCWusEoMZVFSovwHEvPCgsKlz1IhRDuV7cHbBCmdJe1&#x000A;kK6mxzqeQRy51N64gGGMcdmCKaGqwFTOcLQOgG4aYrDW/JA9Tv9fFY4DwKuE&#x000A;qGfV1DfpYt6OEPyN/+KbRtvb23/l/Pnz/zSKInzPww9DhmlWp9eLm7mu3S08&#x000A;vrnk+P0IlHIy5UoopHaee6qeAGBdJ9yUpfuoyjp1rlvji9ci5dG/IZBHr9cd&#x000A;UOUmA8KVGq5EkLf/nlC3vx/pmo1C1v9t3a6BFRLtKbQSKClBKaSvXbNPydvl&#x000A;hjWO9Yd0GYk1YAqU5yO8wP0MjXEeiXV67wJaXQIY3H8fHX4Lxvzg7W7hMb4c&#x000A;HAeAryAs3JGeuhv4u7/tjw8uX778l1588cV/3u12WVtdZTpLMTWl1TXvRM37&#x000A;l/ha0WmEdW/g9u2ttUSqesyna9staymrqg4AbsfeVpUjyNS7A+4tvv1vWbEg&#x000A;F4k6CCwOtbjj0Ne6fYvgIB0VWUhVLx657GUxhly8RqHclp/U9QxfuR6Eksrd&#x000A;7FWd3ku3sWetqQOG+36PDrgxYCusKd33Yxa1vz3qE2DN01h78Qd/ZPc4/X8V&#x000A;OA4ArxK2NLUibgmlcal43aBb3GLf/1f/1OGtW7e+7dlnn/2hJEncZGBeuMMm&#x000A;b3fuRd1PyIoSe1T/CpRwh1nWnIDFre4OlaXIK8qspCrdbFyYhT6G5XaF4coC&#x000A;KRaHvWYBLj6BO7IXqW4Hp0WJUGc1QrgXJgVuVLnoNVD/N9SBykdo7XQA6yBh&#x000A;yjlOOUQevT6hFDpoIqSqX0v9/3zRTV8Bd2YFFqz9AYs91gN8lTgOAK8SCwtv&#x000A;Y8FY4+rzBRe/bs5Z4Pv+yp/avXbt2kcODw//0ebmJuO8Ijfijg797bp9Mi8x&#x000A;lWvKuUdfYiw1IUjcnv/LRXfduHGkqW/LernY1v+4vd07q7GQ6K5LBcQd/QKO&#x000A;yodFqbD4PYsgAHVUkUeHVujF1MBDKh+tfde3kNo5GWOQxrppnlD1C3IdfRWE&#x000A;CC/AoNxacGWQpnLsH2uOMpo7YMD+yA/+yO6xIcirxHEAeJVYtABcC33RiK/T&#x000A;b1n/t3S78f/0v/3TB5cuXfrLu3t732GDmELgRm6ibrrVpJ9+mmGMwKLwqDPu&#x000A;upOPdM05K0XNkTFUZeU09rPC2W6XFcbccVvWEHckBnf++RcfLvfCF7e/lLcb&#x000A;hYtGpxDqKPU/+pD16rIGpXRNCAqdLDgSLaX7ylo7dSA3anDBRCqE8lzAUR6i&#x000A;MFTyztd4p6cAAD9iLTv3+r3/rYDjAPAVgL2Dm24XMrV3HCpJXSMLwd//839o&#x000A;NB6P/+bhcPTRWV4WUt7uxlsUUkgqC6M0c5ekWjTw6jl/vRkn7yATWeNkwUxZ&#x000A;UVWlk+M6CgL1K7yjsWaxX3T+j74PA4tsACGx9a0v77j9WdT77ruCej9fIrDG&#x000A;ICqX1QjP7RhIP0CrevYvNEL6ILw6C3A/O6ncVKDKM7CS0lbIOybULojeDjjA&#x000A;PwUm9/p9/62AYx7Aq0SVVwjp5uRGWrSuuesGVN0IpHbFBUDAf/eht8+/4//8&#x000A;hX+gtN7MrfivPaWUqKqjmt8CO8OUtU6CFvJ2iV4fFOuOW73t57b6qrKkykuq&#x000A;wjXOMBZhXTkgjvL/mnOAcf9rTH2u3WEUYsE2qv89u7h5q6OUXwgnUWYdacBl&#x000A;PwtmYl5itY+UGt+XCDQFEpXPsEXmgoZOsEIiisCN+XDfszDu75sgoyorvAVL&#x000A;0n3jR6UK2C2M/ZWPfvfN4+bfVwDHAeBVQt7ZzV+kqnZBXnGf44g0AmFvj+L+&#x000A;2je9vfilF6//9aIq3iOMeCvK/QVjLBLDjf6IR08tERgXWJSuj62WCONu3aMj&#x000A;LWwtE+YCQFlUKN8dSveKLAZb/xMWa4Qj80hZZwRuQ+92ku3WgxeLOIvAhBBY&#x000A;KQFbL+UIhPSwGKosJZ+kiCQmakaIosJWBYgUIyzkFdU8RwkfvBDjTanKOZgS&#x000A;UzgbM2tyTDFDCsgnU/xG5MqKBU8Bi62qfwn24LHHonv91v+WwHEJ8JXAgpbK&#x000A;wvqaIzor3N5kWzT5ZE3yWe80p57SPyakLAQSK+raHsFoXjCeZVSAqXdhlQdK&#x000A;qJqmu1iTXejsO1KQKUqq3PUC3FjQYupAsChNFuvzYkEcstS3OBydeGvqv1D/&#x000A;6sj61Pf17eaH8hBehKkE2WSO1CHS890Y0FMIYVGhj61gur3F/PAGxhRYJLay&#x000A;lJMh05svUxzu154CNflH1+Ke4jYZqRYB/Lf/4OcPZ7/he3KMLwnHGcCrRFXm&#x000A;tc7/YjxXL61YdVQHyIWoh7Vu4aUOAFGgkUr9W4v9QxZeJ7BIs3DThJcPhiy3&#x000A;Y7TnbntZStCuSJBSUtnqdtYhBLaCsqjQRenceiuDqKq6V1A3BZWti4fFQXdU&#x000A;4yP6L4tSAOB2D+FIkNB9giMv1YxAvBCh/brOByE9hFchyxLtB6A9itGEvfMX&#x000A;2btylXBlBc/TVLMJZTqnnOdEnSZRr0MVFsRLLXTgAeLoZ4Xb/P+kNebKvX7P&#x000A;fyvhOAC8StyuVBdza7BGYoXBSoGpb1K5aKLVstlSSeLAx9PqeWPMZ5D2YWGl&#x000A;tOhaONNy7WDC609VSM+t3RosnpTOVNM64pCtZcVkzed3jUDXEDTGoOp+hHCl&#x000A;tLvITV3Hq3r7zoJF1eN56yi5Qt4uCWqWHlDrBch6tXexuSfxGh1UsEM5HmBb&#x000A;PaT0wFaYymO6t8fw6k22Ll/h+ss3KStDpxkTRiHdkxu0V5eZjeaUZkjn1BpC&#x000A;149lnf5TMw+tqX7Q2mr/vf677vXb/lsGxwHgFXDxpZe+5M/93v/ymzmS74F6&#x000A;GLDYarO19p50t+6Cwitc7yD0PTylyET5j4WQ70HqU8gSUWkQJXllubDV5033&#x000A;b2CNxfccO09Z5Q57ZW5vCtbiIsY4ZiD1xmBVlighMWLB6nO8goUQyUI6DFvd&#x000A;UfKL+s/d9yXs7YO/EDAXSrpEx1igRMYRjY2THF6+RDEbolTMcGuPW194gXQ0&#x000A;wlBg8oIwDEBKwnZCq9umu7lKvNQhaCRE7RivESKE4zZIVU8LLFhbpbYqf+HS&#x000A;p54o7vXz8VsJxwHgVWPROb/j1/rwW+H08Y1wyjtWii/6m6Gn8ZQCIX8ByS8C&#x000A;f0hYKa0EgUYYy8v7I+4/0aPXjDEoVC3wWQnXVMRUR2Ny13NwB8ZUlesDCImV&#x000A;pi5P7FF1IupAtfARENSSY7L+Ynf83nInh+C2hoGtGYW2ypyDUbtDvLbO9MZ1&#x000A;8sku6WhMa61Jc7VBmWVU6Zze5joy8FFRiPI9Ks+j0Ao/1BRYRFE6HUBAehx1&#x000A;U21V/iv7/2/vz6Msy7L6Pvyzz7n3zTFm5FSZNXZ1VzfddNMMYhKShQb/lozB&#x000A;WpZl/yRYLOyln2Vj81vCkvhh2XgJeWFk6YctJCQEFgLZTAKMkJAAQQPd9DxV&#x000A;dXV3zVlVOc8xx5vuPWf7j3POvfdFRGZlVWWR1VGxqyLjxXv33fGcffbw3d+t&#x000A;7uIdPJBDeRVyGAS8CxIAd4mrn4gFCME3H6vcvPq6zp1kNAit3Cb03Y9hzBUk&#x000A;1NgHmLBlovC589dxCi7uE5HYvFsqsE7E54WyWvXBOkgMOtENURcsk9BXIKIX&#x000A;Yhkw6XVSYg3UkIjWsIaEBUiw4bTVdIgbb5F327SPLNBaXqS1PE++OI/vtBmJ&#x000A;YQvL0Oasbk25eXOb7eE01BQYwRcOLT2+DJWN6rRKn6ovVV35ay98/L1rr/w0&#x000A;DuXVyKEF8DpFGqthtTLGFVRiik4TPW4MBgbrIMyjpV6btZ0R09J/VER+EyPf&#x000A;BSIBChs6C11aHXH+xiaPnDgSLf1wrNAb0xBUQ1y1rQT/34U4gnc+RNWlDBRj&#x000A;Khgbypgl7kujOxDKfJM9ACkVWJGRRJ5xiWkNlXDd6k2IW5QTDCV5p0U5mZIN&#x000A;eridES0hEH8OphQlZIvBujDtFnahT6vbpdUJDEh13AFSPMK74lm8+8K9ftYH&#x000A;UQ4VwOsUqezjZIdL0xPAa+jvV5ncQG0CwHK/y/ak4NL6Nqr8gAhfK2reHWwz&#x000A;QSI91ufO32BlYY6lfhfvI8FnliajAR/M8apizsfUoHNQWhAfu+qkNGU0+y3V&#x000A;dA/nVlOVJeLtiL5rIAhNTG2mrIEPcCMxGJOhJqewGRMVtktlNHFsDCdsj6dM&#x000A;y5Lh1DEqSkCYG3Q4dXSRB48vszjXo91uRUJQG8qd3RTU/wvg0r1+1gdRDhXA&#x000A;65SKnR6qQFyVOousOmHqhGh59b1Y/otRTi0O2JkUbIymF4EfUuEnBdMTBdSg&#x000A;eIaF41MvXuaPvuv+kD1ILcO8C0U/VhBPVa0X4MEeyVIqMMPbSLKjiYzUIxq6&#x000A;/KSgn+Ix2EZcUyri0oo5KAGDorKYliXDUcF4PGV7a4eb65tcv7nKtes3uX5z&#x000A;ncQFmmjJjLF4Y/DOsbY9Zn14lc+/dJkHTyzz4H0rHFte4L5jSyEd6d0Q+L0X&#x000A;PvG+0b1+1gdRDhXA6xRJqDhMdANS9V1UAKohntYk6oCqJDfg4C0PLM/z3LU1&#x000A;JoX7ORF5L6rfF0p+476BK1sjnjx3na99+yk8EgJlYnEoVhQ1NchHfZi4vlSM&#x000A;lUYpLajYOIGhLgqI9cd17L/6XCJvoUvuR9xsezhhazhmfWPI1nDEcDSlLKaM&#x000A;x1OGheIwtDqB9DNwGITW3sYYJqMRk6IIcODYEuzCtQ0uXN+g28r5xq98jHc9&#x000A;dBIMHwSevdfP+aDKoQJ4nSLeN6LwESab/GKT6vMDLiDFB0wTURctgV475/TS&#x000A;gJeub+CV/x6Rh4D/VDCJMQwUXri2zlyvw7sfOBqYg0QrmG5I1QWcf9AzPkT5&#x000A;oxIS9cSsZM0PqLXXQmXA+Ap6G2oGklII5c9rmztsbo/Z2BoxmTpsliNZm24v&#x000A;o5gGyrLhTsgqdFo57Zah226TWUO3ldPptRBdZGtnxNbmkK2dMQ5CzwGBYlrw&#x000A;4c8+g6rn3W879evAlVfzTL71P/svb/nZv/qFf3Kvh8ybSqTySw+QvOf933DH&#x000A;29YGfN0mK5i/MZJOyutHLrr4rZDMhx/4pvspxeJT9VyCyUIIdGEq2K6p6Lak&#x000A;MqdDSbzDlSFLcH51i0sb26CcEMOPi+q3IUHRiGjopGuE9z98jC+7fyVYFBHY&#x000A;IxFwFBqEtGh12th2jmm1sbHhpmShAYfJEm+fVE1EJEb/A3IwIfBCHMOrcu3G&#x000A;JtfXt1hd38HYnHarTRYZg1U908mE0WiH4fY2K8tHmOt2WFxYpNNu0e3Pkbe6&#x000A;wWIykSHYKddvXOKLn/8CNza2uH71Gn2vzKGsZpaxMduTbOkf/PZnzn0EuAhc&#x000A;/NFv+4Hrr/RM/84TP3/Lzy6de+E23xTuVD714d+6ewP2HsqhBfA6JeLi6lqA&#x000A;2Mo7UHiDGq1w9N4rxtZLbsDUh8IbY0MK8dTSHDvTKRuj6RWU/1pFSlT/47Bs&#x000A;B4XkET539jqI8M77VjCRpltRnFEyiVZIrBQMDTWCwjFp5cfEaL9UMH+vUtUH&#x000A;YFxgN0JY39zm7MUbXF3dRMXQbnWiFROLkIopxXRCO+9y9Pgp5h+dZ35hEfFl&#x000A;jJE4fFkwXttgsr3OZGcL9Z5SPcONG/R2VnE31lm7cIWRK1k4ssxg0OPMRjl4&#x000A;5uql7weuA+eBC9/zaz/4DPAM8DTw7Pd+z3fuTQ0+ca9HxZeOHCqA1ykmTnwv&#x000A;yf/WOKFq/H/1k3jvKrtbGuk3wvtiePDIAs9cXqXw/hLwXyOMVPXb035NpB7/&#x000A;4vmbFB6+7L4jtAgEnaIpfh/wB87ZwNRbcQPUE7fO7KUy4XTKATAkAucu3eCF&#x000A;c5fZ3BlhxNDKW3jr8NZSliWdVptBp0d7wdDv9en1ehgc443LjLY2GG+sU4zH&#x000A;+KIIx/EO74IF4Iox07UNzKSgvbPJaH2dZza3WB9POH76JBM/z2gyAjgaf74S&#x000A;+FagAF4AXvyRH/2ZZ4EvpJ/v/Z7vPAwWvgo5VACvU0KM3odJ2WzJHa2A1ANQ&#x000A;EhlHNdOi7x579YkRAv7N0++2eODIPGeub4DoNVX+qkIhKt/lCfFFr4ITeObi&#x000A;GuPC8577V2hnBhtXda9CCk8Qz8d5xahDXejWg9WQRqwUU1UIjFPDixeuc/Hq&#x000A;Ks6H4F05njB1AZ/QaRuW+23mWp62LbF4zHTKzvA64611xtvblJMxvpwGReMc&#x000A;mTUhW+FKRqsb3Lx8HfXK8Xe8k8cefhdXhn/AC1ubXJqOaZs2O651q9ueA++K&#x000A;P/8BsAO8DLz0Iz/6M88BjwOfO/3QY5+/1+PjzS6HCuB1imh0AfB4kUB/LSay&#x000A;Zsfoe0qfoahGKs5KUxDdgRA0NCqoGo7N99meFlzbHKLCDVT/mpNsSX3xH4GJ&#x000A;9TkGY+DlGxuMi5L3nD7KQi8PmACV0IrLuVgT4LA2dNcx1oeApfMBau+TyxCV&#x000A;luTcWN/h6s1trM1wUpKpYnxBVniWuy0WTMHcaAM7VsiFKVCMS4rJBMoCxWGd&#x000A;IBJQfTodszWcMNkaUkxLxmXBytvfwYPv+xoWTz/KaGuVly6e45G1ddrL87ju&#x000A;Cq5sk+ebFMUrUf9LH+HdwLtjSGcVOH/h7HMvo3wB+DDwwdMPvePQOtglhwrg&#x000A;dUoVAyAAfojkG2HSU2H0BRNiACbUCXirGPVV1Z0mhF2g2EFEeODIAjuTKduT&#x000A;gmtz71zQcvKuzug6836LxCCUicEIXNkYMimu8J77j7KymIGEij4TabZFNWAG&#x000A;vMOVRYhVYvEp4l/R6wtT5zl3ZRVQpqMRfjJmYTqitbOF3x7jbl7j8nTKC+MR&#x000A;TkENTLzSNoa5fpdur01/0ENEKCYOX0wopwV5lrO0vMTCQw/TPX6KVr9HqzvA&#x000A;5p68Y5gfDGgJdDs9tm0XsZbB/DIba9fwvj6/CqpckZXMPBCA5fjzPoRvI8QP&#x000A;Xr549rkzwAeAXwO27vXYeTPIoQJ4nZICgCa22q6pN1IsIAF3tfaxiXRdIg0j&#x000A;QAhFQETwj9IyloeOLvLbq4sDUX62VHns0a/7U/iN61z/4kdQDVRduVgQWBtO&#x000A;efzla7zzfs8DKwtgHOIMlA6MgzK0CZMUhmgFS8QYXxF7gmF9e8hwZ4QrC/Ky&#x000A;oD/dYf3lC1y7toZMSyQ3OBEKoxTe40TpttsMlgfMD7r0F3r05+eRLMchdAZ9&#x000A;jG2RDwb0j5wg74cOSZK3wLRx5YRi4zq6cZP5wYBt7bI1CTGU/vwck/EOw50t&#x000A;KkbiBm1ZI3LBnqKsWu4HuR/4JtBvAf6/wL8D/hEhu/CWlUMF8LolTH7FxICg&#x000A;J1TZ+7oAH2KY3UdEnalYhJqKoIoJJBiuKgu9DnpDfxTc13/V+9/Ln//zf55n&#x000A;nn+ZT5Kz9uwnkGKMFcFIqOcfTkueOn+DceF59OQSKhYvJXks6w0knz5QE0zB&#x000A;ZGGi2ZhNLJ3j/KVrjIdDehkcyRxPPPM809Vtji/1mV9cod1r0Znr0srbGBHy&#x000A;boe836PV7dLu9cj6A2y3hzFZaDia5UikC/feBXLTdhc1GeVwxM71S6w98wUG&#x000A;xYT7Th7hC6Me29N4b8WweOQYxXRCWRZUS34zahlucPw3wZZrVTGjClRWgBXg&#x000A;vaB/DvgD4EeBL97rkXQv5FABvE5JKT+jsfw3ReAjhDel2/AaSmdjXUCqEaip&#x000A;tpTUMMMQSEbB88vnOn8F3LcvLS7xXd/5l5jrdsnt29jYHvKktNl87hOYYhOb&#x000A;B/CRGmFceF64ssbOtOTL7j9GhxYJqehFsE7RlkQC00A06hFMJuxsDzl74Qr9&#x000A;ds6Rfo95hYtb27z34WOhGMkXaFHQ7uT0jy6S9QaB+tvkZN0etjvAtNqxxVis&#x000A;dPQOLUu8myBZC9Oew3koRxtsnn+J9bMvs3n2PL1+h16vjSty/LRGTWZ5xtzi&#x000A;MutrNypikrpa8RbPZd/XKTALQAuVdwGPgf6/gB8D/h6J8OAtIocK4HVKbcIn&#x000A;PEBUAtKIB8SCoRQLUB/rAsSHoGBDCaTGngbhF8+2vlKd+2ErNv/L//lfJLM5&#x000A;YoQTR+d535c9ynA84RkVrn3xIxwzo0gXFnTKtPRcuLnF9qTgPQ8eZ2m+j4tZ&#x000A;CJ/HSlvvydVivGIzgy+US9fW2Nzc4sjRRRZ7GZmH7/iWfy9AgV2BH49wO0Om&#x000A;W9usbg7pHV1m/ugi0u8HIpNihNciFCuZ0GYs1UupzdFJgZuOmY4cG5cvsXX5&#x000A;EtO1m1gD/eMrbF9zrI99sBRMlgwi+nMLjEdDJqM7pwOseA4aYK+KsLVWBgbk&#x000A;AZQfAN5JcA/eMvGBQwVwF0RSgYwqRqIboNTDTwjmv0lMu6Em30tE+aemIjFP&#x000A;LyL80G98/o/c//Bjv5nl2cJ73v0OHnnkEXwJ06Kk38156PRRxtN34ErPZDrh&#x000A;zOc/zAP9kk5uQ1POYGawvjPh0y9c5u0nV3jw+BJKidUw+TOf4VXJW+BxuFI5&#x000A;f+UG4koGnZxep4X6DG0rqCPzLeh10YV57OYW1y/eYPWZl+hf7rPy4EkGR4/S&#x000A;NiY0GdbQ/ScENh2lg3J7J6QShzuM1oYM1zYotjYpJyMGRxcZHF1h7dIaw8kQ&#x000A;ay2oQyOTMiIsLh/lxtVLOFfuwezth2etlLM2bICK/KAZTVBU6APfgfIU8A+B&#x000A;t0TbsUMF8Dql5tOZDQiqSKUIqkKhCP3F+DD5vQlsQT6lAYUf+JWPPwzyg6ce&#x000A;fPQ/yfNWO8st3/XtfwEDqDjKAiaZ0O+0eMdDJwL/n58ynQ754hc+xX35DicW&#x000A;+2TVyucZTUueuXSd9eGQxx44QccrzntaqmTpnK0wmRacv7JKv5PRaeWBayAz&#x000A;AUkYz1GtRzJLbwFOGMu5Z1/mzFNnuXLpJisnV+gtLdGdnyNrdRBjGZUF5c4o&#x000A;xDomJW4yDjDrqcNPx5jMMDh2hLljRxh3FlmdjPC6HYKTkQ4scBIINs+Zm19g&#x000A;a2MtEKPMPIfdktiOmIkTprhhZRWkDUL8JhMx/yPKryC8dK/H1h+GHCqAuyQS&#x000A;QUAm+f2J+UeExAFU0QH4oDi88RgX3Nof/LefvU9E/ntV/YsLi8uL88tHBJRv&#x000A;/Jr3s7iwgHMKxuLEM56WWGtY6Hd499tP08oN1hh8qTzz5Ce5vnmTd963RKed&#x000A;k0g9pkXJhZvbrO6c42siVjkAAFwGSURBVO33HeHE0XlUCb6481gjXLy+Rlk6&#x000A;vLNMyhLnfaQl0IpZWB2Rb1ARm3HygZPoZMqFi9dZv75Oe9BnopbCA1bomDbz&#x000A;uaVjFWkZ+vNdWt2cjAwz16MzN0dnYUC722K7e5Sp3AAU70MnYWNsADSJB2/o&#x000A;zy8wGY+ZTG6T0leteRhnP2CG4qwRSNTY49FamReR71D4X3kLWAGHCuAuSGUF&#x000A;aDLlkyvQaBUGFUAoeASeH/7tZyzKMvDfipjvVq+L1ubmxP0PhZp8ddxYW48N&#x000A;NQWjShYbbQ4nJUYM870O73z4FDZ27THW8NwXn+DjL1/jXccHHF3shfMyFoxj&#x000A;ZzThyZcuc/HmJo/df4yFuS62DPTb56+uUfpgMWxsjxkvluQmuBPJe/HO4aYF&#x000A;6gK2wLY7nHzHQ/QWBmxeW2M0KhjvjBiPp4gYCgNmrkt70KObtegPerTnOtg8&#x000A;w7ZatPpdbLdNe+V+xnIf3d5LNIoTAoGJBHyiSLCg5haXKW9erduNN0SreEpN&#x000A;ZFKXQcf3NaoGaX4Wri30P+R7gJ8SuHCvx9YbLYcK4C6JNJYTkyjCocpDOUJg&#x000A;zwv88AeeNYLMI/zniHy/MayIgjNw4vRD5O1OxcH/zPMvBk6/2BLcEEhGvFfG&#x000A;k5LMGuZ6bR575BSZzchbHdqdHs9+4bN85uLLPLQz4dETC7SzAPwxBL/6+vo2&#x000A;NzaHLM91ODLfAxHOXVtHgPHUcXV1i6VBl+W5XmhPbmIDUAIGAB9Lib2CZAyO&#x000A;rpC3Ouys7eCzTaYbgb68RBkqLHRaLJw+TnfQJ2vl5N02ppOR5S2MzWkdfzvF&#x000A;jbhP9YgXvFGMBh8+zFWPiCHLc/qDebY3NyLLUp37l2Z2QKOpLw1/v0q7Jlh2&#x000A;rSwC03KJMa0jgn4b8E+AA92B+FAB3EVJ/IBpcQnIwNgiXAM24Id/78wC8O8D&#x000A;P2RE3pZg+F6V+YUllpaPhMmvgRxz6kpubm6xvLAQmgMTy3W9x6lnNCkQMgbd&#x000A;Fo89coJWK6eVtWl1erzw9BwXz53h5os3+bKT8yz22+SZjYjEsI8b6zvc3BjW&#x000A;fIBxQl1b36Gd36Rls9DAxMQqZ6/gQpWhMxliwWPwKti5eea6HVjos3p5ncm0&#x000A;QC1MbYvR/BzZwgLtQQ+TGyRvhSRBZrFLD5Lf9x7yjefodtq4wHmGQSm1JHNZ&#x000A;qCFIyEoP/cE80/GY6XRMYi2aBQWl55BIWhp4jAjRlMSDTgRixb6L8SH+V8DP&#x000A;Auv3ely9kXKoAN4IiVmBOh6g/K0PvTyPyFcI8reBPxa6BUMaosYajp98EDGh&#x000A;w46qw2mA8T7++JN88x//puCLxwFtTWAJcqVnqFO8Ku0845H7j5Fllk63Ra/f&#x000A;pdef59LZ5/jUuVUeWGrz0JE+vVaGT5wE8Te+AaERmEwLzl3bJLcZj9x3hMwa&#x000A;bDxnMQLW4F2iOi8Bg8kyTNZm0O8i21OKnTF5q4W3GeO8g3Z6mH4v8iJEFpVW&#x000A;F3vyy0J78MRVqIRZroFHwYkLjVY1plBN8O8HC4us3www4ZmFX3cpAhqKIFkJ&#x000A;TTcAYn+FyOIczuzdwHsJQKGDR5oR5VAB3GWpW24FZ/9v/sHlroT88vcC3x7I&#x000A;QYg1AGG18d6xcvwU7W5oeKnqcN4BSuk9H/jdD/KNX/e1dDt5zT+qdRlv6ZTR&#x000A;uAAP7XbGQ6eO0O/kLMx1WRjMs3xkkZdfeJZLl89zef0aj51Y4Nh8l1ZmUA0M&#x000A;RaEYKF1DmBgjP+Xlq+v0WjnHlucwxsT25AYxyXc2oC1MK7YFE6Fkimt1sJKT&#x000A;t9pkefD1fbuHtgexejKUK5uVd2CXH6l5BwHvFEwoHbYExiRH8PdFpWJZzrKc&#x000A;bn+O7c2N2WeQbn8qxoIGergu0Gq2cEclxhRm5vp/AXyUA+wGHCqAN0CSEvi+&#x000A;P7j2DoS/BPJ9xtImdRCOvfWsEbwqrU7O8vIxjJiqlZhI9K9VuXD5Ep/67ON8&#x000A;w9d/DXmCDUe3Qo0iXnBOGY5LHNDrWE4cXSDPHmOu0+XI4hyLyyu8+NzTnH/x&#x000A;OT534SYrvR3efmKBhW4eVnZTgZEju3A4xs5owstX1jHGsDjXxRiLzQw2MvdK&#x000A;TuVLG2soxbIx3MR05xj0LXmeY4wgecaOF/oacAKu8ORzJ2nd/1UVSbK1BpsZ&#x000A;VFzINhhBE60aJqz0arA2KCvvod+bYzIeUUwnVFn9lG3RWz8h1M/AhEXi8Yj9&#x000A;EcI9+HOgf5VQXXgg5VABvAHy1z984xjonxbkfxLh7QHHYgmR7BBxN6nBhvcc&#x000A;OXaavN0J0W4f8IPehzZfGtt7/ebvfID3v//Lsd1uLDqi4eMGS8B5z2g8RWjR&#x000A;aWesLPXI33k/g0GXxcVFlhYXWVhe4ezzT3Hz6iU+cuYab1uZ4/7lPoNWoAwW&#x000A;MYgLDUzRYIHc2NpGrij3FQssDPr0ujmqNjYINmAtYi3OWnYmji3forewTJYH&#x000A;MFCgU3Pc2JqQZy3muzlZ3qN9/1cgeSfcNAVrgsJQH7gKwOO9YEWh0WLNa1AE&#x000A;iMcD/cECG2s3qm7Ms7KrGiARoe6yACQqGY2KIcoc8B8CP3Ovx9QbJYcK4C7K&#x000A;X//wNQP2jyJ8t2D+gsQJYuKKLxLq+E2KqHlodVsM5hYiaVBsKYZBtQg+KQHR&#x000A;d+7sOR5/4vN8w9d+TVhRm6S+qeIwwo/HkwLvlW7bsjTXo/XIfQz6XebnexxZ&#x000A;WObksZOceeFpLrz0HGfXbnJ5fZu3H19kZa5DN4vpMnWRjNRQFI5rq9sMxwWL&#x000A;c0MW5/r0eh06rYw8byE5YA0TVzAuFdPuMuhnoYOxc5RFQVlM2R5OuVhusDPo&#x000A;8vBXfBXtlYeqe+c1gJNc6UAJOANCybRaJbQ8a3QpkgSrVmyW0+sP2N7amM0C&#x000A;kG5Q/VKbfzeJUKL74hMeIPE6wnfooQI4lFeSv/6RG+9A5M8L/A0RsxC68cYG&#x000A;XrEzsLEGIya2/hJUPIuLx0ILbYhVxMEK8FEZoBpago3H/P4H/4D3vec9zA96&#x000A;2EYAK2WzLIAanFeGRYH3jm47p50b7ju2SLuVsdjvsHxkgWP3HefsydO88PxT&#x000A;XL5wlicvrrPYNjywMsfKoEsnByJJCV5weDZ2xmyNplxe26Hdyuh023TabfJ2&#x000A;iyxvkbc6tDod2u0WWZaH8/Ih2OYVpoVjuDPk6Nvex9LD75u5f6pKURSMxxO8&#x000A;+kCV6AW1Hq+24lGwpkZeKr5a4Du9AZPJOLoCtTSbnujuWN6MjxDIVl2pu7f7&#x000A;JkL14I17PcbeCDlUAK9T/saHbwxU+BaE7xGxXy+iGExtTovB2Ng1R2JjDJuF&#x000A;lcpCb26hbrgRU4UuUAWHgRj7+Hl1vPjiy3zi05/lm//YN2KyuiY+5Lej/xvI&#x000A;ivFemajDKbTbliy3rCzN084sncGAwcI8K8srnHjgNC8++ywvnXmG61cu8+TF&#x000A;dZa62zywPMfKXId2lohDa/bgsizx6ilcACS1WiWdrqPjUwGQCak8BOdKismU&#x000A;yXTKZDzhwXd+BV/+DX9mz330cdV33sXWaVql6XysnRAT2IkN8XMlpu2C9OYW&#x000A;2Fy9HoKEzW5Gu6VBf1a/pWAy1I8b5CMAtIA/BfzCvR5rb4QcKoDXJ1+F8F+K&#x000A;yF+WiJQLk16iuR8i5mniizFYazGSoZT0+4u0Op2YDXCBf98D+EDiGbH84gOQ&#x000A;aGd7i0988pO87W0P8/D9p0LwrnEyCeACEhoBq+KcZzRWrPW0bcbcfJ8HWjn9&#x000A;dpfluT6Li32OHz3Gqfsf5MXnn+Xc2ee5ce0Kj59f5dhci9OLc6zMtWlnodrB&#x000A;R7YiD5R4EEch08rNwSvTaRFN6BBZL8qS6WTCo+/9Or72T34L+yL3lcikFD+t&#x000A;GpgGWjHvA2dBsCY8toqDaPX9PMvo9efY2lqvGp5WDM2zRcH1qwoeIFUDFe/9&#x000A;7sTff4jqoQI4lEos8B0g34vhyyWQbdfdfqKZXwX8jA2NL039Plh6/fmIcIur&#x000A;PCHoJ6qhdNeHFS9ZAl4LLpw7z0c++jGOfeu3MNfv1sO6yZMRNFFYG1UpYhXh&#x000A;1HrauaGTh7TeoJcx128zPxiwOLfIsWMnuO/+BzjzwnNcOvcia6s3uH5hleNz&#x000A;HY4v9Dgy6NDPE4mpVgTHEfiId55iWpDleWXVOOdxzvHlX/cn+Zpv/rP7+OhB&#x000A;vCpFUTKdlrGdugn1EuoxPjAbh9XfgclSKwQwWqVTAdrdAZPxmGIyCi0Tkf3U&#x000A;zT5/aWyJpqGZagNSjPInCESkxb0eeHdbDhXAq5d3IHwPwl8RY2xY+WKfvoD+&#x000A;CSu+DSu+iMWKRWxMnWFRo3Rbc3S6c3GXroL+akz/eQlgIPUEdqGoCFbXbvLs&#x000A;88/z4Y9/gn//T/xxrJld2WpznaojEDHAWJae0jla1mHE0um0WLEtOt0eC3MD&#x000A;FhbmWFxa5tiJ01y++DZeeuF5Ll14ibWbN7h47jqLnZxj832OzPdY6eVkVnHW&#x000A;45zH2pKyKDF2GjMcAQClpsXg2Gn6xx+kKEtymwUUouy1A4rCMZlMwjWboFUk&#x000A;CzRr4gPtuQesd/joXgmEjkc19IL+/AKbqwXOlY17cwueD21kCQyhjXtshNLQ&#x000A;VceBPwJ85F4Pvrsthwrg1cn/G+G7xZhvNLGXnsTcfojr2WgBhNXeikGqhpgS&#x000A;OvEYi/MFnV4v9g5wsVuvj8w8cTh6cD64AGkWew/OTbl04QIf+N3f46EHHuBd&#x000A;jz6yLzlOWpxjoTEiJnT4cZ6J96FYSSDHMOi16bdz5ntdFucG3Hd8hY23PcA7&#x000A;3/EYzz3/PE8//UUunH+JzdWb3Lhwk4X+Nu95+8OcnFvA4ignQ4pigrVhwnkE&#x000A;tW3mlo5x4uFHWTl5Pxs3b/DCs3D/Aw8wmB9gqy7EjfNVjanPSNZhPOItamNZ&#x000A;tQ9awxsTS67j7TGB1ITIqZhlOZ1en+2tdVIUoO51uPs+NRSDSNif93WRd0i1&#x000A;KAG+fagA3qJyHPhrxpj/AmFJIhMv2NjmixjsM1WL7DDpQ5ku0f83JuTFjWR0&#x000A;B/Mhtx2oecIv1UoRBJ4QxcXVH4ipQs/mxgbtbodf/7e/wYnv/A6WF+eB2gXQ&#x000A;lN1KdQnRQhaFzEgoAY5swc56pCSU7nba3Ndt49wCw2KJ9RNHOXriPo6ffogz&#x000A;L77E2TPPwWidkytzqHpWR2PG4xIrOSbv4J2h0+ty9OhRTp44wdEjR5kbzNHK&#x000A;Oxhr2N7a4PmnnuHYqROcPnUKsbZG78c04GQyQfCgtiJYDVRngZTEaGhNnhqa&#x000A;pPvnBcQLWKngwuV0GjsS25l4wR5JBkDMq1ZcA/XmBvhjB7CL3qECuAP5swj/&#x000A;nRHzzZLacEeTHzVx5Tdx1ReMDYAfY2ww+Y2psgEihmI6ptubI7d59PE9vlE2&#x000A;rBp85moQ+irhFYAuKpTFlHJacPbsBT7wex/iP/62/yCY1TQpyiK1aAyuiRAC&#x000A;Z5KFGoXSV5875ygKg7Oebien1bbkeZc8yzHkZO0eR4+s8MCCoRjvMOj02Blu&#x000A;sbO1zc5ojFPHXH+e+bkBg6U5FuYXWRgMaHe7gcZMbHBB1LGzs8XTn79OMZ3y&#x000A;yKOPVjdZFUrv2RlNIkV6jHuY0A8RZ1BL1YFJY98DlWANiARqVvFBmdy8donN&#x000A;1evML63QandIBCH7S6MkWF2lgBsKQwi1AW1gwgGSQwVwe/keEflrgtwfJj8V&#x000A;ZLZq+mlAjMVgKr/fGAsmWQcSA4AWAFeUDObmSUuyuqBIVEvwIfgULH4XjNfU&#x000A;TchTfccrbKyvsbi4xMc+9WkefPABvvor30sqEwAaPnZoI+4DR0bk1IyNSgno&#x000A;QU29CRSmZcmkDN93LprP4xs8+4nfYnNjnUcfezvHjp2gk+V453HeI9bSH8zR&#x000A;zVt4fAjWiUFsOCNVxZe+qmAc7ox58cWzPPy2t1UFUYGIxDEZTxosQD5MfEkk&#x000A;CkpouuyCsjQNxr/kNqiytb7KlfNnaHf6GJvNRv0b96guIq5vmmqqH6jLu6Nh&#x000A;0AP9CuAT93pQ3k05VAD7yyLwQ1bkOxAZaKTrNrGttkb6LhM76JrU/ddkoQrQ&#x000A;2Oo9idtYYyhdQd7t0O4PIrgm8Qdq3Sk4BqHwntQKVNNkAJLjOx5PmI5HDJaW&#x000A;+c3f/l2OHT3Cg6dPzUTWEk+hk0SOEYxq68Bbg3eO0K5ckVzIRPBOmboS55Vx&#x000A;4blx+Rz/98/9DBtra5w4eYKyDBRGrXaXvNOmk7fpdnv0Bl0oPVujEZPxBPWh&#x000A;cYnzwa0JJn6Jm05AS148f4ljTz/Pe9/1dkRgNBlTOsdwNIxdlCBG+IKlZFzs&#x000A;aRCVSsQIiATkZOh1KBTFhJeefRJBmF86ErkFoVmnXZnyTTQl8UXMwMxI+NsS&#x000A;QEEHSgGY17+LAyfvF+GXReT/gzEDREIE3wQUn4iJpbFZmOhp9TcZ1hqMtSHX&#x000A;b8LvlP5TMUzGY3rdfuC6kxC9Vhu756rHRTAMvsEmTJ2maiL/VJVr166yPN/D&#x000A;uykf+P0/YGtnWK1bCRykJqYnYw49IBLTNhLjFJbcSugNIErhlEmpXLhwnn/5&#x000A;i/8X169dC5aJd4yHY8bDEaPxhMm0DOcroGpwpFRoDWoMDUE9zhVMRgXFZErp&#x000A;StqtnI9/+gnWt3YCCclwQlmUFNNpWIUjoiEUR/hAkRBxEb7qqRABPOrwgHcl&#x000A;Z5//AtPJiLnFI3S6fZp3ME3wOne56+94/vjU7XkGLJgTmpMeKDlUALPyzRj5&#x000A;OYQ/KRgrJkTxbRXgCyu7MZYsM9gsTHCT5dhYEGNtHt6TgIiTuL0QIv39wTxi&#x000A;ApBGvASETzUAyzhror/qy2AFON+MSEfXVNnZGbJ64wYPP3g/N65f5yMf/+Se&#x000A;EjhJWQACkCZB3EXAGsFayLIQHDQSWot6r2zvjPjIH3yI0c4W3Xabdt4Gl1FM&#x000A;CobDCcV4iCtGTP2UQku885G6LIF5wsT36ik0MBdPyoLhtMArLB87xngy5eOf&#x000A;ehwFptMpV6/exDkXi6F85AVIRrqv6dUiSak2uBbVFVw89wLrN6/RGywwmF+c&#x000A;acx8J/E7Jbh4GkuPd33JAO+7g918ScmhAqjlLwA/b+CdRtKUib5+qBUNq7vJ&#x000A;MJkNjDXGktlQHpsi/9YG3z+zBmvrbIDzjrzdpdOfj4E98DZOdh/NfxeDgT50&#x000A;HA7+KAEOS0KnSTUnVD0vvPgyqOfUfcd46qmn+OyTX6zhr013gDg3NQxyS0AO&#x000A;GkOoK4iVcKX3jF3JF55+ge31NVq2Rafbp93vkbUCAGcynbAznjIuClzp8KUP&#x000A;52cSAEkqq8X7Ei0cxdQzmQ4ZDsdk7TZHVxY5fnSZC5cucHN1DWtNMP9jERAS&#x000A;8AUV008jPxpWZodXh/fh99qNq2zcvEar3WVh+SjGxg7Is2ZUpQxm1/2E+9FQ&#x000A;qJXSsjNbAKEmYOleD9S7KYcKIMh3gfwEwjEgVNdZCWa/SR1uYi7fWpAsgn0s&#x000A;WBuQf1Zi4w6DtXlIccUYgALFZEy30w3bxt4A6jzqyoD6i5Om6iWgEV63B8DS&#x000A;cGCBne0dPve5z/Pg6ZMcPbrMxz7+SV58+VzT6K1FatOfmBWwFYhJmXrPZOq4&#x000A;cX2dj3/60ygZebdDr9dh0G3TybNgKXhFS0dZOMrxFDd1FK4EHyjOk3nt1eOc&#x000A;4sqSsiwoR1NUCxYX5lmcm+P4kSXyLOPp587QbrdQV1LBc2s4/0xaLhVIeYn3&#x000A;RwNVWH9ukU5vwNLKCfJUXDVzz2q6s3r2pyBrbUlINJH2Ly0mJ2QDDsy8OTAX&#x000A;8jrku0D+ocACEHrzJe69iO6zNvj9RizWhkmQZTb6+xnWtrAmi0rCRgrt8F0j&#x000A;oSLQeU8r+qQacayKqQgvKxPX+QAASuNUb6UAUosseO6FF3jhhRd5+MHT9Ho5&#x000A;H/7ox7h2/WYjjt2QpAQkBTXDe4XzjMuS7Z0xn3r8i0ynBU4N/d4gBvy65J0W&#x000A;kgulASce1ZJCQ8luXlJnKmI7NBVBPRSuZDqdMi2mqPccO36c+bk+R1eWOXXy&#x000A;BOubm9y8udbwT6h6JCb2n5nJS6hQDO3XHKpK3mpz+uF30O33eWXZs7LH5+Ix&#x000A;MWW5qyAoSQt4bL/b+qUqb3UF8J2C/GNBelSR8mDCplYfmKQIQscdIKb7bEz3&#x000A;xa1tKPE1Vd6/zgAoniwzdHv9kIOXNLgcTmJgy0W8mmkEz27luCpUj07BlY5P&#x000A;fuazGOCBU6cZDsd87JOfYji8NXd+M2XovTIpHOOJ59L1G5w58yKDTov+XI/B&#x000A;4hLdbpc872LyFlZyLCZaAYJQUDLBmRLJpUp3CgTXwDtcWeJcwbQoEAOnTp9k&#x000A;bm7A0tI89504yqDX5fylSyHfX11jbaTXtRIa2pFruHeoVq6GKNisxdzikYjF&#x000A;ePVScwsmq2CP5MCjHCqAL3kRAtPL/wG0q8kvkR8vwucCrDcU9IgNq7k19eQ3&#x000A;EvH9mcEKwf9Pvf0i/BfAl0q71afVblNi8VjUh/w/GlYyY4jElB6pWoslS2C/&#x000A;KFbTyFfOnj3P449/jtOnTnDqvuOcP3+BT332czh3+16XTqEoPZOyZGtnyBNP&#x000A;Ps1cL+fo0jzHjx/lyIljdFptWq2c3FpsZpEKDBViF95b1GUYzclsFmm9wv1U&#x000A;rzgf6hCcc7TabY6tHGHQaTE36LO8vMyRlUXG43Fwt2Bv1K4CRUVHqVIOLkCm&#x000A;gx0AeKzJmJ9fxtpXl+HWiMIUE0hGbqEALPAAB0gBHEgcgN72M8UgXwX8JEg2&#x000A;GyiTygoIpbxhRUvpP2tDZN/YGviDGKzElS/a02Eg1xz1zpd0Or3gJniPQzEm&#x000A;0GR5EqwV1IV0GuL24vs1nf0uiqtU967Khz/2Cd75znfw0AP3MZ2MefyJz7G8&#x000A;tMh73vVYpYzihQKpXFgZFyXTqXL56k02Vm+ysjTPkeV5Fhfm6OYG66bcvLEa&#x000A;0ptWMCZ1Oo52krHYTMhzwZqcsswpsoKy1BrT4INrc/zEcazNyVtCz0Bmhcwe&#x000A;4drVm6ytrtZ8qqncl5gUSVdeUXebeCka2cJiNkAUTMZgbpGd7Y3YUvwOxowG&#x000A;zoV0f7ymIODMg7DAg6p6YBTAW9ECuF/Rvw8cr4vGA0OvSQ5xXP1FbAX2Cat7&#x000A;xAMQV3eJdF9ia5/f1OY/pCi+krc6MdAXvufV4NXGIkAXzM/Ili1UiYLaAiCe&#x000A;WwMPsFs2Njb53d/7EP1eh/vvP8XRlWU++OGPcv7ixT3bqkY24bJkXHo2doY8&#x000A;+9zTHD0yz/Fjy5xYWebYyiInjh/hvlOnybOsoggTsaE1AErphdIpKhk2a5G3&#x000A;u7TyNrltkYlFRHHqceUUg+eBU6cxApmFjs3odlssDgb0um0uXr5SXXQFBkqX&#x000A;7XXmfqjzMYMa4VLeRasqOAvWWgbzi2R56w6GhMyu+FWAcN+NjwOdezJy3wB5&#x000A;qymANvCXUf8NzpcxqxZNfhPSYonIQ6IVIDZNZmb5/IzFGIlxgEj8EdpKBWnM&#x000A;VUXJWjmJBxQtq4EbmnxA8GM9aXab5iJf0/5UMbCZ9FZj28c/93k+8YlPc/r4&#x000A;Ce4/fZJet80HP/JxVtfWZ26E855p4ZgWnmlRcvbceTq5cOrEEiePhcm/sjjH&#x000A;/GCOE8ePsry0FPITcWVW79Ey3D+bB4bjPGuRty2tViumSsP2TjUgCMXw8CMP&#x000A;YSxYycgzSytr0em06LQsO9tb1bUkaHIN3kmxEarXOKVs3AtJhVMaXBs1Qm9u&#x000A;njxvRbSlv4Vpn7IuWqVXb4MdaAP33+uBfLfkraQABHhMVL/flS7kr4vQZtrY&#x000A;ONlj8M7GiS2SVvuI7DNZgP5SB/tC4E+qiV8FADXAh52GfHbe6oT9iiA2C4on&#x000A;MIehNioVTeoiTDJTNQEIUpemaP337CYA/MZvfYAr167w4On7OH3iOFubm3zo&#x000A;Y59kOAp1LF6VaemZlI6icKxvbbO+fp37jh7h+LEjHFtZZGlpjrn+gF63w+Ly&#x000A;Mvc/9ACZNaExqIsTxiiZh8xBFq2jTAwmlwoBGQ5YUrqSIytHWFiYrzIPRgyZ&#x000A;MWR5UJzbOzv7WzeNa/TVWzFpKrGZR+JNgOBLoRgXahJ6/TmszXClu1V6j2aa&#x000A;sHF3a5h2/dMCHrzXg/luyYFUAGml3fXTEuEvizFZlrfIbBZZaKao+pq809bR&#x000A;fxsnfir3Da5CIPeAZA5LFUBMgzSt2CnnnmUZ1tqKJ69yFTRl/gE1Vdwh4oQJ&#x000A;b6elqFnI0lAK+2S0btxc5d/+5m+ztDjgkYfv5+SJY5x54Qyf+MxnKEpP6ZTC&#x000A;OYpSmZSOq5cvcfLIEseOLXFsaYmlxXkGcz16vTaddk67lXHi+AmOHFmpmogE&#x000A;vx9MbrDtDNsGkxmsZIEAxQghRBKw9aXCV3/1V9T3KN5mawIKsSwLRuNJgBY3&#x000A;pLo8rWoiw/uNcuDKUvC1p9B0nDCGbm9Aluf7LusVG7MSA5e++tlHMoIbcCDk&#x000A;QAYBk8m+S46DfleohLMglmIyxE8CF1+31yOryDsb1F1psqbSXkOMCwRobhW5&#x000A;JgYRq/q0wIcvxtBqtbA2j8UnqQIwWAhSGowavAlQWk1wPR/2lLIK6hP8j11w&#x000A;3/0N1Y9+/FN8xXvfzZ/5M3+KaeEYTSd8/FOfZtCf513veozCKaVz3LhxjVam&#x000A;HF1cZGG+z6DXpd3JA86B0IpLge5cl1MPnmJzcyPUFYiPPHo2IiBzsiwDhMzl&#x000A;GBuxAKXgCk+30+axx97ReEbhjqU7Nx5NYh5eEpRgb9kekKojk54MsQIT723g&#x000A;T8SmMugAWvIIxXSKK4sqTTkjEWCksQzYe41WxL5igaP3eozfLTmQCmAfsQJ/&#x000A;WkX6oVIvQ6VApgFyi5tSTGPxjtRlvFUwL3L720h1FdKFtoryV78rCGxstYVU&#x000A;BSuhNDY0DFUJSLYA+Y9qQ2ONuwYFpCZAgato4O5WVjOy//u/8Mu/xmNvf5R3&#x000A;v+PtIXqv8OGPfYy80+XYiZOsra2ytXmD40uLLC/OM+gFSu9WFpqBKoKXwOxr&#x000A;RTh6/CjXrx/n+pWrlWKwVeVehs0sBqGwlpbNyawl9CB1fP3Xf/Ut+QAF2Bnu&#x000A;hNWXFCdpfLgL/ahaU4OHd3VGR3ifmABTpx/PeLS9m++/cfcC/VpqGqqJo4F9&#x000A;PZIMOHIPxvAbIgfSBbCxIq/xk4kx3y4xam8QrFhs1g75YoXpdMJ0OomBpoj/&#x000A;r4J7porq16lC6mLylIpL1nuo/KlW6ybePHmZKeAYK14QQssrGrsOioTGG3Go&#x000A;787o3WJira6u8TM/9y8oyjHveefb+SNf/RW8/dEH+dzjT3Dx0iXOvXSGxUGX&#x000A;I0tzLPR7DDptuu1WVeSUJZKR6Ktbk3PivlP0YjlzsGJsuKcaiDyzVovMhr4A&#x000A;WZZDZjhx4hhf/p533/J5qSpbm9uNe5VubHPiz9yIAA/WqBcrvES8yQkkGQFE&#x000A;rpiws72J925fXen3+FGhHuMWYoD5N3gI/6HJgVQAewIAsITIN4ZJXNN2tfI2&#x000A;7byDtRbvfd1jTojsPrHEt5GfSxRgAcqbwvz1WpGq9oJeCLx7CjhXEFhuQ/GP&#x000A;aOysG6h6UEldaZPta6rUIrGeoLl/YO/vfeSzjz/JL/7yr5HnlscefYivft+7&#x000A;eftD97Fx/Spz8x1W5heY7w3otTu08laY6JmJ2Y8AiTYB2YSI0Ot3OXH6NHPz&#x000A;88z1B3T6PbJ2m3a7RbvVptPKaLdDLYTXUEz1tV/31bd9XJPptM5S7EnHNV5U&#x000A;wQDf6IyUSqer8qOGGxZ+ptNJ/I7Zs6TXwb1G5k/kdsFCA7pwT8b1GyBvBRdA&#x000A;EPnjEmCcMTUFIpYsU4xRTGlgMka9p5hOyFs5xnQxmcVkWZV7Tjn+NEETOxCk&#x000A;VT+uYJJWpDAUrcnYuHGDbn9Au92LLkTw+U3EzYeJX4JoRSeu6mP1nkdc2G/S&#x000A;NTO/X0F+6Vd/nXd/2Tv5Y3/063nw1Ak67Zwbq5tIblien6fT7dJqZQTKQhPS&#x000A;aUbwGgqXTIQ7m5gB6fY6OL+AeE9ZFOxs7rCWhd6C7azNxuYmV69c4vz5Czz4&#x000A;4GkWFuZue347O0PW1tfjih6tKXbN1RgXSO+nen2pTK6wjSb/IcZTvFNG25sh&#x000A;VhGxHMCuvH96bnHAqNnnvlZvWFXupODgS0IOpAIws36eVfgzVRS9wd1PliNl&#x000A;8vs6TIsi5MenE2zWin5/FoNKdXloSPVRmaBS9ZczEcYbYwFxFTFGmE5HbG2u&#x000A;0u30mV9eIbNZMFVF42If3BJQvDHgNLLdS7ooKGfprxNYJrHj3Eqm0yn/9Gd+&#x000A;jkcefohT953g+MoKvU4fFU/ebtGKjEUB3KR4TPCJobIRQzq0hjgba7m5usZL&#x000A;z34Cr0qet1hcnCPPcoZbYyQTHn7kbdy8ucrTTz3Du77snbc8v9FozPrG5sx7&#x000A;MzHC9FobwUMN4ZjZzcKz9D64I6hQuimj4RY2y8N7zE7+tPrX44Note12Qypl&#x000A;K0D3D2ssv9FyMF2AymeMiTiRbwqmbITyErv1ZBlZ3iFvt0Mfe5vh1TOdTJhO&#x000A;xjgtUFFslmFNmJzNlUFSKWkFi9Vq8lfDJ1b2GRvQhFcuvcwLzzzJ6o1rgepL&#x000A;JLYSC0tcKkMKBXERlZgqBsXE9FeNXKvG5C3iAEnOvPgyP/FP/znT6ZS8lbG4&#x000A;0Gdh0Keft8hyG1d/IvahLsiTisO/dksS5c/q6hrPPfcsN1evY41lY30L5zwr&#x000A;x4/y/vd/JUtHlvEOfuHnf5nV1bVbnttwNGJ9fYMYHak/aGKdqtcNpBDErICv&#x000A;v6XpXEM2pRiPw+YiVXB3RjzN3GE9ehqByIo4qP44/0MayG+4HEgFMDv9WRF4&#x000A;NPn+qRRWMkNuW+SdDq12h3a7R6fbC/EA5ymmY4rJNHapTStfTtXwIi7DoQMO&#x000A;NKvWJA5KSew+8bMsbzO/tEIxHXPm2Sc4/9JzjLa3cN5hk0shghit8QUh11ip&#x000A;hmCe1oHAfXBAt5Tf/eCH+flf+tWokCQSmaTVfzamKZrqGRSxJsQrUgGQKoVX&#x000A;Ll88x8bmOvODRb78Pe/jW/+jP8ef/ZZv5f1f+VV0Oh1QxeaW7ckOv/ov/9Ut&#x000A;z2tra5ur169Xf1ddkavn2ejuk/AA2lTGMYXn60Kh0G3YMdzeCGnDWBy0Gwno&#x000A;439aoQAhlWTOZlxTkECDuXhA5EAqACq4rgFjvhIxUuXwjUEs2CxAVtutDu1W&#x000A;l1a7Q6fTpdvtY1ttUENZlDhXoqo11NeYlIyq4KOqKdg3C1tNBmRs94egdLo9&#x000A;lleO0x/McePqBV5+9kkun3+J0sVOt7GbUDiIqfFFojVEuVqRoVlvcCfys7/w&#x000A;K3z0458CjS3Lq/6CaYWsLZFkahsA40Mpc4xqrq/e5OK5c7SzFsuLS3R6IYjY&#x000A;6/TodDoYm2EAaw33nbiPD33wI3zhC0/te05b29tMJ7NFO7u7+jbLb2q/fzY9&#x000A;mFJ3kTMIV5RMJ8ECCNWB+6nKxvIeG5IaIw0QUDMAmbY6rAX4UhEB3k8kxSSm&#x000A;9IxkWDLEZtisTd7qkHdCIUunO6DdbgcKbVfiyoIyNZ6IKUQfJ50Gj5/kMYoK&#x000A;dUtLSMEoIr2Uj0QTrbzF4pHjLC0fx3nHlQtnKIoJEtGAogl/IFhpVr6ll9FI&#x000A;nwE83ZkdMBqN+Qf/+P/g4qUru74b1UC0ZoKlZEhdRUwEKKlXnDquXDzP9RvX&#x000A;WVxZYn5xnjzPsSZwI7byVgyYgvVw4vgx2t02v/BzP8/Ozs6ec9rY2Gpk3Ws6&#x000A;sVtJSvvV4MvZ5GGAYgcWJlUNxC3ZXqu9suSq1T3sRWoVPxMGqIHCd6ZsvxTk&#x000A;QCoAG0E78WcmAS1IFcSzxtBq5bQ7PTqdXshh521arTaKUBQF02ISqKo8gRPA&#x000A;pjr/2tycyfdHXnmtXIJdxybknbMsY25hifnFZeaXj9HKWrFWwNRQYgVNVkA1&#x000A;2UP0S2R308s7H5QXLl7m///3/xFFsU+pbEIhh86iSMW+a/BGcBS4ouTmjetY&#x000A;Y1hZWqE/GGCsRX2JVxdZkkw498zQ6w647/hRLl++xu/+7odmDleWjmvXb+w+&#x000A;BfRWCm0XLqoRvwuTP7oGznuGO5t458iyfHdguLpn6TnN+PtSlzGn/TYmvqLc&#x000A;mmnlS0wOpAKoM8CoIu9NpB5GbNWrTyLWP7cZeatFq9Wmk4UqNtsKSsB7TzkZ&#x000A;UxZFwySMCMEGI4+KVt19UjlPTeIRVn/VtOL4yo8OdGMZ83OL2FZW4VvFhMAf&#x000A;UtN6p+BbIuIA6lz4a1iRPvWZJ/jJf/Z/7fPJrpqGtHsfmnuUzrO6tsbqzVUW&#x000A;5xeZW1gkb3VD1yH1gImxhVBKrViyLOPI8lHm5ub58B98nJs3b1ZHGw6HDQVQ&#x000A;OUwzT1JUqkwLEag1C4GYdRdQDTTkkzHOlbcoCW7GDXbDjiIteerM3NxAUUUP&#x000A;THegA6kAGtIGHhGT6vZNJLWIVF0SzHnEkuU5eTsPnH9iaLXamNxSFFOmkxHO&#x000A;F0AdnFMjeGmUmMYsYcCTK422vJVfqrHcN23i1OGcI291QLKQSRAFo9jIRWAq&#x000A;pOFMHqyShFi881BgLb/yL/8N/+Y3f2fvB9I8jsFFbj8tPeWk4PqVK2yvrzO3&#x000A;uEBvMEdmDSWKLwMDUKgRyELe3SjWWHr9PnPz8wx3Nvit3/jt6lDbO0OuXbs+&#x000A;e3yd+dVwqrT6e1eEbubUVWtQV3jmu7PdKeDXnOTNg8duRrt6BFaK/bXc7Dep&#x000A;HFAFUOUAHhSRVmTyQ0wduTdiYzzLh1ihWDBZoPmWDGMz2nkHITSZdEUZ6t99&#x000A;WIEMVYC/ivJpovJqZAWAqBBSrXoKaMVotXdB2UQYsKY6gpiHS0xDiZ7cJPM/&#x000A;ZgxClq5ZOXPnMp1O+fGf/Bke/9znSWdEulcakIwiitHAkFOUnsmkZPXGGrnN&#x000A;WJqboxPdJVc4PCWuLFFPpFYjdvS12E6b/tyAuf6A5557jrMvnwNgZ2eHazeS&#x000A;BXAbRTYTh0sOQrNaqJmv9wy3NnDllFanU5clk55LasS6202rsSIxeDMz+aN4&#x000A;lL2BjC9ROaAKoJLHkokYUKCphReAIl6rdtCpH7w1FmwY9IG6qkXhpkyKCU4n&#x000A;IUUXU3PW1FVojUJVmpN/hmFWYoQ6WQveU5YlNs9jrj/Ur+PDyhmQb1oBWAIk&#x000A;OKzO6VoSO9U+KNc7kvWNDf7XH/mHXLh4edf367qHit3XF2wOh2xubtCfn6fX&#x000A;n6NlM4xTpNnQFCWzEtJ14hELnSxn0OvS6w0Yjx2/94EQC9gZjrh6dTYGkBgR&#x000A;ZqIce9L3ntkP67yoK0um0zGq0O706nRqekKVK+8b/n8z0le3YWus+snqcIpu&#x000A;veEj9w9JDroCeKQeRXHSEPzStLKqRr461QAPllAIQ2YieCcHD+OdLabjEudc&#x000A;aIFFqocxoVQ31ZBH+z4E/5vkkpF33geFoWjFcZ9leezgawJmPXYcFpW6x6AJ&#x000A;7TZC2s5UV5RSg2F4vzZL4MLFy/zPP/wjjEbj+lwjGsZGzkPFU0wLbly9ynS4&#x000A;w6Dfod1qI5nBmRLvHWUZzebY2Sj1VMiMIc9zWp0unX6fXq/L+fPn+cLnn2Jj&#x000A;YxPnXHXcCkCd0JTpfPYJC0rjsyr96pXpZEwxndBqdUJBUmPiq6YAYnLJGiu9&#x000A;1ntWX1OS12EATep7kwMiB1MBpPSVmIcSjVW9SNSmMyGzjboSdbENVyaYLGvk&#x000A;saHVznFlyWS8TVn60NIrrpBGI5mPVhG56BHULDIQ2HPrhhb1gA3dgywGRdWR&#x000A;SMkVqoxACsoHIpJoHcisEWx47VYAwFPPPMcP/i9/r76FQkQeSiRJUaaTgvXN&#x000A;TQoXSE7zdisqLcPUe5wvmE6nFEWJUx/JU0OloxFDnuV02i16nS5ePR/9yMe4&#x000A;cPHynZ1g0wWIbvgsOC995Blub1IUUzq9XqzX2B0u2BXY8zUGsVrvtRFrmLUC&#x000A;PHpoAbypJfmuIvpA5S4HRzq+Hzf0WsXrRD1CiYohlEgIagnYAZtjs4zxeMh0&#x000A;PMRThjoBI1V1oMTqQF+tHDH011ACwfxPqaWwqrba7cgunHL/IauQTG/ZlfM3&#x000A;ETJsIqVYqhhUzG1Lg19JVJVPfPKz/G//4J/QLHAyJihL9Z7xeMxwe4t2u0OW&#x000A;d6qAaZ0lcBTTCeV0UpXTSmYjwMZgs4ys1SbvdGh3e5y7eJHPPv65vedCyvHX&#x000A;ufn6X2Wvmqtn93Q6ZToZY60NRKy6d/JXnZi9NlDADWCRzAT9aw8hPEcH3OCA&#x000A;yIFUAA15gND8OqzWlSmd0mqKRCIIT6SA8oolkn16wfswubJ2F2ODEnCurP3w&#x000A;SOjvvdRmZUVAGc9Co8/qw+AN5auBW6/d6WGyLPDsQSxmDUG4hHQJ9OSBfjv0&#x000A;KCQ2LDEVtVZKCc5iBl6dFGXJb/y7D/CLv/wva38+KpRpWbK5NWI0HGNbLbJW&#x000A;jrWmtqa8oyinTIuSybQIdF9IJDoN55iZ0GEpyy3tvI0rHC+fPddA8MRDRveo&#x000A;nvu6a843lPiu4N94tMN4uEOn28dmt6h1ayjl2stvuAH7tRCrIzylql7ngMiB&#x000A;VAD1qst9tW+XoK2pXr9m+3UxDlA9cxvgoDbRR/kAiMkkxxUTRjs7lKULiEDv&#x000A;o1/pST39Zkx/DR1yU3AplfiqKs6XtNsdxGvA4osExB0aJrimtGM9qQWDUVu5&#x000A;Bqlin4a1IDVk8FXLaDTmn//sL/E7H/hgCIwSGHaHk4Kbazcpp2OyGBsIZKkx&#x000A;GGkU50qmxTS2NovXQCRI9bV/nxmh3bZYK2xsbtWTv4nslcrkrn7PVvDOQqwg&#x000A;BHPHw228L+n0BuxrKVTPJwR+k6KrANHRQmwGdBvfJpZJHloAXwKSC8xLbFdd&#x000A;LTAVoZxHcAH15R1aKs7XRFCBBCM1BwmFPWKFUj3DnY3QHrucRr/eV8HjsGD4&#x000A;XYqAKjDYfM+XDpNlVeirKRIbkAQEc1YpgdC+mrjyZlWFm4kuThr0JroHr0U2&#x000A;t7b4sZ/4Z3zik5+JWQzHzs6Qjc1NnAvdd/IY3BNj0Bjs86qUroznaitF642P&#x000A;Qc6ApsQYTGZRMRRloxX3TFZP0i+qq5LmdIwbNvTEdDxiMtqh1e7uAv+kiR/0&#x000A;kJ8JANagrWgHzNCPV6dT+xIlcIeBize/HEgFEJB6cpTqOcbVOPnNEZDjkcq8&#x000A;C/67r+vgJRblACq2AulkWUY5HTMc7+CdC9HpNFIlWApVjMnrPoqgTg0KIdWY&#x000A;OAUCoKjh76rHmIR6ixwGaMyxGyIooYFtMFUta1ISr1UJrK6u8SM/+uM8+fmn&#x000A;KKYlO8MRo+EQXxShN2AkULWJJj2u2qYCR3mwWYhNaKyT0NjFRwRrMibT2A04&#x000A;XXDiVKN+a7chsM/TJkXxR8MtimJKf24hukvphtN47RtWQHgr1XDEh02Fhqxi&#x000A;gDP5iKmqvvzGj+I/HDmQCoBg0Z1McfHU66+GfCc2H40uQaPZRcQDGBtIL2yk&#x000A;BVdRfAk5GYhle/VGBTWFFBxOAf7QGruqB0iTW6s1BtWQAcjyjAhHqFbBBPJB&#x000A;QhmuIfAJBPM+NiSNIKFU21Ax4UQ3pzl5XqtcuXqNv/u//RgvnHmJneGI6WQS&#x000A;imczD1ngWzSxL4JKfR99rM8X9eGziHlQLwEXpAbvle09zUt112RrAnCSGqz/&#x000A;rT8zlOWU8XCItVlAVlb7a357BtFPGhB7kYC+4ZbMJiNRNoDVP6Rx/IbLQVUA&#x000A;AMeSYxfAM4olmtEoOB9r3j2hNVdZ+YTeh89T4V1dbquoMeStLuPJmJ3N9Ubu&#x000A;Px61qv8Pg75C/838AOrIWi1slgflkXoG0EgxNhuVxhoBU3EGEMmEJKL2IqW5&#x000A;ITF5JEvodd3Es+cv8A/+0U9y+cpVimkRsAHGhGyElUCXbg1GpTqeiI1YydBF&#x000A;mHhKQEy5CK70wf9vGmm7ZIbuK25T++ZNf8EzHu4wGY/o9gbYzLLv5E/PMbp6&#x000A;te1Xb1jvtU61NgqGFDgLr/OmvonkoCoAAZaoKmjDSukjxttEbIBPxbwa/XYC&#x000A;og11IV8vGpiDqvhhGAg2yxCTsbm5xnRck4ZU+WNNsf464BSwAHWNuSIhTeVD&#x000A;fME0MDxGY8oy/WcCnNbE/H9qVkpqRW6kmiwizYeqlUvwesbsy2fP8dv/7ncY&#x000A;D4chOKoRIGQNxI7IJpKtJAx9Nb0sIKF7b/KUjChF4bixtkY1S2t6g8Y98o2P&#x000A;paErmpaC4L2ys72OqidrtatLr3813LJGpqbm+JqtM9DoFqSmpA3lVIC+ALdk&#x000A;DP2Sk4OqAACWBalsAGkOShN9f5/M8ljy6uPg1QRDtWktjrsMg8cAvX6PYjxm&#x000A;e3OtihqlLAD4uB92rfwxveUVMZC38qiAEodgmrDU7kDVjyAG1lLbcuqORCIS&#x000A;mA8RUFO7/lLxCNVRtNcoly9f4tkzL1KMXaBAQ6oMBSKhliEWWEkwDoILhUU0&#x000A;QzSsyoLgFYaTIZPJZO85NTIBFRUacSLWiOoZmY6HTEZD2p1uRfNe76o5sX2F&#x000A;/dfmf3uYiGPmppmZCFsWqjy7q8r7S1oOqAIQAVmJubEqrpPaWlXqOwaeQjFf&#x000A;MtUDLDjtBSMx4GUrRKHiabW6gLC5uUo5GYfutA02oLD75A7UdGFpwPmyZLi9&#x000A;SVmWzQgzIcfd7D2QzHlidjBCf1OLrjjbLdFSSSXFlYJIcAJ53Ybr+sYGL1+6&#x000A;xLgows3zErsohZgJPvxoDLgaEawVMhtbqUdGZuen3FhNbvSt59LuOr3G8535&#x000A;a2drE1VPqx0UQB070Maq3+BomAkA7prnBNctWTP1mQBKCZy57Ul/ickBVQAI&#x000A;MJeSSJV5nJbX6IcGUk4fjQSpVmgimk9xSIy6h4SBoC71oxd6C/NMhjtsbK7O&#x000A;DJbwa1fwr5EOTGbmeDRkc/UGxXTc+K40FsFm27FEF97oWkTd0JRIdJrKg+vJ&#x000A;HxVC4/XrkdWNTZ55/kWKclopJmNCDwA1VGa7T9kRE+IEZOF61DmKScGNm2uN&#x000A;R7XryTVlNhU/e48RynLKcHsda1vkeZtZNs9dX4sEoM3nUm1WgX1qrsGZZqHh&#x000A;vQL087OIhC9tOZgKIIzzORqMd0Ea/pyCeqkw+lpjggNgpwL4pCKiNAkjahCl&#x000A;1xugImxvbYbOsz4RSdY550oR+AA2SnUCRBO5LCbcuHaRtZvXI/+gj257UFDp&#x000A;/APBRioAMlVZMAkklLr4JNiwMQ0isTrA8BqzgjNy5fpNPvXEFxgVk0Bbhon5&#x000A;lkglFqItiAnNQiW2XAv3wTGaFFydIQG5zYPcR2c1s3rDnWBF5a1W6Pm4a/JX&#x000A;8YKYmmz+DbXllyRhmBJiVGcPeBO4xqEF8OaWOGbmkKTF6whT8o9rMz09zbDi&#x000A;e1+v0BU6NCoBA/hUghsnan9+gcko5shJ4b2UYtRUa1aLj8XDqdBMlXI65cqF&#x000A;F7l28Syj4VZlLcyaphFAEyezSat8IjsB1FS4wCgxFl/FA5p36PXJ2QsX+fDH&#x000A;P85kMqpCrSalz1UxqY4gs2TWksUiJo8yHI8Zjkfx4m53LrVL1XRhqti8enY2&#x000A;1xFjyNvdRF+4a/I3XQBf/VR7b6b5YjCYmArWZmQ3bPiFuzA831RyIBWAhpjf&#x000A;HFD70oS8WfU8G0G7ZA5WDWZ8FcOvLQFjKvNSGjj/fn8e9SU7O+t4LWtoQcLB&#x000A;7/Ex0+BLg9PHddNw/eolzp95jhtXLwaS0NjLsAL2JAWW/oqlwhr0QDVJquBc&#x000A;HQCogoCSwFB3QQk8/8KL/PYHPsRwPIrpyMSwE5WkEAqAjCXLM4xaysKztrrW&#x000A;yOTtWkx19x+7MviNjGsxnTAZj8jzFlmeJY9vNrWX7vcMRqPe626EoTTWC5k9&#x000A;mQLlU/u7JF+6ciAVACkGoE063fCi9p+1CpSlQeGpo/HBXPc1Fj/tQmPswIeK&#x000A;MmMzWp0ew61NpqMhqdOvVHjS1Gu+USDU8DdFAiCo3e7SarcZjXc499KznH/p&#x000A;eTbXb1YmfqWcqiKgSG6iqRNSsA7UxG5+VT6wrhGug4t7cm6vWb74zLP8+m/8&#x000A;O8ajYQivELoBe+cxCJkY8nYLmxlyC24y5vrqzcYe9juHNAslKuZd5CDRctje&#x000A;XAeNpB/sJu+IFphSYTvCDzOxgLgMVHUXiFQU8Ik4JBpzpcJHDtj8P5gKID7H&#x000A;qiFdWPAaYI8U/U/vp7FWAcFjOa+vYaNhPploTseIQPzqYLBEWU4YD0cVCq5a&#x000A;SjSpmkaQiYZRiWCtodVp0x/M0+vNYYzl5rXLvPjsk1w8+wLjna2Q3mvgAtL3&#x000A;q+pGY5DMRiAQGK1LhqXiP6jjBOY18gjuJ59/6ml+6V/9a3ZGO7WSE6n6G1hj&#x000A;yfOMLM+ZltMQAGzk+xtPbm+QQmpyEG0gdZx37GxvkLfa5O12/b0Ud6F2vQIg&#x000A;q/HTcMqqPH91XK04BJJpEM9wDPpZDpgJcCAVQHxEuxo41iDSqrOOgrraX5+x&#x000A;LysXIA29GM02wUWozEf1tDs5Nmsz3NminI6rbkFJEUh0PdQ3gkozkeaYM89b&#x000A;9AbzLC6v0OsPKF3BpXNnePnMU9y4doGynNYrXKQQ18hHkLD4KQKg1Uof3IvK&#x000A;1NWGL32XXAGALzz1ND/7S/83O9vbda5dFGtCa/GWaZNnbbZGE8bT6S3mULox&#x000A;zUh+nbWvbp4EhibvClrdbsD9VxO/4eZFlqYqAFi5e/XR9j7vCAibaTyCgn4R&#x000A;GN7NcfpmkAOpAOI6Mt8c25V+TznxpARS4AjqIpZIFlFbCI2UWtVgMhQOqYIa&#x000A;Q683YDIZMRmNopVhZo+c5t1MunA2AAWKsYZWu8P8wjILS0dptTtsrt/g7AtP&#x000A;ce6lZ9lYu476iv4j7tukwEMIVopt1BPU5cEVNHimzc7dQ7U+8+xz/LOf/XnW&#x000A;1tcqUpRExZ7nFtPOuLm2cedPsTq/yvapbt3WxlrVwyHN5Jnp2ky7NgKBlTKe&#x000A;eRZUx1BiZii6WDFW4IDfums36k0kB1IBECjt8jrQRMIExWi51IvMTNBHouUf&#x000A;QT0OvNNqFUKpu+hqXE1VUae0Ol0EYTjaCeCeRiagHmgpINWc+I1VSev0hM1y&#x000A;ev05Fo8cZWFxBWszbly7yEvPB0WwvbVelQFL9FtTOjD5+sYEFGGFGIxPvPl3&#x000A;jQ+4O3LmpZf4iZ/+Ga5euxZdgdCZx7QsqHDj5s36hit7DQHd9UJnFSXAdDpi&#x000A;Mh7R6fQCQGtm8jfz+TX4KjxfjRZQA+0p9dd0JjZT9weKJ/zrb8BIvedyIBWA&#x000A;pvbNzYUuRfKjqVh16cHH+p0YvRaNZJ9hTz7hhgjRdh+xASHPlQaLJ8sy8k6H&#x000A;ne1NJpNhnbNPUfkYfAhlxTVWYOasZ/FoiAitVof5xSMcOXaS+YUVULhx9RJn&#x000A;X/giF8+dYTIZQ0QGVlTcjUmviTIokgaaFBxM4/oVU3GvXs6dv8A//Imf5PyF&#x000A;iwGlaEFMhqpy7eZqdZ279U5leu8DW25iArc31rDWYFuthmlHpTwrF0RraLfu&#x000A;sgRm7rU2DhkVe4I4RzkLfPGu3qQ3iRxIBcDu9s0JB1ORgUQXMYXnqpXINWJB&#x000A;qRilTtulVbWKtMXMQeKV63YGaFmyM4xMtxEbHwajaSYAqU2QVxYxlla7w8LS&#x000A;EVaOnWRhaQlfOq5cfIkXn3uSa5fO4coCMLHrUW3u11kM2bXPmCCJZtFrpRG7&#x000A;lVy+coUf/fEf57kXno9BSuHK1WuRAbh+Bs2zSpH8dFvqz0JuVRW8c4x2tml1&#x000A;ejO+f53Yo/LlUV/FAVJWp/GwqZWuku5Qigc24NgK/BqBCOTAyUFVAD0iIRVQ&#x000A;B33T85Sweocu0M2VQGKAr5FrRxrZAI/BhLLitJ9IcqFAq92m1esx2RlSTMYh&#x000A;LUfyYTU2tFL2M2tvLzFQaAztTjdaBKdYXD5KMZlw4ezznHn6CdZuXsF7V43i&#x000A;qomIBBiTpDJhaotk5hh30RUAuHb9Oj/2k/+Up555jpbNeeb5F2auZ/bV3mue&#x000A;+SwqquFOaCSa5+2miR5eVZV+8bE3agACfoM9xo5WM17rOExyp+oj/+xdvTFv&#x000A;IjmYCkAC8jzkd+vof0rLVUQQPjHqNpecONlTqtBrZT2EQSEoWeS8J7oRgVjU&#x000A;iNDp9JlMxxTFpCo9DpiAFHF8/bdcxNDqBNfg6Mn7gyIoxlx4+VlefPZJtjZu&#x000A;pg1jR6HdFkHMDOxGwVTuwN1TBKtra/zET/80H/7Yx3juzJl9HtWtH+LM64jQ&#x000A;29laJ88T7Lc+7d2MSxUPQ7Io9tG7e5VPChRKs5vQx4DP37Ub8iaT7PXv4k0o&#x000A;SlclAHiJgbGq0rYBCtqVj4uNOtLbdaZAvZKyZ6GAKK3+Ea+vtkotttotjEgg&#x000A;p+iHnL6XQDyS8ASvp5QkDdD0u9Vqky+t0B/MsbO9yXBni/MvPkuvP8/Rk6fp&#x000A;9QeRrSfaIY2Dh+uRKjVanVtUfncr3722ts5P/tRP0emlzOyuyV09tjqNWTkI&#x000A;DatkWkwoiim9/nxgGorPrXlvalfAN9J8Gms8GkdKsZzdoKgKhl0pgJ8A9mmj&#x000A;fDDkQCoAEVp1DDd0rK1aXEHd02+fL85SUDX9dUigIEtseVcFsyPfgCiZzWl3&#x000A;u0zGQ8piSqfTCzR/ydpQz51qgTTJ93s9e9qBXGRhqU1/bpHxzjY72xucO/M0&#x000A;3f4cKydO0ekOAjRZwuBW48AbjHgcVBO+YsS9e/MfVY93TRd6ry3erPyncpuI&#x000A;Sjh8trOxHlqPZ3mN0ps9UhXk815j/r/GcjQTM7VNWNOxpmxKHRXkZeBX796d&#x000A;ePPJwXQBGiIzl5ngvyGLbmMAsAaH+2gR1wGl9L2KOIQQPDSRk0sapqXGMuN2&#x000A;p09ZFBRFEYazMYkzFGYz+DOymzyk+V56fdtrFSHPW8wvBddg6chxyrLg3Jmn&#x000A;ufDSM4zHw0a1bI1T2B2SqyH6d8cV8M4Fgg1uPZNeiWPDO8d0OgqNVHfFKhSt&#x000A;EJhVOk9Ta7bQn7BKxO4OMAqVCtCYnamxE/wdYPuu3IQ3qRxICyDFdBuZ/5nP&#x000A;0l+OugNPZfbeKkVE8ggMRhSfWnhJbOnt6khynueAYTwe0uv1Qx/CGAlH/a7y&#x000A;wLTvu7fIqCrWZvTm5+n0QkxitL3FxbPP0+kPWF45Tpa1q1sjqVCqsfRXlsDr&#x000A;Ngc0EqfKPut+/bT2+16zAmA82gnXleWVRVAp6hTTqXz/ZPmlz6WBAJzN/yeZ&#x000A;tT8MIM8Avwg4DrAcSAUAtGlC8CpJeXKClldAXZUvDg1AIs6/MUsDPVQkE406&#x000A;ItDuh9SeaImXEOzzgM1aZO02xWiEc46WzfBGwIV6Ao+7hQl7tyQOfB+sj06n&#x000A;R6vVoSwmjIdDrlw4S6fXY3HxKDbPKkbfWT+5UgWv70xUcWXRANY0dr7n+cxu&#x000A;0PxkuL0Z+ijabCZV2Ljc+DIF/hIx6ytkGjQhJmvQJyJORP46cKewxS9ZOZAu&#x000A;gECHvanv8FkDCpyM+moNaqx6tfVAw9mPvf8IC36A3FawlmheeKwInZalLAum&#x000A;00mFvFWRmjL7rt55nfmZAR9GMcbQaneZW1xmaeU4BuHyxbOsXr+CK6f1JJmN&#x000A;lNbvvUZFoF5xZYmxdnYi7kL8yS1sA0SYRvp1m+e7vkvDPapz/HVbNqUq7Nr3&#x000A;fjViDVLXaRiRXxX4Pfa11Q6WHEgF0JQ6BjC7liWMR9UsNKb6asIIj8TXoTzE&#x000A;xX2E5heJW6DqY1/RS8XMQNZGEIpiFFZA6pyzQGVpvHrZPdnrCb/fxN/9PRHI&#x000A;s5ze3CJLR47ivefqxXNsrN3AlUXDFZHqPu2nE+5UvHqc841GHfs/JN1nkqYg&#x000A;4HBnMzQhsfnM5/VP6rUQn12Ddq3Wvrc4dArm1hbZdRHzPwA7r+2Kv7TkQLoA&#x000A;aWKGNB0EGtCsGhQJEy6YqhlIGkuBibbOIGjE/4ZAfgTQeEEkVY2loRqZZHxQ&#x000A;CdZYTAaTyZi+c2R5FpSNT7wDdVT6zq6o8der/c4+25uYQsyynG63z3g05Orl&#x000A;8wwGC/QHC5jM7qOeXn0sIFTXecTaPS5A9fe+YYDwhnMlk9GQLGvVEXqSsZVW&#x000A;f6oYQIPDn+QQ1Ie5dQgy0MbrGPhvgOfK8kAC//bIgVQAFQvIrkU2ceiH1wSf&#x000A;XXRmdU7c/4EwIgTtgm+vYY7bsO9Q2utRNQglsedVGOwainCMzfFTh3OePE/n&#x000A;k5qRxAzCvpOqmdt+NVd++0lfT5065CVGyNttslZOu9tjMtzh+pXz9Obm6fXn&#x000A;sFnerKcK53uHJ5X6CgoEavNdJ1NVZt7masbDUF6c5RnVFN7jSzRW/Crw5+vz&#x000A;1H1QhTG4WZ2DgHj9KRH517xaLfclLAdSAYTMfxBpprOSjVxFv2kMhGDWp2CV&#x000A;T8rA1aa2eBdQgOJCO/Cq91asC0g89kZActS2cZMtXFGg3XQeIX+wvxXwaie+&#x000A;7v7afp/u85fu+Y5gokWQ0Zq02YlttvuDeVrtXrRgKrQ8tz1w4zje+5ky6lvJ&#x000A;vopAldFwG2ttLCZqflQ/l+bqn7Aa9dk1cR3ppTSOS3JBnlD4QWDEW0gOpAJo&#x000A;DrX9rctgprtE9qG1G6BOY644FJKIukB57QK/mI9NIwJmLfLLqeLEoGgoEMQh&#x000A;amllykgM08mEji+xIiGnlJBIMXH96lKAr2aVf6Vt974pxpJ3esxlOa4scK5k&#x000A;e3MVm+d0Oj2yvBX7/d0ZkKlqeSa70oC3s/+jtTCN/RayvDND0LGHtltn72WD&#x000A;c2l2t7vBR6noB7kgyHcrXH0VD+JAyIFUAHrbmJVUVkHoCVBD+lJLq4os1Kdi&#x000A;oDBZnICojxz4IT7gK3SdhDbjGsp+rFUylyPWUvppWAltFpSPvz0oZuZK9nm5&#x000A;d6tm4K42e2+93e0OF64/y0K9g/OKyRxlOWV7Y42s1aJdKYIGDfd+u2soN7kl&#x000A;K3Gd0695CcJ3JpNRSKnmLerJvzce0my4orsvX5vArpqcLZwTADeA/w746Cs+&#x000A;jgMoB1IB0CjdnGV2jfj9GNcPncK1auPVaN1XMQMbFVTLkA3QQAHgxCCpwUQ8&#x000A;hngXA4M2Vp0FNhxrBBJJpm2cVXMgV9DgXZPp9n/us8GrnPRNn3mfj0P7bx+v&#x000A;o4PanLIo2NraILOWdqdL1mqT2Xz/s4v1BTXH3i2kSs1SzcqyLCmLSTD/09eD&#x000A;MRH37WtYX6rWTNd7i2rL3QpI0XVB/hbIL2ks9rLZgU+MzciBVAASuNv8nu6y&#x000A;+ICBV1uBXirEmDY6xqpUQSQXg4FeQLzHiwAl6k1E2oTmlD4eWfGhuadmseGn&#x000A;wZXgXYGhFeoCJKYBG4Sjqq80ve/I0Y9v6W22u41K2CcWUbEHqQbiUWsxZYZz&#x000A;JcPtLawZknc75HnIKMywC0XFahqsxvX+d7dsafZTEIrJOHzXNHv91dH99NI3&#x000A;DP4Zq38G0CSNICEhG2NkKmL+niD/+NY39+DLgVQACm53aUl6DVRM2Ronrqij&#x000A;wSFbbRmi/zFiX+Xdw8feu6hcEstsHOwplWgALMZmlOUU74qKQzAdp0La1SV4&#x000A;M0mr/S5s9k+tBvftt73FKq+3/ONWZ4C1BjE51mfkeRvvCybjCdPhiFa7HSyC&#x000A;vFVVLIZMg90/FnML8eopJpOKz6AJ24lYq3pfvsbqVOjNmQrBlOevgaFR/fwY&#x000A;8Pc54FDfV5IDqQBqizJO3Cb9ltYxACSm9mJmQMTX40l8TS4hHvGpoCQ28vAB&#x000A;Hhx2lpiDooth0vfDhCnU44sy9gZInAKpOigCeVJV0T6T/JZS+bevNMH1Vl+P&#x000A;L+4wrYcGwpRo1htjsFis9RH1OGU0GdHKW2R5m8TGa8zuYbYfwiABA4RiOqH0&#x000A;JdZGvj9NyrFO9XkanX59xGs0rmU2JViNijACRP53QsT/QBf63IkcSAVQodiT&#x000A;mZ3yfanne8oGikaQkOB9Te2VEGRhL6k/WN3Tx8eBZ7wLHIJxYFoNeEEjGmnD&#x000A;fJVWnLqSjoKYWJ4qtTXRXN7u1GeffbX7Db39LqqLvL3UTTZ27WEGZCOIFTKT&#x000A;YzKLdyXeOcajIa6c4sqCdqdPf+4VDxdPy1NMJxF9mPzx8IxmzPwYZ6nFVxne&#x000A;28gY5H8BfoTDyQ8cWAVQo0ClMWkC2Wdo7QUhtRf1Qm1aphVGk5/aYJdN23qP&#x000A;esFVLL8OVVt1sFENaD/jBXGAAedDTjyTLBgPBFfBp8KjioUoXcHM5ex96xbb&#x000A;3HKT1zzhb7lVvd+owIwYTNZCM5BiCpEHYG8QMIVO905YF4N/xtiGG0FljdWh&#x000A;vtidSRuKNJ3bnvMXgC3gbxIIPiavbjgdXDmQIU+PHzYieiEo1/i0yh03VvOI&#x000A;AyJx/6XwkjZ7BKRB5+N+VAPJpQ+ovlIVr1Ld1aCEgulpfIhaVyZ7UiqpFqEq&#x000A;JmoWKtWk1rOrXzPSPRvxDh83OAVuUSAwmzpr5tL3bsmuc9nnsDPnI0BmLTbL&#x000A;sDYny/auM7eqhCiLQL4jxjQCo3Uar877z+b79xo/zdQoNxH+G+AfrV49fzj5&#x000A;G3IgFYB6dSk/7CPcN4B0PLh6MvuY+tNSYpVfauuVxrMmt76mCyuT7+kj1DX6&#x000A;n+pw3hNayCteHE4cmKCAPGXgDkyEQNI0aesJrbsH874TfvfHuyb8fvek+d8t&#x000A;J/vMXm+hfPZutzdwoQ03SyJ3f0MazU6b4pyjLCaRP2Fmd9U9UN9QnrtW/9lr&#x000A;qOQZhP8U+D9Xjp96Swf89pMD6QKoqiaKLiM2RtojSEcs6lxIz1WDKiD+RKkw&#x000A;AQkaXCH1NOD+U+GAdzVDkNPA+KukOIJiVCvAn0fQ0uAdkGlVXFSroggrripX&#x000A;X8GcDxd5+3vQ3PoVrf9dLobefrvbvV2v2XWVpZhdGLzK9k8h+iCuLPA+1lTs&#x000A;5vqLJb7hfR9ctPS3Uj2LXfKvQf/GyvHTz9z56HlryQFVAOyoeG+IZqT3eDGI&#x000A;CyuzERssgbiS+Mgf75UI/01Ifa1WnzD4XLVtXWsSrARHdDVicE9dmNCh62wY&#x000A;8d7XLkcVpKhL2ap97XHFX0WUfvaL+2+17yZ6621f6W3dd4P63T04/yYeOCoD&#x000A;7x3TyWQ2LjBT1lvdtD237Bbn+beBH1s5cfotB+99NXIgFYCoLxWLdx4xmtr5&#x000A;gOQ4Z4LfTRlqADyAiwCfhumrMbPXWFk0gofSKu8JG4XAn8cbH/EFYHyGikeN&#x000A;jyuhQ7QAtY1GxX6GhWfG471rK/w+E/4Otr/d23uVxz7V/NVqzSuSCQhCUZYV&#x000A;c9DMFVbm/z7uDrUxIfVxr4vw3cC/WTlx+sA187zbciAVALCDDzSURmyF7FPj&#x000A;wIEarQeTnw0KVv8m0E4jNF99B63cB9Tg1YVV3jvwNgT7TBkqzD2E1T9YCaip&#x000A;ov6pKKluW81tffjqJG4rr2bC653sau+f+0z4vVvdagtp/Etc/T1lMQnfqZqv&#x000A;BpBVE8evOoP7qyywxpH+NfC9wIsrJ04feDafuyEHUgG4UObnsTGC58GawCxr&#x000A;JPjyXg2qPnSL9ZHm2xOtBU0EwVU6MCkGX8XZPN5LtCTqFKGIYmPdgFhClDGm&#x000A;G/EeFV+Bj0L2ISmfhOlrRAde0fTX/f96LSv8Ph+9ZnhylJpH4PYWgHMlZVlU&#x000A;LE3BE4ou2UwmI8VkmvdGQdkB/ioiv3j05KnNOzm3QwlyIBWAD0X8O6hgnEeM&#x000A;xWHJjKdAkFIjqWdM9cVFWGImwEc4oE+pwkgLlmJWGgOBorqngjBkEDxeLOIN&#x000A;TgS1sX2Y95VbUUuc8CngCJXJuz8Dz11Y4WfM+Vvb9q+8yt+ZyK1CAIR7FVb/&#x000A;UEWZAnpViQazZn8Vd6l9/w8A/y3w/NETp94aND53UQ6kAtA4y9Sb2sQGHLHl&#x000A;kyZMKFR5f5UqLThTrVehhMLrVCRUQXkj3DVtYpwPLENVEU0Z+QNNHNOxOWYq&#x000A;AEoKJDa/TCubSHUdd9V/r+/R/qv7XpXzaldS3fN7PxWWAoOudKF/QvN8EtXX&#x000A;TFq0GVhUBdZB/ybITx89efotReJxN+VAKoA4izfFCZoHdh+rgncR7GPCsMqQ&#x000A;QOdf9QtsDrXo01ec8hrMd6i3a/jCGjMHosSMg8doXcGqIqgDddE1SOM50pNX&#x000A;vm2jSeVtMoK3/CApk8Ye9lcAt93rq5n0TX+88a6mrsi3gueGFb1Ivn91rml1&#x000A;9zSBTJWuRCfAz4H+T8DFoydPH9r6r0MOpAKIA78Ej/OKVRtKeIwgXkNAQEqc&#x000A;N2FSq6lcf4kgn0Te1QTmSPJNIzAoWQPiazIRrwZjFSk95HGtUxsDgkW0RoIG&#x000A;kMYKtwdlR4oKzL7ZrCa85fW/ou/+yvu43TZ3kpWszf69G6cwoHMl5XTaiOhr&#x000A;w0WSOrYSNMkI9DOg/7+jJ+//yGsfHYfSlAOpACJyd1tAxSEu8xiJrcDEIupR&#x000A;ZyArgZgJ0DTtgRSAQiN7HwFNqHGCq6PUGEOoYgBBlNiXDgUXG5MaoFRK7ylV&#x000A;yStjIySwfIPcIiEYQ7whWQOvENDeZbu/UgLxlaXe5s7ZymY3rOp0kmtDvF5J&#x000A;7rtnOh3PGvmpGquiYleAMegl0B8CfmrlxGm9m12U3upyIBVAHDiboqHY27oQ&#x000A;0nfWoOowWMQ6fOnR2Ga6meJqjvqAAPZxdRdEHCoeI4F61IijDOmCYBnEohWD&#x000A;4m2kCE9n5D1Vw8rapo1WRxSp/05BxT2devf16fe/E7e6Q2mFfXXdiitbiDoQ&#x000A;d4utIgwwXEeTayF4/0U5u/rT+B3cL52o6iXQf47q3105cfotwdP/hy0HUgFI&#x000A;WElGilOMiKrBi4KWiGao8eBi6s/5mh9AlQAUUFTMHuSeVB1nQvNILx6nRE75&#x000A;uIiLIi74/M77YOzHgJ86RZ2v73qafQ0Uy+7Vt6IsT++94tXrLf+enej7++77&#x000A;flf3f/+VgoVVy0U/a8Go90wmw5nVP52MolPv9Zyq/gtU/87K8ZjWO1z03xA5&#x000A;kAogVvBvmxhR8+IRzbAeVDzeOcRKDFRVeT0MWgUFJUIBBVe54NUwVlAvmMgr&#x000A;7wO6CBEXcQQB9KOloEZQKxFp6PBaAHWHm5mG5Gn1a0T/qkCj7jfdZjVD7Gs3&#x000A;Q4Zxe7kz3+GOsgL7vS0CRnB+tganKAtcWdZFSeH6Co8/I6q/jurfXTl237W7&#x000A;PCwOZR85kAogzoDtSM8RTGoTuPyxgZUnKIOEBbAhBpDowRO5TOwMVLnrMYMX&#x000A;at9DPE8dkSVnNotQ/9vMXStaBk0SgG6+MdfDccXXMYCmRXAnSEB/m2rA5peb&#x000A;zLiz8QXZd/tb/Vm/vf8HEjkCXFGn571zjIc7DX9ft1V5DvR3VPVHl1dOXHzF&#x000A;Cz2UuyYHUgHEObCDqIpX1CR+v2DyqxHUa6Sqlpje83UP0BSXr/zSiOybYfPV&#x000A;ykQ3aHQx6rx+MO896k1IAabJHeHHFZiIlLWsV/+9WBclsRm/hrsx86txJHZ/&#x000A;8Eqcfa/MVrTPtiKU5bR6MOPRMACtlOugj4P+BvDTS0eOrd/dUXAodyIHUgFE&#x000A;FTAMc3TWpBYTTfvkDiCITQjAVFaSSv0k0nftBcho6ioZzW6qCsJwrNq8De3H&#x000A;BRMaCElsLJIoBKlN/Pq3Vm5JjQl4hdX9tnHCWwABJB0nvfUa8v/7nYrWeH8j&#x000A;htJ7xqMhYgzFdPIS8GnQXwV+YfHIscOl/h7KgVQAcS59RkRtiHTHFd8o6ojU&#x000A;vTXnn6YFGypQjsbof1IeyWyugnIpfiA1CjB59KmnICp4G3oFGlUwsSTYu4a5&#x000A;XycQw3zcNdErnoBGLOB2S3UzUN/8e//7VFUe7CnZ3WUxvMonUP8rgrV2Oh4P&#x000A;n7HGfgzVX15YPvo7zXM4lHsnB1IBEJbw3/bKZwT5Gh8JO8L/sY+fhB59VfDf&#x000A;B0BQ6tqd0u+heWhKTQmYRCUeewgSKcAchEahRc0VIKFbsI3kIl4l1gNosCCS&#x000A;6mjEAGYILjRyEM/Mkl2puDRx/a7PqlJcqvd0hk+7Lj+aCToS05Az+mCW6786&#x000A;j2YOseqx3ohhCGdF/Se8d58fb6z93mhn82OAv3757L0eH4cS5aAqAACnqt8n&#x000A;Ir+DYrx4LDUGV4mMQIaKMzCU/UggDW343iHnV6fNQpNqqV2DGB+QCsnmKyZi&#x000A;wQSeQAXE41BKTVHAuP6nidSwOmq+/0aWgOaLvbn12ZW69v1T7wGZ2UkiOI8k&#x000A;Jru/uU/KsMIPVG83zQSfrKQR8AmEDwvy++PJ6Pc3V68vAkdFqtbIh/ImkYOs&#x000A;AAB+D/zfQeX7iWW/SA1TFZF6OPrEzuurSaMGgrkQB35E5oVmFVqFAAyCE0GM&#x000A;4l3oGCQqMf/vAQcmEIGEegBX74OGgxG/U9fba2Mx97HOgFhg0KTAkl2LdIxb&#x000A;VL6J1lZN2j5tu19sYbcbscfq0P30w0cU/RjCp4FP3bx0/sXqaCJbhNznocH/&#x000A;JpMDqQBiD9400f82yAOC/KW6NCeQTlQU4DRYZVIbgBSl93HQp4lXecwpQBc0&#x000A;ihEJ1YbxrUAYGo5hokWgmNBgxPuYR9Sm/kESs2CK+CeKscp9qTMPCW+Qzihc&#x000A;StJs9XWkP2dFK+NmzxbNgOl+35t9+Vng94FPx9fPpo9X7nugwXAgU5Qr9QNq&#x000A;wg9rZeLVhw7Mfle8Qxuuzm7swoxPIzUeYmZANN94pVzHW0sOpALYJSPgryq6&#x000A;JSJ/JZjBtTmfSCh8Y5CFAqGUi09d/zweU3+vMXDrAKEB6xFvwlLvI9+gWsTF&#x000A;GqRIaCkuHi+C5sPqHkBHdXzB10pHTMOqrxVCJTNOu+6Zq6J7l9+6r0Yz6FjP&#x000A;Td29T2GI8lHgoyJ8EeRp4PP3+gEfymuXt4ICALgOfB+wpuj3S4r0SZpEVT6A&#x000A;YPJDtQrGgJiPFFUVK7BSZxKESH+dEEJSeeUQ8/6J6lo96mO3kDQrqwIZicHC&#x000A;cHxtLtPiZ1bnWVacGXv/FoZ2HaBrNtxoflbJrGJ4CuEjwMdRXgJ5GfSle/1A&#x000A;D+XuyFtFAQBsAn8LkUugfxt0sc6o1RHtqkRXwipfZ/eDrywzZnMDWScGjMd4&#x000A;qqrCkGKMJcOZDXBgDZThdfDBUM+4hmXSwAdIgzJcJcUjqBRA06qp85mN3c4U&#x000A;/NRlxzN6orZEhsDvAh8FngA5B1wE1u/1AzyUuy9vJQUAoSXUjwFPgP41RL6N&#x000A;5Mer1nNmptgtTf44qStaKhorcgK+CCImIgNDUZJ3IeWnvoyZMlvvXxWS2d+0&#x000A;CLQOD4ZjBgeEpsJqHL+JupOZeoIqSNCI3e9X/ue/KMiHgN8HOQNcBq7yFu+c&#x000A;+1aQt5oCgDA1PgzyPMjPKvr9Cu9P87iG5qZwX81DKymVVqX6zGx/yvS3KCJZ&#x000A;WLkNqDpKB5lo4CSoJi61/mgCgHa5ACJU4TRtZABqHz35EVFhyB6jPuyrzgM+&#x000A;L/AZ4NMgHwGuATeBjXv9cA7lD1feigogyVXgl4CPgb4P+Iuq/CdAnghAZs3k&#x000A;+CqlBKMZH96NGiPGAIy1oTeA9Vg09CeAhlleZx7q3evsOxXORyOUmBAHiKdS&#x000A;JeO0Ye9XaMYGk5BQCnwc+CTKpxG+SJjo24SGmdN7/SAO5d7JW1kBJLkQfz4C&#x000A;+gOi+s2q/Fc0rIKavcfXEw/YHXQLi7hgjCBZ7IkXKceMMVibh065StUtqPp+&#x000A;QgFKvVCL1Cu39wFi3Ox2rPWMj9+RHeBzKvok6BMCj4O5BgyBnfj7MBd/KJUc&#x000A;KoBa1uPPWeBXUB4F/jTwRxH+BOrbCR8gNZAP2LWSp7SAtYGGTELQL4QTE17Q&#x000A;x0xBI5ffMAk0pgErIGJUQI3UYynwJOhzGM6g+jlFvijBjJ/GnwlwSJN9KLeV&#x000A;QwWwV0pgFfgk8ATwv6O0UN6L8G6U9yn6bpR3AkdgFoZfr96Kx5CZFr4FrigC&#x000A;G5CNW6W4ojYKcSoEEgBngJEoTwA7Ak8DTyO8rMr1eJ4u/i45hNgeymuQ/we+&#x000A;qyXTzmbcWAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMS0wNS0xMVQwNDoyMjoy&#x000A;OCswMDowMOEanyoAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTktMDEtMDhUMTY6&#x000A;NTI6MTErMDA6MDAjK/NaAAAAIHRFWHRzb2Z0d2FyZQBodHRwczovL2ltYWdl&#x000A;bWFnaWNrLm9yZ7zPHZ0AAAAYdEVYdFRodW1iOjpEb2N1bWVudDo6UGFnZXMA&#x000A;Maf/uy8AAAAYdEVYdFRodW1iOjpJbWFnZTo6SGVpZ2h0ADI1NunDRBkAAAAX&#x000A;dEVYdFRodW1iOjpJbWFnZTo6V2lkdGgAMjU2ejIURAAAABl0RVh0VGh1bWI6&#x000A;Ok1pbWV0eXBlAGltYWdlL3BuZz+yVk4AAAAXdEVYdFRodW1iOjpNVGltZQAx&#x000A;NTQ2OTY2MzMxD1Be3gAAABJ0RVh0VGh1bWI6OlNpemUANTc5OTNCvGZr+QAA&#x000A;AFh0RVh0VGh1bWI6OlVSSQBmaWxlOi8vL2RhdGEvd3d3cm9vdC93d3cuZWFz&#x000A;eWljb24ubmV0L2Nkbi1pbWcuZWFzeWljb24uY24vZmlsZXMvNTEvNTE4MTUz&#x000A;LnBuZ0NSDqkAAAAASUVORK5CYII='>
+</div>
+
+</div>
+</div>
+<div class='tree_progress'></div>
+<div class='ui small modal' id='modal-linejump'>
+<div class='ui custom form content'>
+<div class='field'>
+<div class='ui right action input'>
+<input placeholder='跳转至某一行...' type='number'>
+<div class='ui orange button'>
+跳转
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class='row column inner-comment' id='blob-comment'>
+<input type="hidden" name="comment_path" id="comment_path" value="src/main/resources/static/imgs/chatIc.png" />
+<div class='tree-comments'>
+<h3 id='tree_comm_title'>
+评论
+(
+<span class='comments-count'>
+0
+</span>
+)
+</h3>
+<div class='ui threaded comments middle aligned' id='notes-list'></div>
+<input type="hidden" name="ajax_add_note_id" id="ajax_add_note_id" />
+<div class='text-center'>
+<div class='tip-loading' style='display: none'>
+<div class='ui active mini inline loader'></div>
+正在加载...
+</div>
+</div>
+</div>
+<script>
+  "use strict";
+  $(function(){
+    var page = 1
+    var commentsCount = 0
+    var $container = $('.tree-comments')
+    var $comments = $container.find('.ui.comments')
+    var $tipLoading = $container.find('.tip-loading')
+    var $btnLoad = $container.find('.btn-load-more')
+    var noteAnchor = new Gitee.NoteAnchor({ defaultAnchor: '#tree_comm_title' })
+  
+    if (commentsCount < 1) {
+      return;
+    }
+  
+    var path;
+    if ($('#comment_path').val() === '') {
+      path = '/';
+    } else {
+      path = $('#comment_path').val();
+    }
+  
+    function loadComments () {
+      $btnLoad.hide();
+      $tipLoading.show();
+      $.ajax({
+        url: '/youngyajun/websocket-chatroom-demo/comment_list',
+        data: {
+          page: page,
+          path: path
+        },
+        success: function(data) {
+          var err;
+          try {
+            $tipLoading.hide();
+            $btnLoad.show();
+            if (data.status !== 0) {
+              $btnLoad.text('无更多评论')
+              return $btnLoad.prop('disabled', true).addClass('disabled');
+            } else {
+              TreeComment.CommentListHandler(data);
+              page += 1;
+              if (data.comments_count < 10) {
+                $('#ajax_add_note_id').val('');
+                $btnLoad.text('无更多评论')
+                $btnLoad.prop('disabled', true).addClass('disabled');
+              }
+              // osctree can not load script
+              $comments.find('.timeago').timeago();
+              $comments.find('.commenter-role-label').popup();
+              noteAnchor.locate();
+              toMathMlCode('', 'comments');
+              return $('.markdown-body pre code').each(function(i, block) {
+                return hljs.highlightBlock(block);
+              });
+            }
+          } catch (error) {
+            err = error;
+            return console.log('loadComments error:' + err);
+          }
+        }
+      });
+    };
+  
+  
+    function checkLoad () {
+      var listTop, top;
+      top = $(window).scrollTop();
+      listTop = $container.offset().top;
+      if (listTop >= top && listTop < top + $(window).height()) {
+        $(window).off('scroll', checkLoad);
+        return loadComments();
+      }
+    };
+  
+    $btnLoad.on('click', loadComments);
+    loadComments()
+  })
+</script>
+
+</div>
+<div class='inner-comment-box' id='comment-box'>
+<p>
+你可以在<a href="/login">登录</a>后，发表评论
+</p>
+
+</div>
+
+<div class='complaint'>
+<div class='ui modal small form' id='landing-comments-complaint-modal'>
+<i class='iconfont icon-close close'></i>
+<div class='header'>
+举报
+</div>
+<div class='content'>
+<div class='appeal-success-tip hide'>
+<i class='iconfont icon-ic_msg_success'></i>
+<div class='appeal-success-text'>
+举报成功
+</div>
+<span>
+我们将于2个工作日内通过站内信反馈结果给你！
+</span>
+</div>
+<div class='appeal-tip'>
+请认真填写举报原因，尽可能描述详细。
+</div>
+<div class='ui form appeal-form'>
+<div class='inline field'>
+<label class='left-part appeal-type-wrap'>
+举报类型
+</label>
+<div class='ui dropdown selection' id='appeal-comments-types'>
+<div class='text default'>
+请选择举报类型
+</div>
+<i class='dropdown icon'></i>
+<div class='menu'></div>
+</div>
+</div>
+<div class='inline field'>
+<label class='left-part'>
+举报原因
+</label>
+<textarea class='appeal-reason' id='appeal-comment-reason' name='msg' placeholder='请说明举报原因' rows='3'></textarea>
+</div>
+<div class='ui message callback-msg hide'></div>
+<div class='ui small error text message exceeded-size-tip'></div>
+</div>
+</div>
+<div class='actions'>
+<div class='ui button blank cancel'>
+取消
+</div>
+<div class='ui orange icon button disabled ok' id='complaint-comment-confirm'>
+发送
+</div>
+</div>
+</div>
+<script>
+  var $complaintCommentsModal = $('#landing-comments-complaint-modal'),
+      $complainCommentType = $complaintCommentsModal.find('#appeal-comments-types'),
+      $complaintModalTip = $complaintCommentsModal.find('.callback-msg'),
+      $complaintCommentsContent = $complaintCommentsModal.find('.appeal-reason'),
+      $complaintCommentBtn = $complaintCommentsModal.find('#complaint-comment-confirm'),
+      complaintSending = false,
+      initedCommentsType = false;
+  
+  function initCommentsTypeList() {
+    if (!initedCommentsType) {
+      $.ajax({
+        url: "/appeals/fetch_types",
+        method: 'get',
+        data: {'type': 'comment'},
+        success: function (data) {
+          var result = '';
+          for (var i = 0; i < data.length; i++) {
+            result = result + "<div class='item' data-value='" + data[i].id + "'>" + data[i].name + "</div>";
+          }
+          $complainCommentType.find('.menu').html(result);
+        }
+      });
+      $complainCommentType.dropdown({showOnFocus: false});
+      initedCommentsType = true;
+    }
+  }
+  $complainCommentType.on('click', function() {
+    $complaintCommentsModal.modal({
+      autofocus: false,
+      onApprove: function() {
+        return false;
+      },
+      onHidden: function() {
+        restoreCommonentDefault();
+      }
+    }).modal('show');
+  });
+  
+  $complaintCommentsContent.on('change keyup', function(e) {
+    var content = $(this).val();
+    if ($.trim(content).length > 0 && $complainCommentType.dropdown('get value').length > 0 ) {
+      $complaintCommentBtn.removeClass('disabled');
+      return;
+    }
+    $complaintCommentBtn.addClass('disabled');
+  });
+  
+  
+  $complainCommentType.dropdown({
+    showOnFocus: false,
+    onChange: function(value, text, $selectedItem) {
+      if (value.length > 0 && $.trim($complaintCommentsContent.val()).length > 0) {
+        $complaintCommentBtn.removeClass('disabled');
+        return
+      }
+      $complaintCommentBtn.addClass('disabled');
+    }
+  });
+  
+  function restoreCommonentDefault() {
+    $complainCommentType.dropdown('restore defaults');
+    $complaintCommentsContent.val('');
+    $('.exceeded-size-tip').text('').hide();
+    $complaintModalTip.text('').hide();
+    setTimeout(function() {
+      setCommentSendTip(false);
+    }, 1500);
+  }
+  
+  $complaintCommentBtn.on('click',function(e){
+    var reason = $complaintCommentsContent.val();
+    var appealableId = $('#landing-comments-complaint-modal').attr('data-id');
+    if (complaintSending) {
+      return;
+    }
+    var appealType = $complainCommentType.dropdown('get value');
+    var formData = new FormData();
+    formData.append('appeal_type_id', appealType);
+    formData.append('reason', reason);
+    formData.append('appeal_type','Note');
+    formData.append('target_id',appealableId);
+    $.ajax({
+      type: 'POST',
+      url: "/appeals",
+      cache: false,
+      contentType: false,
+      processData: false,
+      data: formData,
+      beforeSend: function() {
+        setCommentSendStatus(true);
+      },
+      success: function(res) {
+        if (res.status == 200) {
+          setCommentSendTip(true);
+          setTimeout(function() {
+            $complaintCommentsModal.modal('hide');
+            restoreCommonentDefault();
+          }, 3000);
+        }
+        setCommentSendStatus(false);
+      },
+      error: function(err) {
+        showCommonTips(err.responseJSON.message, 'error');
+        setCommentSendStatus(false);
+      }
+    })
+  });
+  
+  function showCommonTips(text, type) {
+    $complaintModalTip.text(text).show();
+    if (type == 'error') {
+      $complaintModalTip.removeClass('success').addClass('error');
+    } else {
+      $complaintModalTip.removeClass('error').addClass('success');
+    }
+  }
+  
+  function setCommentSendStatus(value) {
+    complaintSending = value;
+    if (complaintSending) {
+      $complaintCommentBtn.addClass('loading');
+      $complaintCommentsContent.attr('readonly', true);
+      $complainCommentType.attr('readonly', true);
+    } else {
+      $complaintCommentBtn.removeClass('loading');
+      $complaintCommentsContent.attr('readonly', false);
+      $complainCommentType.attr('readonly', false);
+    }
+  }
+  
+  function setCommentSendTip(value) {
+    if (value) {
+      $('.appeal-success-tip').removeClass('hide');
+      $('.appeal-tip').addClass('hide');
+      $('.appeal-form').addClass('hide');
+      $('#landing-comments-complaint-modal .actions').addClass('hide');
+    } else {
+      $('.appeal-success-tip').addClass('hide');
+      $('.appeal-tip').removeClass('hide');
+      $('.appeal-form').removeClass('hide');
+      $('#landing-comments-complaint-modal .actions').removeClass('hide');
+    }
+  }
+</script>
+
+</div>
+<script>
+  "use strict";
+  $('.js-check-star').checkbox('set unchecked')
+</script>
+
+</div>
+</div>
+</div>
+<div class='four wide column' style='display: none;'>
+<div class='project__right-side'>
+<div class='side-item intro'>
+<div class='header'>
+<h4>简介</h4>
+</div>
+<div class='content'>
+<span class='git-project-desc-text'>简单的websocket-chatroom参考视频副本项目</span>
+<a class='hide spread' href='javascript:void(0);'>
+展开
+<i class='caret down icon'></i>
+</a>
+<a class='retract hide' href='javascript:void(0);'>
+收起
+<i class='caret up icon'></i>
+</a>
+<div class='intro-list'>
+<div class='blank d-flex d-flex-between dropdown item js-project-label_show label-list-line-feed project-label-list ui' data-labels='[]' data-url='/youngyajun/websocket-chatroom-demo/update_description'>
+<div class='mixed-label'>
+</div>
+
+<div class='default'>暂无标签</div>
+</div>
+<div class='hide item'>
+<i class='iconfont icon-link'></i>
+<span class='git-project-homepage'>
+<a rel="nofollow" id="homepage" target="_blank" href=""></a>
+</span>
+</div>
+<div class='item'>
+<i class='iconfont icon-tag-program'></i>
+<span class='summary-languages'>
+Java
+<span class='text-muted'>
+等 4 种语言
+<i class='icon dropdown'></i>
+</span>
+</span>
+<div class='ui popup summary-languages-popup'>
+<div class='row'>
+<div class='lang'>
+<a href="/explore/all?lang=Java">Java</a>
+</div>
+<div class='lang-bar'>
+<div class='bar' style='width: 56.6%;'></div>
+</div>
+<a class="percentage" href="/explore/all?lang=Java">56.6%</a>
+</div>
+<div class='row'>
+<div class='lang'>
+<a href="/explore/all?lang=JavaScript">JavaScript</a>
+</div>
+<div class='lang-bar'>
+<div class='bar' style='width: 21.9%;'></div>
+</div>
+<a class="percentage" href="/explore/all?lang=JavaScript">21.9%</a>
+</div>
+<div class='row'>
+<div class='lang'>
+<a href="/explore/all?lang=HTML">HTML</a>
+</div>
+<div class='lang-bar'>
+<div class='bar' style='width: 12.1%;'></div>
+</div>
+<a class="percentage" href="/explore/all?lang=HTML">12.1%</a>
+</div>
+<div class='row'>
+<div class='lang'>
+<a href="/explore/all?lang=CSS">CSS</a>
+</div>
+<div class='lang-bar'>
+<div class='bar' style='width: 9.4%;'></div>
+</div>
+<a class="percentage" href="/explore/all?lang=CSS">9.4%</a>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+<div class='content intro-form'>
+<div class='ui small input'>
+<textarea name='project[description]' placeholder='描述' rows='5'></textarea>
+</div>
+<div class='ui small input'>
+<input data-regex-value='(^$)|(^(http|https):\/\/(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5]).*)|(^(http|https):\/\/[a-zA-Z0-9]+([_\-\.]{1}[a-zA-Z0-9]+)*\.[a-zA-Z]{2,10}(:[0-9]{1,10})?(\?.*)?(\/.*)?$)' name='project[homepage]' placeholder='主页(eg: https://gitee.com)' type='text'>
+</div>
+<button class='ui orange button mt-1 btn-save'>
+保存更改
+</button>
+<div class='ui blank button btn-cancel-edit'>
+取消
+</div>
+</div>
+</div>
+<div class='side-item release'>
+<div class='header'>
+<h4>发行版</h4>
+</div>
+<div class='content'>
+<span class='text-muted'>
+暂无发行版
+</span>
+</div>
+</div>
+<div class='side-item contrib' data-url='/youngyajun/websocket-chatroom-demo/contributors_count?ref=master' id='contributor'>
+<div class='header'>
+<h4>
+贡献者
+<span class='text-muted' id='contributor-count'></span>
+</h4>
+<a class="ui link button pull-right" href="/youngyajun/websocket-chatroom-demo/contributors?ref=master">全部</a>
+</div>
+<div class='content' id='contributor-list'></div>
+<div class='ui active centered inline loader' id='contributor-loader'></div>
+</div>
+<div class='side-item events' data-url='/youngyajun/websocket-chatroom-demo/events.json' id='proj-events'>
+<div class='header'>
+<h4>近期动态</h4>
+</div>
+<div class='content'>
+<div class='ui comments' id='event-list'></div>
+<a class="loadmore hide" href="javascript:void(0);">加载更多
+<i class='icon dropdown'></i>
+</a><center>
+<div class='text-muted nomore hide'>不能加载更多了</div>
+<div class='ui inline loader active'></div>
+</center>
+</div>
+</div>
+</div>
+<div class='ui modal tiny' id='edit-project-description'>
+<i class='iconfont icon-close close'></i>
+<div class='header'>编辑仓库简介</div>
+<div class='content'>
+<div class='item mb-2'>
+<div class='title label'>简介内容</div>
+<div class='ui small input'>
+<textarea maxlength='200' name='project[description]' placeholder='描述' rows='5'>简单的websocket-chatroom参考视频副本项目</textarea>
+</div>
+</div>
+<div class='item mb-2'>
+<div class='title label'>主页</div>
+<div class='ui small input'>
+<input data-regex-value='(^$)|(^(http|https):\/\/(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5]).*)|(^(http|https):\/\/[a-zA-Z0-9]+([_\-\.]{1}[a-zA-Z0-9]+)*\.[a-zA-Z]{2,10}(:[0-9]{1,10})?(\?.*)?(\/.*)?$)' name='project[homepage]' placeholder='主页(eg: https://gitee.com)' type='text' value=''>
+</div>
+</div>
+</div>
+<div class='actions'>
+<button class='ui button blank cancel'>取消</button>
+<button class='ui button orange btn-save'>保存更改</button>
+</div>
+</div>
+
+<script>
+  window.gon.projectRightSide = {
+    homepage: "",
+    description: "简单的websocket-chatroom参考视频副本项目",
+    url: '/youngyajun/websocket-chatroom-demo/update_description',
+    i18n: {
+      invalidHomepage: '不是有效的 http 地址',
+      descriptionLimitExceeded: '简介长度不得超过%{limit}个字符',
+      noDescription: '暂无描述',
+      noPermission: '无权限操作！',
+      requestError: '修改发生错误，请稍后重试！'
+    }
+  }
+  window.gon.cloneArrSelectedLabel = [] || []
+  $(function () {
+    var $editModal = $('#edit-project-description')
+    $editModal.modal({
+      onShow: function () {
+        window.globalUtils.getFocus($editModal.find('textarea'))
+      }
+    })
+    $('.project__right-side').on('click', '.header .btn-edit', function () {
+      $editModal.modal('show')
+    })
+    $('#license-popup').popup({ position: 'bottom center', lastResort: 'bottom center' })
+  
+    $('.js-project-label_show').projectLabel({
+      i18n: {
+        empty: "标签名不能为空",
+        verify: "标签名只允许包含中文、字母、数字或者中划线(-)，不能以中划线开头，且长度少于35个字符",
+        max: "最多选择 5 个标签"
+      }
+    })
+  })
+</script>
+
+</div>
+</div>
+</div>
+<script>
+  (function() {
+    $(function() {
+      Tree.init();
+      return TreeCommentActions.init();
+    });
+  
+  }).call(this);
+</script>
+
+</div>
+<script>
+  (function() {
+    var donateModal;
+  
+    Gitee.modalHelper = new GiteeModalHelper({
+      alertText: '提示',
+      okText: '确定'
+    });
+  
+    donateModal = new ProjectDonateModal({
+      el: '#project-donate-modal',
+      alipayUrl: '/youngyajun/websocket-chatroom-demo/alipay',
+      wepayUrl: '/youngyajun/websocket-chatroom-demo/wepay',
+      nameIsBlank: '名称不能为空',
+      nameTooLong: '名称过长（最多为 36 个字符）',
+      modalHelper: Gitee.modalHelper
+    });
+  
+    if (null === 'true') {
+      donateModal.show();
+    }
+  
+    $('#project-donate').on('click', function() {
+      return donateModal.show();
+    });
+  
+  }).call(this);
+</script>
+<script>
+  Tree.initHighlightTheme('white')
+</script>
+
+
+</div>
+<div class='gitee-project-extension'>
+<div class='extension public'>1</div>
+<div class='extension https'>https://gitee.com/youngyajun/websocket-chatroom-demo.git</div>
+<div class='extension ssh'>git@gitee.com:youngyajun/websocket-chatroom-demo.git</div>
+<div class='extension namespace'>youngyajun</div>
+<div class='extension repo'>websocket-chatroom-demo</div>
+<div class='extension name'>websocket-chatroom-demo</div>
+<div class='extension branch'>master</div>
+</div>
+
+<script>
+  $(function() {
+    GitLab.GfmAutoComplete.dataSource = "/youngyajun/websocket-chatroom-demo/autocomplete_sources"
+    GitLab.GfmAutoComplete.Emoji.assetBase = '/assets/emoji'
+    GitLab.GfmAutoComplete.setup();
+  });
+</script>
+
+<footer id='git-footer-main'>
+<div class='ui container'>
+<div class='logo-row'>
+<a href="https://gitee.com"><img alt='Gitee — 基于 Git 的代码托管和研发协作平台' class='logo-img' src='/static/images/logo-black.svg?t=158106666'>
+</a></div>
+<div class='name-important'>
+深圳市奥思网络科技有限公司版权所有
+</div>
+<div class='ui two column grid d-flex-center'>
+<div class='nine wide column git-footer-left'>
+<div class='ui four column grid' id='footer-left'>
+<div class='column'>
+<div class='ui link list'>
+<div class='item'>
+<a class="item" href="/all-about-git">Git 大全</a>
+</div>
+<div class='item'>
+<a class="item" rel="nofollow" href="https://oschina.gitee.io/learn-git-branching/">Git 命令学习</a>
+</div>
+<div class='item'>
+<a class="item" rel="nofollow" href="https://copycat.gitee.com/">CopyCat 代码克隆检测</a>
+</div>
+<div class='item'>
+<a class="item" href="/appclient">APP与插件下载</a>
+</div>
+</div>
+</div>
+<div class='column'>
+<div class='ui link list'>
+<div class='item'>
+<a class="item" href="/gitee_reward">Gitee Reward</a>
+</div>
+<div class='item'>
+<a class="item" href="/gitee-stars">Gitee 封面人物</a>
+</div>
+<div class='item'>
+<a class="item" href="/gvp">GVP 项目</a>
+</div>
+<div class='item'>
+<a class="item" rel="nofollow" href="https://blog.gitee.com/">Gitee 博客</a>
+</div>
+<div class='item'>
+<a class="item" href="/enterprises#nonprofit-plan">Gitee 公益计划</a>
+</div>
+</div>
+</div>
+<div class='column'>
+<div class='ui link list'>
+<div class='item'>
+<a class="item" href="/api/v5/swagger">OpenAPI</a>
+</div>
+<div class='item'>
+<a class="item" href="/help">帮助文档</a>
+</div>
+<div class='item'>
+<a class="item" href="/self_services">在线自助服务</a>
+</div>
+<div class='item'>
+<a class="item" href="/help/articles/4378">更新日志</a>
+</div>
+</div>
+</div>
+<div class='column'>
+<div class='ui link list'>
+<div class='item'>
+<a class="item" href="/about_us">关于我们</a>
+</div>
+<div class='item'>
+<a class="item" rel="nofollow" href="https://www.oschina.net/news/131099/oschina-hiring">加入我们</a>
+</div>
+<div class='item'>
+<a class="item" href="/terms">使用条款</a>
+</div>
+<div class='item'>
+<a class="item" href="/oschina/git-osc/issues">意见建议</a>
+</div>
+<div class='item'>
+<a class="item" href="/links.html">合作伙伴</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='seven wide column right aligned followus git-footer-right'>
+<div class='qrcode mini_app'>
+<img alt="微信小程序" src="https://assets.gitee.com/assets/mini_app-e5eee5a21c552b69ae6bf2cf87406b59.jpg" />
+<p class='mini_app-text'>微信小程序</p>
+</div>
+<div class='qrcode weixin'>
+<img alt="微信服务号" src="https://assets.gitee.com/assets/qrcode-weixin-9e7cfb27165143d2b8e8b268a52ea822.jpg" />
+<p class='weixin-text'>微信服务号</p>
+</div>
+<div class='phone-and-qq column'>
+<div class='ui list official-support-container'>
+<div class='item'>
+<a class="icon-popup" title="点击加入 Gitee 官方群" rel="nofollow" href="//qm.qq.com/cgi-bin/qm/qr?k=OUfztMuf7jElTIf78lMuNT_D_lZYOWnd"><i class='iconfont icon-logo-qq'></i>
+<span>官方技术交流QQ群：515965326</span>
+</a></div>
+<div class='item mail-and-zhihu'>
+<a rel="nofollow" href="mailto: git@oschina.cn"><i class='iconfont icon-msg-mail'></i>
+<span id='git-footer-email'>git#oschina.cn</span>
+</a></div>
+<div class='item mail-and-zhihu'>
+<a target="_blank" rel="nofollow" href="https://www.zhihu.com/org/ma-yun-osc/"><i class='iconfont icon-zhihu'></i>
+<span>Gitee</span>
+</a></div>
+<div class='item tel'>
+<a>
+<i class='iconfont icon-tel'></i>
+<span>售前及售后使用咨询：400-606-0201</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='bottombar'>
+<div class='ui container'>
+<div class='ui d-flex d-flex-between'>
+<div class='seven wide column partner d-flex'>
+<div class='open-atom d-flex-center'>
+<img class="logo-openatom mr-1" alt="开放原子开源基金会" src="https://assets.gitee.com/assets/logo-openatom-d083391cc8a54e283529f3fc11cc38ca.svg" />
+<a target="_blank" rel="nofollow" href="https://www.openatom.org/">开放原子开源基金会</a>
+<div class='sub-title ml-1'>合作代码托管平台</div>
+</div>
+<div class='report-12377 d-flex-center ml-3'>
+<img class="report-12377__logo mr-1" alt="违法和不良信息举报中心" src="https://assets.gitee.com/assets/12377@2x-1aa42ed2d2256f82a61ecf57be1ec244.png" />
+<a target="_blank" rel="nofollow" href="https://12377.cn">违法和不良信息举报中心</a>
+</div>
+<div class='copyright ml-3'>
+<a rel="nofollow" href="http://beian.miit.gov.cn/">粤ICP备12009483号</a>
+</div>
+</div>
+<div class='nine wide column right aligned'>
+<i class='icon world'></i>
+<a href="/language/zh-CN">简 体</a>
+/
+<a href="/language/zh-TW">繁 體</a>
+/
+<a href="/language/en">English</a>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+<script>
+  var officialEmail = $('#git-footer-email').text()
+  $('#git-footer-main .icon-popup').popup({ position: 'bottom center' })
+  $('#git-footer-email').text(officialEmail.replace('#', '@'))
+  window.gon.popover_card_locale = {
+    follow:"关注",
+    unfollow:"已关注",
+    gvp_title: "GVP - Gitee 最有价值开源项目",
+    project: "项目",
+    org: "开源组织",
+    member: "",
+    author: "作者",
+    user_blocked: "该用户已被屏蔽或已注销",
+    net_error: "网络错误",
+    unknown_exception: "未知异常"
+  }
+  window.gon.select_message = {
+    placeholder: "请输入个人空间地址或完整的邮箱地址"
+  }
+</script>
+<script src="https://assets.gitee.com/webpacks/popover_card-f39945758963ad1d01cc.bundle.js"></script>
+<link rel="stylesheet" media="all" href="https://assets.gitee.com/webpacks/css/gitee_nps-69491f94919350b0258c.css" />
+<script src="https://assets.gitee.com/webpacks/gitee_nps-fc17df2911a31f92e96f.bundle.js"></script>
+
+
+<div class='side-toolbar'>
+<div class='button toolbar-help'>
+<i class='iconfont icon-help'></i>
+</div>
+<div class='ui popup left center dark'>点此查找更多帮助</div>
+<div class='toolbar-help-dialog'>
+<div class='toolbar-dialog-header'>
+<h3 class='toolbar-dialog-title'>搜索帮助</h3>
+<form class="toolbar-help-search-form" action="/help/load_keywords_data" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+<div class='ui icon input fluid toolbar-help-search'>
+<input name='keywords' placeholder='请输入产品名称或问题' type='text'>
+<i class='icon search'></i>
+</div>
+</form>
+
+<i class='iconfont icon-close toolbar-dialog-close-icon'></i>
+</div>
+<div class='toolbar-dialog-content'>
+<div class='toolbar-help-hot-search'>
+<div class='toolbar-roll'>
+<a class="init active" title="Git 命令在线学习" href="https://oschina.gitee.io/learn-git-branching/?utm_source==gitee-help-widget"><i class='Blue icon icon-command iconfont'></i>
+<span>Git 命令在线学习</span>
+</a><a class="init " title="如何在 Gitee 导入 GitHub 仓库" href="https://gitee.com/help/articles/4261?utm_source==gitee-help-widget"><i class='icon icon-clipboard iconfont orange'></i>
+<span>如何在 Gitee 导入 GitHub 仓库</span>
+</a></div>
+<div class='toolbar-list'>
+<div class='toolbar-list-item'>
+<a href="/help/articles/4114">Git 仓库基础操作</a>
+</div>
+<div class='toolbar-list-item'>
+<a href="/help/articles/4166">企业版和社区版功能对比</a>
+</div>
+<div class='toolbar-list-item'>
+<a href="/help/articles/4191">SSH 公钥设置</a>
+</div>
+<div class='toolbar-list-item'>
+<a href="/help/articles/4194">如何处理代码冲突</a>
+</div>
+<div class='toolbar-list-item'>
+<a href="/help/articles/4232">仓库体积过大，如何减小？</a>
+</div>
+<div class='toolbar-list-item'>
+<a href="/help/articles/4279">如何找回被删除的仓库数据</a>
+</div>
+<div class='toolbar-list-item'>
+<a href="/help/articles/4283">Gitee 产品配额说明</a>
+</div>
+<div class='toolbar-list-item'>
+<a href="/help/articles/4284">GitHub仓库快速导入Gitee及同步更新</a>
+</div>
+<div class='toolbar-list-item'>
+<a href="/help/articles/4328">什么是 Release（发行版）</a>
+</div>
+<div class='toolbar-list-item'>
+<a href="/help/articles/4354">将 PHP 项目自动发布到 packagist.org</a>
+</div>
+</div>
+</div>
+<div class='toolbar-help-search-reseult'>
+<div class='toolbar-help-flex-column'>
+<div class='ui centered inline loader toolbar-help-loader'></div>
+<div class='toolbar-list'></div>
+<div class='toolbar-help-link-to-help'>
+<a target="_blank" href="">查看更多搜索结果</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+  var opt = { position: 'left center'};
+  var $helpSideToolbar = $('.button.toolbar-help');
+  var $toolbarRoll = $('.toolbar-roll');
+  
+  $(function() {
+    if (false) {
+      $helpSideToolbar.popup(opt).popup({lastResort:'left center'})
+    } else {
+      $helpSideToolbar.popup({lastResort:'left center'}).popup('show', opt);
+      setTimeout(function() {
+        $helpSideToolbar.popup('hide', opt);
+      }, 3000);
+    }
+  
+    if ($toolbarRoll.length) {
+      setInterval(function() {
+        var $nextActiveLink = $toolbarRoll.find('a.active').next();
+        if (!$nextActiveLink.length) {
+          $nextActiveLink = $toolbarRoll.find('a:first-child');
+        }
+        $nextActiveLink.attr('class', 'active').siblings().removeClass('active init');
+      }, 5000);
+    }
+  })
+</script>
+
+<div class='popup button' id='home-comment'>
+<i class='iconfont icon-comment'></i>
+</div>
+<div class='ui popup dark'>评论</div>
+<div class='toolbar-appeal popup button'>
+<i class='iconfont icon-report'></i>
+</div>
+<div class='ui popup dark'>
+仓库举报
+</div>
+<script>
+  $('.toolbar-appeal').popup({ position: 'left center' });
+</script>
+
+<div class='button gotop popup' id='gotop'>
+<i class='iconfont icon-top'></i>
+</div>
+<div class='ui popup dark'>回到顶部</div>
+</div>
+<div class='form modal normal-modal tiny ui' id='unlanding-complaint-modal'>
+<i class='iconfont icon-close close'></i>
+<div class='header'>
+登录提示
+</div>
+<div class='container actions'>
+<div class='content'>
+该操作需登录 Gitee 帐号，请先登录后再操作。
+</div>
+<div class='ui orange icon large button ok'>
+立即登录
+</div>
+<div class='ui button blank cancel'>
+没有帐号，去注册
+</div>
+</div>
+</div>
+<script>
+  var $elm = $('.toolbar-appeal');
+  
+  $elm.on('click', function() {
+    var modals = $("#unlanding-complaint-modal.normal-modal");
+    if (modals.length > 1) {
+      modals.eq(0).modal('show');
+    } else {
+      modals.modal('show');
+    }
+  })
+  $("#unlanding-complaint-modal.normal-modal").modal({
+    onDeny: function() {
+      window.location.href = "/signup?from=";
+    },
+    onApprove: function() {
+      window.location.href = "/login?from=";
+    }
+  })
+</script>
+
+<style>
+  .side-toolbar .bdsharebuttonbox a {
+    font-size: 24px;
+    color: white !important;
+    opacity: 0.9;
+    margin: 6px 6px 0px 6px;
+    background-image: none;
+    text-indent: 0;
+    height: auto;
+    width: auto;
+  }
+</style>
+<style>
+  #udesk_btn a {
+    margin: 0px 20px 167px 0px !important;
+  }
+</style>
+<script>
+  (function() {
+    $('#project-user-message').popup({
+      position: 'left center'
+    });
+  
+  }).call(this);
+</script>
+<script>
+  Gitee.initSideToolbar({
+    hasComment: true,
+    commentUrl: '/youngyajun/websocket-chatroom-demo#tree_comm_title'
+  })
+</script>
+
+
+
+
+
+<script>
+  (function() {
+    this.__gac = {
+      domain: 'www.oschina.net'
+    };
+  
+  }).call(this);
+</script>
+
+<script src="https://assets.gitee.com/webpacks/build_status-6c80de070289f47ed94e.bundle.js"></script>
+</body>
+</html>
